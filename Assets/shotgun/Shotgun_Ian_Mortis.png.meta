@@ -1,0 +1,1287 @@
+fileFormatVersion: 2
+guid: a73b1a2583c83da458f4fa8c0561e5f2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5072304266366262699
+    second: Shotgun_Ian_Mortis_0
+  - first:
+      213: 2685481269947560236
+    second: Shotgun_Ian_Mortis_1
+  - first:
+      213: 7399460722964380140
+    second: Shotgun_Ian_Mortis_2
+  - first:
+      213: 391340001628135452
+    second: Shotgun_Ian_Mortis_3
+  - first:
+      213: -3486422463132646732
+    second: Shotgun_Ian_Mortis_4
+  - first:
+      213: -8720719490504909816
+    second: Shotgun_Ian_Mortis_5
+  - first:
+      213: 3927465977157520533
+    second: Shotgun_Ian_Mortis_6
+  - first:
+      213: 5118406232037303184
+    second: Shotgun_Ian_Mortis_7
+  - first:
+      213: 1145984999875976149
+    second: Shotgun_Ian_Mortis_8
+  - first:
+      213: 8505202943955196673
+    second: Shotgun_Ian_Mortis_9
+  - first:
+      213: 1483193016129562806
+    second: Shotgun_Ian_Mortis_10
+  - first:
+      213: -983019340887351166
+    second: Shotgun_Ian_Mortis_11
+  - first:
+      213: -4766328412470441490
+    second: Shotgun_Ian_Mortis_12
+  - first:
+      213: 7737328620693582245
+    second: Shotgun_Ian_Mortis_13
+  - first:
+      213: -8147073105022793161
+    second: Shotgun_Ian_Mortis_14
+  - first:
+      213: -940142403339087153
+    second: Shotgun_Ian_Mortis_15
+  - first:
+      213: -7006025753668393107
+    second: Shotgun_Ian_Mortis_16
+  - first:
+      213: -6553768780347012395
+    second: Shotgun_Ian_Mortis_17
+  - first:
+      213: 1948522072501878839
+    second: Shotgun_Ian_Mortis_18
+  - first:
+      213: 7535540922167674264
+    second: Shotgun_Ian_Mortis_19
+  - first:
+      213: -7615997995299716886
+    second: Shotgun_Ian_Mortis_20
+  - first:
+      213: 6855869088065608338
+    second: Shotgun_Ian_Mortis_21
+  - first:
+      213: 8820027086452165301
+    second: Shotgun_Ian_Mortis_22
+  - first:
+      213: -488807752506963327
+    second: Shotgun_Ian_Mortis_23
+  - first:
+      213: -6823731586845679427
+    second: Shotgun_Ian_Mortis_24
+  - first:
+      213: 8572888947713319071
+    second: Shotgun_Ian_Mortis_25
+  - first:
+      213: -9182716115721963233
+    second: Shotgun_Ian_Mortis_26
+  - first:
+      213: 4119167442715460222
+    second: Shotgun_Ian_Mortis_27
+  - first:
+      213: 6880912356150347513
+    second: Shotgun_Ian_Mortis_28
+  - first:
+      213: -5702025799511156000
+    second: Shotgun_Ian_Mortis_29
+  - first:
+      213: -3264202815619231622
+    second: Shotgun_Ian_Mortis_30
+  - first:
+      213: 8864092577661365411
+    second: Shotgun_Ian_Mortis_31
+  - first:
+      213: -798270405369895529
+    second: Shotgun_Ian_Mortis_32
+  - first:
+      213: 1889038189531264675
+    second: Shotgun_Ian_Mortis_33
+  - first:
+      213: 3378040056104355371
+    second: Shotgun_Ian_Mortis_34
+  - first:
+      213: -1507372268384149222
+    second: Shotgun_Ian_Mortis_35
+  - first:
+      213: 3811070884349802683
+    second: Shotgun_Ian_Mortis_36
+  - first:
+      213: 6428134790817097846
+    second: Shotgun_Ian_Mortis_37
+  - first:
+      213: -2974980164768333691
+    second: Shotgun_Ian_Mortis_38
+  - first:
+      213: 3960870078454458266
+    second: Shotgun_Ian_Mortis_39
+  - first:
+      213: 3462351338830892019
+    second: Shotgun_Ian_Mortis_40
+  - first:
+      213: 6917767096773219828
+    second: Shotgun_Ian_Mortis_41
+  - first:
+      213: 8753220955254019041
+    second: Shotgun_Ian_Mortis_42
+  - first:
+      213: 784087482682978867
+    second: Shotgun_Ian_Mortis_43
+  - first:
+      213: 9142502786766754937
+    second: Shotgun_Ian_Mortis_44
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Shotgun_Ian_Mortis_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 180
+        width: 33
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5526a8ad42e8b99b0800000000000000
+      internalID: -5072304266366262699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shotgun_Ian_Mortis_1
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 180
+        width: 33
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c21703a9cfeb44520800000000000000
+      internalID: 2685481269947560236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shotgun_Ian_Mortis_2
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 180
+        width: 33
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce93fb1d25a20b660800000000000000
+      internalID: 7399460722964380140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shotgun_Ian_Mortis_3
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 180
+        width: 33
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c10227778a15e6500800000000000000
+      internalID: 391340001628135452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shotgun_Ian_Mortis_4
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 180
+        width: 33
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b2490cdd3dbd9fc0800000000000000
+      internalID: -3486422463132646732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shotgun_Ian_Mortis_5
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 180
+        width: 33
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80c11a6e3d7c9f680800000000000000
+      internalID: -8720719490504909816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shotgun_Ian_Mortis_6
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 180
+        width: 33
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59c08e36f79218630800000000000000
+      internalID: 3927465977157520533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shotgun_Ian_Mortis_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 150
+        width: 33
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 093aabc795b380740800000000000000
+      internalID: 5118406232037303184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shotgun_Ian_Mortis_8
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 150
+        width: 33
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5db9883294b57ef00800000000000000
+      internalID: 1145984999875976149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shotgun_Ian_Mortis_9
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 150
+        width: 33
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10b5e09d30d880670800000000000000
+      internalID: 8505202943955196673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shotgun_Ian_Mortis_10
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 150
+        width: 33
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b82ebb903c559410800000000000000
+      internalID: 1483193016129562806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shotgun_Ian_Mortis_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 120
+        width: 33
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28022132e1d9b52f0800000000000000
+      internalID: -983019340887351166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shotgun_Ian_Mortis_12
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 120
+        width: 33
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee909dbdf899addb0800000000000000
+      internalID: -4766328412470441490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shotgun_Ian_Mortis_13
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 120
+        width: 33
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a177eae263806b60800000000000000
+      internalID: 7737328620693582245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shotgun_Ian_Mortis_14
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 120
+        width: 33
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73a4aff0d28cfee80800000000000000
+      internalID: -8147073105022793161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shotgun_Ian_Mortis_15
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 120
+        width: 33
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc211ba1771f3f2f0800000000000000
+      internalID: -940142403339087153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shotgun_Ian_Mortis_16
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 120
+        width: 33
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d676b5152b895ce90800000000000000
+      internalID: -7006025753668393107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shotgun_Ian_Mortis_17
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 120
+        width: 33
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5da0f5384065c05a0800000000000000
+      internalID: -6553768780347012395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shotgun_Ian_Mortis_18
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 120
+        width: 33
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7308b70508a8a0b10800000000000000
+      internalID: 1948522072501878839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shotgun_Ian_Mortis_19
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 120
+        width: 33
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89549303b8e939860800000000000000
+      internalID: 7535540922167674264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shotgun_Ian_Mortis_20
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 120
+        width: 33
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae0c210bc2a8e4690800000000000000
+      internalID: -7615997995299716886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shotgun_Ian_Mortis_21
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 120
+        width: 33
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29a5bb49c90f42f50800000000000000
+      internalID: 6855869088065608338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shotgun_Ian_Mortis_22
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 120
+        width: 33
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ba0e4597e7076a70800000000000000
+      internalID: 8820027086452165301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shotgun_Ian_Mortis_23
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 120
+        width: 33
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18a8d5c50f76739f0800000000000000
+      internalID: -488807752506963327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shotgun_Ian_Mortis_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 90
+        width: 33
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db06373864c3d41a0800000000000000
+      internalID: -6823731586845679427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shotgun_Ian_Mortis_25
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 90
+        width: 33
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f90235ba31509f670800000000000000
+      internalID: 8572888947713319071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shotgun_Ian_Mortis_26
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 90
+        width: 33
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1933294850709080800000000000000
+      internalID: -9182716115721963233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shotgun_Ian_Mortis_27
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 90
+        width: 33
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e72c86107f83a2930800000000000000
+      internalID: 4119167442715460222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shotgun_Ian_Mortis_28
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 90
+        width: 33
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f600fec459ed7f50800000000000000
+      internalID: 6880912356150347513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shotgun_Ian_Mortis_29
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 90
+        width: 33
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ea5608feb55ed0b0800000000000000
+      internalID: -5702025799511156000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shotgun_Ian_Mortis_30
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 90
+        width: 33
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a709f2c65d833b2d0800000000000000
+      internalID: -3264202815619231622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shotgun_Ian_Mortis_31
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 60
+        width: 33
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3acaea34c35930b70800000000000000
+      internalID: 8864092577661365411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shotgun_Ian_Mortis_32
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 60
+        width: 33
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7956835bb49fbe4f0800000000000000
+      internalID: -798270405369895529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shotgun_Ian_Mortis_33
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 60
+        width: 33
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a6782e8936373a10800000000000000
+      internalID: 1889038189531264675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shotgun_Ian_Mortis_34
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 60
+        width: 33
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b26042d888531ee20800000000000000
+      internalID: 3378040056104355371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shotgun_Ian_Mortis_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 30
+        width: 33
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1120b688ecb41be0800000000000000
+      internalID: -1507372268384149222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shotgun_Ian_Mortis_36
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 30
+        width: 33
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb8f08307c4a3e430800000000000000
+      internalID: 3811070884349802683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shotgun_Ian_Mortis_37
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 30
+        width: 33
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 678abf6d882553950800000000000000
+      internalID: 6428134790817097846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shotgun_Ian_Mortis_38
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 30
+        width: 33
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58086216d4fb6b6d0800000000000000
+      internalID: -2974980164768333691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shotgun_Ian_Mortis_39
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 30
+        width: 33
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9760cbc956d7f630800000000000000
+      internalID: 3960870078454458266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shotgun_Ian_Mortis_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 33
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fb0d96c23ebc0030800000000000000
+      internalID: 3462351338830892019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shotgun_Ian_Mortis_41
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 0
+        width: 33
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f59d0ac588d00060800000000000000
+      internalID: 6917767096773219828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shotgun_Ian_Mortis_42
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 0
+        width: 33
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e3db6e0510b97970800000000000000
+      internalID: 8753220955254019041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shotgun_Ian_Mortis_43
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 0
+        width: 33
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33236264963a1ea00800000000000000
+      internalID: 784087482682978867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shotgun_Ian_Mortis_44
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 0
+        width: 33
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 974504378d1b0ee70800000000000000
+      internalID: 9142502786766754937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 0b242a7eab560dc41950c894cf26a267
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Shotgun_Ian_Mortis_0: -5072304266366262699
+      Shotgun_Ian_Mortis_1: 2685481269947560236
+      Shotgun_Ian_Mortis_10: 1483193016129562806
+      Shotgun_Ian_Mortis_11: -983019340887351166
+      Shotgun_Ian_Mortis_12: -4766328412470441490
+      Shotgun_Ian_Mortis_13: 7737328620693582245
+      Shotgun_Ian_Mortis_14: -8147073105022793161
+      Shotgun_Ian_Mortis_15: -940142403339087153
+      Shotgun_Ian_Mortis_16: -7006025753668393107
+      Shotgun_Ian_Mortis_17: -6553768780347012395
+      Shotgun_Ian_Mortis_18: 1948522072501878839
+      Shotgun_Ian_Mortis_19: 7535540922167674264
+      Shotgun_Ian_Mortis_2: 7399460722964380140
+      Shotgun_Ian_Mortis_20: -7615997995299716886
+      Shotgun_Ian_Mortis_21: 6855869088065608338
+      Shotgun_Ian_Mortis_22: 8820027086452165301
+      Shotgun_Ian_Mortis_23: -488807752506963327
+      Shotgun_Ian_Mortis_24: -6823731586845679427
+      Shotgun_Ian_Mortis_25: 8572888947713319071
+      Shotgun_Ian_Mortis_26: -9182716115721963233
+      Shotgun_Ian_Mortis_27: 4119167442715460222
+      Shotgun_Ian_Mortis_28: 6880912356150347513
+      Shotgun_Ian_Mortis_29: -5702025799511156000
+      Shotgun_Ian_Mortis_3: 391340001628135452
+      Shotgun_Ian_Mortis_30: -3264202815619231622
+      Shotgun_Ian_Mortis_31: 8864092577661365411
+      Shotgun_Ian_Mortis_32: -798270405369895529
+      Shotgun_Ian_Mortis_33: 1889038189531264675
+      Shotgun_Ian_Mortis_34: 3378040056104355371
+      Shotgun_Ian_Mortis_35: -1507372268384149222
+      Shotgun_Ian_Mortis_36: 3811070884349802683
+      Shotgun_Ian_Mortis_37: 6428134790817097846
+      Shotgun_Ian_Mortis_38: -2974980164768333691
+      Shotgun_Ian_Mortis_39: 3960870078454458266
+      Shotgun_Ian_Mortis_4: -3486422463132646732
+      Shotgun_Ian_Mortis_40: 3462351338830892019
+      Shotgun_Ian_Mortis_41: 6917767096773219828
+      Shotgun_Ian_Mortis_42: 8753220955254019041
+      Shotgun_Ian_Mortis_43: 784087482682978867
+      Shotgun_Ian_Mortis_44: 9142502786766754937
+      Shotgun_Ian_Mortis_5: -8720719490504909816
+      Shotgun_Ian_Mortis_6: 3927465977157520533
+      Shotgun_Ian_Mortis_7: 5118406232037303184
+      Shotgun_Ian_Mortis_8: 1145984999875976149
+      Shotgun_Ian_Mortis_9: 8505202943955196673
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

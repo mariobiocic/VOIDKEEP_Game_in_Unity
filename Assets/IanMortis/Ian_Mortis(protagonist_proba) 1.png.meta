@@ -1,0 +1,1963 @@
+fileFormatVersion: 2
+guid: 376c52e32c71aec489fb040e51095978
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6004396238939485901
+    second: Ian_Mortis(protagonist_proba) 1_0
+  - first:
+      213: 1456054656724119848
+    second: Ian_Mortis(protagonist_proba) 1_1
+  - first:
+      213: 6721898356416129335
+    second: Ian_Mortis(protagonist_proba) 1_2
+  - first:
+      213: -5199204906680547073
+    second: Ian_Mortis(protagonist_proba) 1_3
+  - first:
+      213: -5325709845307595520
+    second: Ian_Mortis(protagonist_proba) 1_4
+  - first:
+      213: -1796599719303184366
+    second: Ian_Mortis(protagonist_proba) 1_5
+  - first:
+      213: 9075009746416530585
+    second: Ian_Mortis(protagonist_proba) 1_6
+  - first:
+      213: -6490561620958178268
+    second: Ian_Mortis(protagonist_proba) 1_7
+  - first:
+      213: -6515934877205664867
+    second: Ian_Mortis(protagonist_proba) 1_8
+  - first:
+      213: 4548774573400470047
+    second: Ian_Mortis(protagonist_proba) 1_9
+  - first:
+      213: -3240434450026486423
+    second: Ian_Mortis(protagonist_proba) 1_10
+  - first:
+      213: -3999158964298064957
+    second: Ian_Mortis(protagonist_proba) 1_11
+  - first:
+      213: -7101228657818942306
+    second: Ian_Mortis(protagonist_proba) 1_12
+  - first:
+      213: -8048245971560399692
+    second: Ian_Mortis(protagonist_proba) 1_13
+  - first:
+      213: -1364195571729578770
+    second: Ian_Mortis(protagonist_proba) 1_14
+  - first:
+      213: -401117570381529979
+    second: Ian_Mortis(protagonist_proba) 1_15
+  - first:
+      213: -3502492032264297711
+    second: Ian_Mortis(protagonist_proba) 1_16
+  - first:
+      213: 8334534958186623777
+    second: Ian_Mortis(protagonist_proba) 1_17
+  - first:
+      213: -2419988203544029944
+    second: Ian_Mortis(protagonist_proba) 1_18
+  - first:
+      213: -7872879182078895333
+    second: Ian_Mortis(protagonist_proba) 1_19
+  - first:
+      213: 2680896954291264908
+    second: Ian_Mortis(protagonist_proba) 1_20
+  - first:
+      213: 2576400075566039057
+    second: Ian_Mortis(protagonist_proba) 1_21
+  - first:
+      213: -3740290128123969338
+    second: Ian_Mortis(protagonist_proba) 1_22
+  - first:
+      213: -6371762570767583163
+    second: Ian_Mortis(protagonist_proba) 1_23
+  - first:
+      213: 9150754012204243220
+    second: Ian_Mortis(protagonist_proba) 1_24
+  - first:
+      213: -6132923087028887231
+    second: Ian_Mortis(protagonist_proba) 1_25
+  - first:
+      213: 2177902317633184514
+    second: Ian_Mortis(protagonist_proba) 1_26
+  - first:
+      213: -8862901359285107930
+    second: Ian_Mortis(protagonist_proba) 1_27
+  - first:
+      213: 3496416094968220746
+    second: Ian_Mortis(protagonist_proba) 1_28
+  - first:
+      213: -4740938394618074150
+    second: Ian_Mortis(protagonist_proba) 1_29
+  - first:
+      213: 3084735729125395382
+    second: Ian_Mortis(protagonist_proba) 1_30
+  - first:
+      213: -7117701103142698339
+    second: Ian_Mortis(protagonist_proba) 1_31
+  - first:
+      213: -2148995356504823758
+    second: Ian_Mortis(protagonist_proba) 1_32
+  - first:
+      213: -3018946007294023345
+    second: Ian_Mortis(protagonist_proba) 1_33
+  - first:
+      213: -5601696892618405140
+    second: Ian_Mortis(protagonist_proba) 1_34
+  - first:
+      213: 5347846466675637932
+    second: Ian_Mortis(protagonist_proba) 1_35
+  - first:
+      213: -8085793873312518614
+    second: Ian_Mortis(protagonist_proba) 1_36
+  - first:
+      213: 9065408882143098676
+    second: Ian_Mortis(protagonist_proba) 1_37
+  - first:
+      213: -6349100407506081600
+    second: Ian_Mortis(protagonist_proba) 1_38
+  - first:
+      213: -2023670299824274190
+    second: Ian_Mortis(protagonist_proba) 1_39
+  - first:
+      213: 7168047440427139117
+    second: Ian_Mortis(protagonist_proba) 1_40
+  - first:
+      213: 4291202106409162697
+    second: Ian_Mortis(protagonist_proba) 1_41
+  - first:
+      213: -7005749178981743364
+    second: Ian_Mortis(protagonist_proba) 1_42
+  - first:
+      213: -8692311726144021719
+    second: Ian_Mortis(protagonist_proba) 1_43
+  - first:
+      213: 8805373309906129466
+    second: Ian_Mortis(protagonist_proba) 1_44
+  - first:
+      213: 7323062672648996146
+    second: Ian_Mortis(protagonist_proba) 1_45
+  - first:
+      213: 6329818822839083186
+    second: Ian_Mortis(protagonist_proba) 1_46
+  - first:
+      213: -7268726024432696535
+    second: Ian_Mortis(protagonist_proba) 1_47
+  - first:
+      213: -5948013153619921830
+    second: Ian_Mortis(protagonist_proba) 1_48
+  - first:
+      213: -7401050592381911212
+    second: Ian_Mortis(protagonist_proba) 1_49
+  - first:
+      213: -1719615151186121082
+    second: Ian_Mortis(protagonist_proba) 1_50
+  - first:
+      213: -5831575366859750758
+    second: Ian_Mortis(protagonist_proba) 1_51
+  - first:
+      213: 3193113138745852074
+    second: Ian_Mortis(protagonist_proba) 1_52
+  - first:
+      213: 2318417122699026308
+    second: Ian_Mortis(protagonist_proba) 1_53
+  - first:
+      213: -725604599524948712
+    second: Ian_Mortis(protagonist_proba) 1_54
+  - first:
+      213: -3008628606127124771
+    second: Ian_Mortis(protagonist_proba) 1_55
+  - first:
+      213: 6226337264494163819
+    second: Ian_Mortis(protagonist_proba) 1_56
+  - first:
+      213: -5200820168008843872
+    second: Ian_Mortis(protagonist_proba) 1_57
+  - first:
+      213: 3058684695499190008
+    second: Ian_Mortis(protagonist_proba) 1_58
+  - first:
+      213: -5140262316841291324
+    second: Ian_Mortis(protagonist_proba) 1_59
+  - first:
+      213: 6184996698624986921
+    second: Ian_Mortis(protagonist_proba) 1_60
+  - first:
+      213: -346810799315060064
+    second: Ian_Mortis(protagonist_proba) 1_61
+  - first:
+      213: 7600121893933853864
+    second: Ian_Mortis(protagonist_proba) 1_62
+  - first:
+      213: -8180805426099154773
+    second: Ian_Mortis(protagonist_proba) 1_63
+  - first:
+      213: 1785067076940577985
+    second: Ian_Mortis(protagonist_proba) 1_64
+  - first:
+      213: 5991189166370711330
+    second: Ian_Mortis(protagonist_proba) 1_65
+  - first:
+      213: -9065587744295548825
+    second: Ian_Mortis(protagonist_proba) 1_66
+  - first:
+      213: -5455154240273898395
+    second: Ian_Mortis(protagonist_proba) 1_67
+  - first:
+      213: -8383031324312571393
+    second: Ian_Mortis(protagonist_proba) 1_68
+  - first:
+      213: 2877571746946663406
+    second: Ian_Mortis(protagonist_proba) 1_69
+  - first:
+      213: 8225271566889370064
+    second: Ian_Mortis(protagonist_proba) 1_70
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Ian_Mortis(protagonist_proba) 1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 210
+        width: 30
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc6fda01196e35350800000000000000
+      internalID: 6004396238939485901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ian_Mortis(protagonist_proba) 1_1
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 210
+        width: 30
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 821389beef1f43410800000000000000
+      internalID: 1456054656724119848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ian_Mortis(protagonist_proba) 1_2
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 210
+        width: 30
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7392776e0faf84d50800000000000000
+      internalID: 6721898356416129335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ian_Mortis(protagonist_proba) 1_3
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 210
+        width: 30
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff886d61fa6b8d7b0800000000000000
+      internalID: -5199204906680547073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ian_Mortis(protagonist_proba) 1_4
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 210
+        width: 30
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 005e3adcc174716b0800000000000000
+      internalID: -5325709845307595520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ian_Mortis(protagonist_proba) 1_5
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 210
+        width: 30
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2100e57f2123117e0800000000000000
+      internalID: -1796599719303184366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ian_Mortis(protagonist_proba) 1_6
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 210
+        width: 30
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9947d5c6849e0fd70800000000000000
+      internalID: 9075009746416530585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ian_Mortis(protagonist_proba) 1_7
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 210
+        width: 30
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 424110e1894ece5a0800000000000000
+      internalID: -6490561620958178268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ian_Mortis(protagonist_proba) 1_8
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 210
+        width: 30
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9be39880cfb295a0800000000000000
+      internalID: -6515934877205664867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ian_Mortis(protagonist_proba) 1_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 180
+        width: 30
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f123dd2cf5e702f30800000000000000
+      internalID: 4548774573400470047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ian_Mortis(protagonist_proba) 1_10
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 180
+        width: 30
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 965ab38490aa703d0800000000000000
+      internalID: -3240434450026486423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ian_Mortis(protagonist_proba) 1_11
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 180
+        width: 30
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cbd1b44c122088c0800000000000000
+      internalID: -3999158964298064957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ian_Mortis(protagonist_proba) 1_12
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 180
+        width: 30
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e94c0edd82e537d90800000000000000
+      internalID: -7101228657818942306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ian_Mortis(protagonist_proba) 1_13
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 180
+        width: 30
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bc7c282ee2ee4090800000000000000
+      internalID: -8048245971560399692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ian_Mortis(protagonist_proba) 1_14
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 180
+        width: 30
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee4c5e6fa57611de0800000000000000
+      internalID: -1364195571729578770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ian_Mortis(protagonist_proba) 1_15
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 180
+        width: 30
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58cbd38e1b1fe6af0800000000000000
+      internalID: -401117570381529979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ian_Mortis(protagonist_proba) 1_16
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 180
+        width: 30
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 113204cbd06a46fc0800000000000000
+      internalID: -3502492032264297711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ian_Mortis(protagonist_proba) 1_17
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 150
+        width: 30
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 123f9ced2673aa370800000000000000
+      internalID: 8334534958186623777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ian_Mortis(protagonist_proba) 1_18
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 150
+        width: 30
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8055f1fec897a6ed0800000000000000
+      internalID: -2419988203544029944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ian_Mortis(protagonist_proba) 1_19
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 150
+        width: 30
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1b9e90a81aedb290800000000000000
+      internalID: -7872879182078895333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ian_Mortis(protagonist_proba) 1_20
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 150
+        width: 30
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8d15ff6395743520800000000000000
+      internalID: 2680896954291264908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ian_Mortis(protagonist_proba) 1_21
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 150
+        width: 30
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1104767e73631c320800000000000000
+      internalID: 2576400075566039057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ian_Mortis(protagonist_proba) 1_22
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 150
+        width: 30
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c0454402f1d71cc0800000000000000
+      internalID: -3740290128123969338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ian_Mortis(protagonist_proba) 1_23
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 150
+        width: 30
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 548b44073b3f297a0800000000000000
+      internalID: -6371762570767583163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ian_Mortis(protagonist_proba) 1_24
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 150
+        width: 30
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4191a649a420efe70800000000000000
+      internalID: 9150754012204243220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ian_Mortis(protagonist_proba) 1_25
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 150
+        width: 30
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 141e9da22fa73eaa0800000000000000
+      internalID: -6132923087028887231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ian_Mortis(protagonist_proba) 1_26
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 150
+        width: 30
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 203a60e6e96793e10800000000000000
+      internalID: 2177902317633184514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ian_Mortis(protagonist_proba) 1_27
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 150
+        width: 30
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6230c70eb26a00580800000000000000
+      internalID: -8862901359285107930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ian_Mortis(protagonist_proba) 1_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 120
+        width: 30
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4c0a8fd9e3c58030800000000000000
+      internalID: 3496416094968220746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ian_Mortis(protagonist_proba) 1_29
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 120
+        width: 30
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adb67ce06adc43eb0800000000000000
+      internalID: -4740938394618074150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ian_Mortis(protagonist_proba) 1_30
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 120
+        width: 30
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bb89705dce2fca20800000000000000
+      internalID: 3084735729125395382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ian_Mortis(protagonist_proba) 1_31
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 120
+        width: 30
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9206c1de88d83d90800000000000000
+      internalID: -7117701103142698339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ian_Mortis(protagonist_proba) 1_32
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 120
+        width: 30
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 238e09feb1c3d22e0800000000000000
+      internalID: -2148995356504823758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ian_Mortis(protagonist_proba) 1_33
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 120
+        width: 30
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f49e727f99c8a16d0800000000000000
+      internalID: -3018946007294023345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ian_Mortis(protagonist_proba) 1_34
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 120
+        width: 30
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cea0210fa56c242b0800000000000000
+      internalID: -5601696892618405140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ian_Mortis(protagonist_proba) 1_35
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 120
+        width: 30
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cae778ff60e573a40800000000000000
+      internalID: 5347846466675637932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ian_Mortis(protagonist_proba) 1_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 90
+        width: 30
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2e6d26005d79cf80800000000000000
+      internalID: -8085793873312518614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ian_Mortis(protagonist_proba) 1_37
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 90
+        width: 30
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4377fc3095dcecd70800000000000000
+      internalID: 9065408882143098676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ian_Mortis(protagonist_proba) 1_38
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 90
+        width: 30
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c8ef4f71d673e7a0800000000000000
+      internalID: -6349100407506081600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ian_Mortis(protagonist_proba) 1_39
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 90
+        width: 30
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f4477c859a7ae3e0800000000000000
+      internalID: -2023670299824274190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ian_Mortis(protagonist_proba) 1_40
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 90
+        width: 30
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d20cecb4b250a7360800000000000000
+      internalID: 7168047440427139117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ian_Mortis(protagonist_proba) 1_41
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 90
+        width: 30
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c71deb74996d8b30800000000000000
+      internalID: 4291202106409162697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ian_Mortis(protagonist_proba) 1_42
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 90
+        width: 30
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf40f416d3496ce90800000000000000
+      internalID: -7005749178981743364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ian_Mortis(protagonist_proba) 1_43
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 90
+        width: 30
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92b1936f984be5780800000000000000
+      internalID: -8692311726144021719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ian_Mortis(protagonist_proba) 1_44
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 90
+        width: 30
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3219ab5f58f23a70800000000000000
+      internalID: 8805373309906129466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ian_Mortis(protagonist_proba) 1_45
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 90
+        width: 30
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2358a2793beb0a560800000000000000
+      internalID: 7323062672648996146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ian_Mortis(protagonist_proba) 1_46
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 90
+        width: 30
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b0a7ebbea808d750800000000000000
+      internalID: 6329818822839083186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ian_Mortis(protagonist_proba) 1_47
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 60
+        width: 30
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9234d00313c402b90800000000000000
+      internalID: -7268726024432696535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ian_Mortis(protagonist_proba) 1_48
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 60
+        width: 30
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a54322bfc89647da0800000000000000
+      internalID: -5948013153619921830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ian_Mortis(protagonist_proba) 1_49
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 60
+        width: 30
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45fb16cd2bf2a4990800000000000000
+      internalID: -7401050592381911212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ian_Mortis(protagonist_proba) 1_50
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 60
+        width: 30
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68eeb238123b228e0800000000000000
+      internalID: -1719615151186121082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ian_Mortis(protagonist_proba) 1_51
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 60
+        width: 30
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a920861d915121fa0800000000000000
+      internalID: -5831575366859750758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ian_Mortis(protagonist_proba) 1_52
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 60
+        width: 30
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa0449a5b77305c20800000000000000
+      internalID: 3193113138745852074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ian_Mortis(protagonist_proba) 1_53
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 60
+        width: 30
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48f98afe61cac2020800000000000000
+      internalID: 2318417122699026308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ian_Mortis(protagonist_proba) 1_54
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 60
+        width: 30
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8150ded06722ee5f0800000000000000
+      internalID: -725604599524948712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ian_Mortis(protagonist_proba) 1_55
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 60
+        width: 30
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddec6be19343f36d0800000000000000
+      internalID: -3008628606127124771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ian_Mortis(protagonist_proba) 1_56
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 60
+        width: 30
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b67b3f5e0c4686650800000000000000
+      internalID: 6226337264494163819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ian_Mortis(protagonist_proba) 1_57
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 60
+        width: 30
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ad3521cc99f2d7b0800000000000000
+      internalID: -5200820168008843872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ian_Mortis(protagonist_proba) 1_58
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 60
+        width: 30
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fe27236681a27a20800000000000000
+      internalID: 3058684695499190008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ian_Mortis(protagonist_proba) 1_59
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 30
+        width: 30
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c1395838ae1aa8b0800000000000000
+      internalID: -5140262316841291324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ian_Mortis(protagonist_proba) 1_60
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 30
+        width: 30
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92f81865ab585d550800000000000000
+      internalID: 6184996698624986921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ian_Mortis(protagonist_proba) 1_61
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 30
+        width: 30
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0aa7e8e5a61ef2bf0800000000000000
+      internalID: -346810799315060064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ian_Mortis(protagonist_proba) 1_62
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 30
+        width: 30
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8aca899689e097960800000000000000
+      internalID: 7600121893933853864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ian_Mortis(protagonist_proba) 1_63
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 30
+        width: 30
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba095c80fc0f77e80800000000000000
+      internalID: -8180805426099154773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ian_Mortis(protagonist_proba) 1_64
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 30
+        width: 30
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ccb94d7c05d5c810800000000000000
+      internalID: 1785067076940577985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ian_Mortis(protagonist_proba) 1_65
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 30
+        width: 30
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 227e1bbddcaf42350800000000000000
+      internalID: 5991189166370711330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ian_Mortis(protagonist_proba) 1_66
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 30
+        width: 30
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76801256aff803280800000000000000
+      internalID: -9065587744295548825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ian_Mortis(protagonist_proba) 1_67
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 30
+        width: 30
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56422810f166b44b0800000000000000
+      internalID: -5455154240273898395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ian_Mortis(protagonist_proba) 1_68
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 30
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff1706dfc6d79ab80800000000000000
+      internalID: -8383031324312571393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ian_Mortis(protagonist_proba) 1_69
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 0
+        width: 30
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee3c47002403fe720800000000000000
+      internalID: 2877571746946663406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ian_Mortis(protagonist_proba) 1_70
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 0
+        width: 30
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d1cf8529e8062270800000000000000
+      internalID: 8225271566889370064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 1d232f5af63515a4e904668bfdb4a1b5
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Ian_Mortis(protagonist_proba) 1_0: 6004396238939485901
+      Ian_Mortis(protagonist_proba) 1_1: 1456054656724119848
+      Ian_Mortis(protagonist_proba) 1_10: -3240434450026486423
+      Ian_Mortis(protagonist_proba) 1_11: -3999158964298064957
+      Ian_Mortis(protagonist_proba) 1_12: -7101228657818942306
+      Ian_Mortis(protagonist_proba) 1_13: -8048245971560399692
+      Ian_Mortis(protagonist_proba) 1_14: -1364195571729578770
+      Ian_Mortis(protagonist_proba) 1_15: -401117570381529979
+      Ian_Mortis(protagonist_proba) 1_16: -3502492032264297711
+      Ian_Mortis(protagonist_proba) 1_17: 8334534958186623777
+      Ian_Mortis(protagonist_proba) 1_18: -2419988203544029944
+      Ian_Mortis(protagonist_proba) 1_19: -7872879182078895333
+      Ian_Mortis(protagonist_proba) 1_2: 6721898356416129335
+      Ian_Mortis(protagonist_proba) 1_20: 2680896954291264908
+      Ian_Mortis(protagonist_proba) 1_21: 2576400075566039057
+      Ian_Mortis(protagonist_proba) 1_22: -3740290128123969338
+      Ian_Mortis(protagonist_proba) 1_23: -6371762570767583163
+      Ian_Mortis(protagonist_proba) 1_24: 9150754012204243220
+      Ian_Mortis(protagonist_proba) 1_25: -6132923087028887231
+      Ian_Mortis(protagonist_proba) 1_26: 2177902317633184514
+      Ian_Mortis(protagonist_proba) 1_27: -8862901359285107930
+      Ian_Mortis(protagonist_proba) 1_28: 3496416094968220746
+      Ian_Mortis(protagonist_proba) 1_29: -4740938394618074150
+      Ian_Mortis(protagonist_proba) 1_3: -5199204906680547073
+      Ian_Mortis(protagonist_proba) 1_30: 3084735729125395382
+      Ian_Mortis(protagonist_proba) 1_31: -7117701103142698339
+      Ian_Mortis(protagonist_proba) 1_32: -2148995356504823758
+      Ian_Mortis(protagonist_proba) 1_33: -3018946007294023345
+      Ian_Mortis(protagonist_proba) 1_34: -5601696892618405140
+      Ian_Mortis(protagonist_proba) 1_35: 5347846466675637932
+      Ian_Mortis(protagonist_proba) 1_36: -8085793873312518614
+      Ian_Mortis(protagonist_proba) 1_37: 9065408882143098676
+      Ian_Mortis(protagonist_proba) 1_38: -6349100407506081600
+      Ian_Mortis(protagonist_proba) 1_39: -2023670299824274190
+      Ian_Mortis(protagonist_proba) 1_4: -5325709845307595520
+      Ian_Mortis(protagonist_proba) 1_40: 7168047440427139117
+      Ian_Mortis(protagonist_proba) 1_41: 4291202106409162697
+      Ian_Mortis(protagonist_proba) 1_42: -7005749178981743364
+      Ian_Mortis(protagonist_proba) 1_43: -8692311726144021719
+      Ian_Mortis(protagonist_proba) 1_44: 8805373309906129466
+      Ian_Mortis(protagonist_proba) 1_45: 7323062672648996146
+      Ian_Mortis(protagonist_proba) 1_46: 6329818822839083186
+      Ian_Mortis(protagonist_proba) 1_47: -7268726024432696535
+      Ian_Mortis(protagonist_proba) 1_48: -5948013153619921830
+      Ian_Mortis(protagonist_proba) 1_49: -7401050592381911212
+      Ian_Mortis(protagonist_proba) 1_5: -1796599719303184366
+      Ian_Mortis(protagonist_proba) 1_50: -1719615151186121082
+      Ian_Mortis(protagonist_proba) 1_51: -5831575366859750758
+      Ian_Mortis(protagonist_proba) 1_52: 3193113138745852074
+      Ian_Mortis(protagonist_proba) 1_53: 2318417122699026308
+      Ian_Mortis(protagonist_proba) 1_54: -725604599524948712
+      Ian_Mortis(protagonist_proba) 1_55: -3008628606127124771
+      Ian_Mortis(protagonist_proba) 1_56: 6226337264494163819
+      Ian_Mortis(protagonist_proba) 1_57: -5200820168008843872
+      Ian_Mortis(protagonist_proba) 1_58: 3058684695499190008
+      Ian_Mortis(protagonist_proba) 1_59: -5140262316841291324
+      Ian_Mortis(protagonist_proba) 1_6: 9075009746416530585
+      Ian_Mortis(protagonist_proba) 1_60: 6184996698624986921
+      Ian_Mortis(protagonist_proba) 1_61: -346810799315060064
+      Ian_Mortis(protagonist_proba) 1_62: 7600121893933853864
+      Ian_Mortis(protagonist_proba) 1_63: -8180805426099154773
+      Ian_Mortis(protagonist_proba) 1_64: 1785067076940577985
+      Ian_Mortis(protagonist_proba) 1_65: 5991189166370711330
+      Ian_Mortis(protagonist_proba) 1_66: -9065587744295548825
+      Ian_Mortis(protagonist_proba) 1_67: -5455154240273898395
+      Ian_Mortis(protagonist_proba) 1_68: -8383031324312571393
+      Ian_Mortis(protagonist_proba) 1_69: 2877571746946663406
+      Ian_Mortis(protagonist_proba) 1_7: -6490561620958178268
+      Ian_Mortis(protagonist_proba) 1_70: 8225271566889370064
+      Ian_Mortis(protagonist_proba) 1_8: -6515934877205664867
+      Ian_Mortis(protagonist_proba) 1_9: 4548774573400470047
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
