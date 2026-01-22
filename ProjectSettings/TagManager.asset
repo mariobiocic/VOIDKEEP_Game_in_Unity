@@ -53,6 +53,9 @@ TagManager:
   - name: Xenoid
     uniqueID: 313131767
     locked: 0
+  - name: Tracer
+    uniqueID: 2460949193
+    locked: 0
   - name: shotgun
     uniqueID: 1502404241
     locked: 0

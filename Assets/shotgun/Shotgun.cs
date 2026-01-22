@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.Audio;
+using static UnityEngine.GraphicsBuffer;
 
 public class Shotgun : MonoBehaviour
 {
@@ -9,9 +10,10 @@ public class Shotgun : MonoBehaviour
     [SerializeField]  private Transform firePoint;
     [SerializeField] private Transform crosshair;
     public AudioClip shotgun_shoot_sound;
+    public AudioClip shotgun_reload_sound;
     private AudioSource audioSource;
     public int ammo = 7;
-
+ 
     private void Start()
     {
         shotgun.SetActive(false);
@@ -100,10 +102,10 @@ public class Shotgun : MonoBehaviour
                 EnemyHealth enemy = hit.collider.GetComponent<EnemyHealth>();
                 if (enemy != null)
                 {
-                    enemy.TakeDamage(25); // npr. shotgun radi 25 damage
+                    enemy.TakeDamage(25); 
                 }
 
-                // particle ili efekt na hit.point
+                
             }
 
         }
@@ -118,6 +120,7 @@ public class Shotgun : MonoBehaviour
             }
         if (Input.GetKeyDown(KeyCode.R) && ammo <= 3)
         {
+            audioSource.PlayOneShot(shotgun_reload_sound, 0.7f); //smanjivanje glasnoæe na 70%
             shotgunAnimator.SetTrigger("Reload");
             ammo = 7;
         }
@@ -140,4 +143,7 @@ public class Shotgun : MonoBehaviour
             shotgunAnimator.SetInteger("AmmoState", 0);
         }
     }
+
+
+    
 }
