@@ -22,6 +22,7 @@ public class XenoidFollow : MonoBehaviour
 
     private bool lineOfSight = false;
     private bool hasSpotted = false;
+
     private bool isInSpottedIdle = false;
     private float spottedTimer = 0f;
 
@@ -30,9 +31,10 @@ public class XenoidFollow : MonoBehaviour
     [SerializeField] private float attackCooldown = 1.2f;
     private float lastAttackTime = -999f;
 
+    private float lostPlayerTimer = 0f;
+    [SerializeField] private float lostPlayerDelay = 1f;
 
     private bool damageTriggered = false;
-
 
     void Start()
     {
@@ -50,14 +52,12 @@ public class XenoidFollow : MonoBehaviour
             return;
         }
 
-        // Enter spotted idle samo jednom po damage-u
         if (enemyHealth != null && enemyHealth.IsTakingDamage && !damageTriggered)
         {
             EnterSpottedIdle();
             damageTriggered = true;
         }
 
-        // Resetiraj trigger kad se damage završi
         if (enemyHealth != null && !enemyHealth.IsTakingDamage)
         {
             damageTriggered = false;
@@ -84,76 +84,122 @@ public class XenoidFollow : MonoBehaviour
             visionMask
         );
 
-        lineOfSight = hit.collider != null && hit.collider.CompareTag("Player");
+        bool rayHitPlayer = hit.collider != null && hit.collider.CompareTag("Player");
+
+        
+        if (hasSpotted)
+        {
+            lineOfSight = true;
+        }
+        else
+        {
+            lineOfSight = rayHitPlayer;
+        }
 
         Debug.DrawRay(eyePoint.position, dir * viewDistance, lineOfSight ? Color.green : Color.red);
 
+        
         if (lineOfSight && !hasSpotted)
         {
             animator.SetTrigger("Spotted");
             animator.SetBool("IsWalking", false);
             hasSpotted = true;
         }
+
+        // Reset lost timer kad ga vidi
+        if (lineOfSight)
+        {
+            lostPlayerTimer = 0f;
+        }
     }
+
 
     void HandleMovement()
     {
-        // SPOTTED IDLE
-        if (isInSpottedIdle)
-        {
-            animator.SetBool("IsRunning", false);
-            animator.SetBool("IsWalking", false);
-
-            spottedTimer -= Time.deltaTime;
-            if (spottedTimer <= 0f)
-                isInSpottedIdle = false;
-
+        if (HandleSpottedIdle())
             return;
-        }
 
-        // WALK / PATROL
         if (!hasSpotted && walkPoint != null)
         {
-            animator.SetBool("IsRunning", false);
-            animator.SetBool("IsWalking", true);
-
-            Vector2 newPos = Vector2.MoveTowards(rb.position, walkPoint.position, walkSpeed * Time.fixedDeltaTime);
-            rb.MovePosition(newPos);
-
-            if (Vector2.Distance(rb.position, walkPoint.position) < 0.1f)
-                animator.SetBool("IsWalking", false);
-
+            HandlePatrol();
             return;
         }
 
-        // IZGUBIO PLAYERA - vrati se u normalni idle/patrol
         if (!lineOfSight)
         {
-            animator.SetBool("IsRunning", false);
-            animator.SetBool("IsWalking", false);
-            hasSpotted = false;
+            HandleLostPlayer();
             return;
         }
 
         float distance = Vector2.Distance(rb.position, player.transform.position);
 
-        // ATTACK
         if (distance <= attackRange && Time.time >= lastAttackTime + attackCooldown)
         {
-            animator.SetBool("IsRunning", false);
-            animator.SetBool("IsWalking", false);
-            animator.SetTrigger("Attack");
-
-            player.GetComponent<PlayerHealth>()?.TakeDamage(attackDamage);
-
-            lastAttackTime = Time.time;
-
-            // Enter spotted idle kao kod TakeDamage
-            EnterSpottedIdle();
+            HandleAttack();
             return;
         }
 
-        // RUN (CHASE)
+        HandleChase();
+    }
+
+    bool HandleSpottedIdle()
+    {
+        if (!isInSpottedIdle)
+            return false;
+
+        animator.SetBool("IsRunning", false);
+        animator.SetBool("IsWalking", false);
+
+        spottedTimer -= Time.deltaTime;
+        if (spottedTimer <= 0f)
+            isInSpottedIdle = false;
+
+        return true;
+    }
+
+    void HandlePatrol()
+    {
+        if (hasSpotted)
+            return;
+
+        animator.SetBool("IsRunning", false);
+        animator.SetBool("IsWalking", true);
+
+        Vector2 newPos = Vector2.MoveTowards(rb.position, walkPoint.position, walkSpeed * Time.fixedDeltaTime);
+        rb.MovePosition(newPos);
+
+        if (Vector2.Distance(rb.position, walkPoint.position) < 0.1f)
+            animator.SetBool("IsWalking", false);
+    }
+
+    void HandleLostPlayer()
+    {
+        lostPlayerTimer += Time.deltaTime;
+
+        if (lostPlayerTimer >= lostPlayerDelay)
+        {
+            animator.SetBool("IsRunning", false);
+            animator.SetBool("IsWalking", false);
+            hasSpotted = false;
+        }
+
+    }
+
+    void HandleAttack()
+    {
+        animator.SetBool("IsRunning", false);
+        animator.SetBool("IsWalking", false);
+        animator.SetTrigger("Attack");
+
+        player.GetComponent<PlayerHealth>()?.TakeDamage(attackDamage);
+
+        lastAttackTime = Time.time;
+
+        EnterSpottedIdle();
+    }
+
+    void HandleChase()
+    {
         animator.SetBool("IsWalking", false);
         animator.SetBool("IsRunning", true);
 
@@ -161,12 +207,10 @@ public class XenoidFollow : MonoBehaviour
         rb.MovePosition(chasePos);
     }
 
-    // Funkcija za ulazak u spotted idle
     public void EnterSpottedIdle()
     {
         animator.SetTrigger("ReturnToSpottedIdle");
         isInSpottedIdle = true;
-        spottedTimer = 1f; // èekanje toèno 1 sekundu
+        spottedTimer = 1f;
     }
-
 }
