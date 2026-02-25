@@ -14,6 +14,10 @@ public class PlayerMovement2D : MonoBehaviour
     private Rigidbody2D rb;
     private Vector2 movement;
     private float currentMoveSpeed;
+    private PlayerStamina stamina;
+    private bool sprintAllowed = true;
+
+
 
     private BoxCollider2D flipZoneCollider;
 
@@ -22,6 +26,8 @@ public class PlayerMovement2D : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         flipZoneCollider = GetComponent<BoxCollider2D>();
+        stamina = GetComponent<PlayerStamina>();
+
 
         if (flipZoneCollider == null)
         {
@@ -48,7 +54,8 @@ public class PlayerMovement2D : MonoBehaviour
         movement = movement.normalized;
 
         // Odabir brzine
-        currentMoveSpeed = (Input.GetKey(KeyCode.LeftShift) && movement.magnitude > 0f) ? runSpeed : walkSpeed;
+        OdabirBrzine();
+
 
         // Postavljanje brzine u animator
         float speedValue = rb.linearVelocity.magnitude;
@@ -63,7 +70,7 @@ public class PlayerMovement2D : MonoBehaviour
             Bounds bounds = flipZoneCollider.bounds;
 
             // Dead zona oko centra
-            float deadZone = 0.2f; // prilagodi po potrebi
+            float deadZone = 0.2f; // prilagoditi po potrebi
 
             if (mouseWorldPos.x < bounds.center.x - deadZone)
             {
@@ -89,5 +96,30 @@ public class PlayerMovement2D : MonoBehaviour
         spriteRenderer.transform.localScale = localScale;
     }
 
+
+    private void OdabirBrzine()
+    {
+        bool wantsToSprint = Input.GetKey(KeyCode.LeftShift);
+        bool hasStamina = stamina != null && stamina.CurrentStamina > 0f;
+        
+        if (!hasStamina)
+            sprintAllowed = false;
+        
+        if (stamina.SprintUnlocked)
+            sprintAllowed = true;
+
+        
+        if (wantsToSprint && !sprintAllowed)
+        {
+            currentMoveSpeed = walkSpeed;
+            return;
+        }
+
+        if (wantsToSprint && hasStamina && movement.magnitude > 0f)
+            currentMoveSpeed = runSpeed;
+        else
+            currentMoveSpeed = walkSpeed;
+
+    }
 
 }

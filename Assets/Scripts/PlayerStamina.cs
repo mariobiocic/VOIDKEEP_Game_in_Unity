@@ -15,6 +15,14 @@ public class PlayerStamina : MonoBehaviour
     private float currentStamina;
     private float hideDelay = 0.5f;
     private float hideTimer = 0f;
+    public float CurrentStamina => currentStamina;
+
+
+    public float sprintRecoveryThreshold = 30f;
+    public bool SprintUnlocked => currentStamina >= sprintRecoveryThreshold;
+
+
+
 
     void Start()
     {
