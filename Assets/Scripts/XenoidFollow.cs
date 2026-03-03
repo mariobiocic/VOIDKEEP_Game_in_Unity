@@ -8,7 +8,15 @@ public class XenoidFollow : MonoBehaviour
     [SerializeField] private Transform eyePoint;
 
     [Header("Movement")]
-    [SerializeField] private Transform walkPoint;
+    [SerializeField] private Transform[] walkPoint;
+    private int currentPoint = 0;
+
+    [SerializeField] private float patrolWaitTime = 1f;
+    private float patrolWaitCounter = 0f;
+    private bool isWaitingAtPoint = false;
+
+
+
     [SerializeField] private float walkSpeed = 1.8f;
     [SerializeField] private float runSpeed = 5.2f;
     [SerializeField] private float attackRange = 1.5f;
@@ -25,6 +33,11 @@ public class XenoidFollow : MonoBehaviour
 
     private bool isInSpottedIdle = false;
     private float spottedTimer = 0f;
+
+    [SerializeField] private float viewAngle = 180f;
+    [SerializeField] private SpriteRenderer spriteRenderer;
+
+
 
     [Header("Attack")]
     [SerializeField] private int attackDamage = 1;
@@ -75,7 +88,19 @@ public class XenoidFollow : MonoBehaviour
     {
         if (player == null || eyePoint == null) return;
 
-        Vector2 dir = (player.transform.position - eyePoint.position).normalized;
+        Vector2 toPlayer = (player.transform.position - eyePoint.position).normalized;
+        Vector2 forward = spriteRenderer.transform.localScale.x > 0 ? Vector2.left : Vector2.right;
+
+        float angle = Vector2.Angle(forward, toPlayer);
+
+        // Ne vidi iza sebe
+        if (angle > viewAngle * 0.5f)
+        {
+            lineOfSight = false;
+            return;
+        }
+
+        Vector2 dir = toPlayer;
 
         RaycastHit2D hit = Physics2D.Raycast(
             eyePoint.position,
@@ -86,7 +111,6 @@ public class XenoidFollow : MonoBehaviour
 
         bool rayHitPlayer = hit.collider != null && hit.collider.CompareTag("Player");
 
-        
         if (hasSpotted)
         {
             lineOfSight = true;
@@ -98,7 +122,13 @@ public class XenoidFollow : MonoBehaviour
 
         Debug.DrawRay(eyePoint.position, dir * viewDistance, lineOfSight ? Color.green : Color.red);
 
-        
+        // Debug prikaz kuta vida
+        Vector2 leftBoundary = Quaternion.Euler(0, 0, viewAngle * 0.5f) * forward;
+        Vector2 rightBoundary = Quaternion.Euler(0, 0, -viewAngle * 0.5f) * forward;
+
+        Debug.DrawRay(eyePoint.position, leftBoundary * viewDistance, Color.yellow);
+        Debug.DrawRay(eyePoint.position, rightBoundary * viewDistance, Color.yellow);
+
         if (lineOfSight && !hasSpotted)
         {
             animator.SetTrigger("Spotted");
@@ -106,12 +136,12 @@ public class XenoidFollow : MonoBehaviour
             hasSpotted = true;
         }
 
-        // Reset lost timer kad ga vidi
         if (lineOfSight)
         {
             lostPlayerTimer = 0f;
         }
     }
+
 
 
     void HandleMovement()
@@ -159,17 +189,54 @@ public class XenoidFollow : MonoBehaviour
 
     void HandlePatrol()
     {
-        if (hasSpotted)
+        if (hasSpotted || walkPoint == null || walkPoint.Length == 0)
+        {
+            animator.SetBool("IsWalking", false);
             return;
+        }
+
+        Transform target = walkPoint[currentPoint];
+
+        // WAIT LOGIKA
+        if (isWaitingAtPoint)
+        {
+            animator.SetBool("IsWalking", false);
+            patrolWaitCounter -= Time.fixedDeltaTime;
+
+            if (patrolWaitCounter <= 0f)
+            {
+                isWaitingAtPoint = false;
+
+                // uvijek kružno
+                currentPoint = (currentPoint + 1) % walkPoint.Length;
+            }
+
+            return;
+        }
 
         animator.SetBool("IsRunning", false);
         animator.SetBool("IsWalking", true);
 
-        Vector2 newPos = Vector2.MoveTowards(rb.position, walkPoint.position, walkSpeed * Time.fixedDeltaTime);
+        float direction = target.position.x - transform.position.x;
+
+        if (Mathf.Abs(direction) > 0.05f)
+        {
+            SetFlip(direction < 0);
+        }
+
+        Vector2 newPos = Vector2.MoveTowards(
+            rb.position,
+            target.position,
+            walkSpeed * Time.fixedDeltaTime
+        );
+
         rb.MovePosition(newPos);
 
-        if (Vector2.Distance(rb.position, walkPoint.position) < 0.1f)
-            animator.SetBool("IsWalking", false);
+        if (Vector2.Distance(rb.position, target.position) < 0.05f)
+        {
+            isWaitingAtPoint = true;
+            patrolWaitCounter = patrolWaitTime;
+        }
     }
 
     void HandleLostPlayer()
@@ -213,4 +280,13 @@ public class XenoidFollow : MonoBehaviour
         isInSpottedIdle = true;
         spottedTimer = 1f;
     }
+
+    private void SetFlip(bool flip)
+    {
+        Vector3 scale = spriteRenderer.transform.localScale;
+        float baseX = Mathf.Abs(scale.x);
+        scale.x = flip ? baseX : -baseX;
+        spriteRenderer.transform.localScale = scale;
+    }
+
 }

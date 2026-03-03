@@ -27,7 +27,7 @@ public class PlayerStamina : MonoBehaviour
     void Start()
     {
         currentStamina = maxStamina;
-        staminaUIGroup.SetActive(false);
+        staminaUIGroup.SetActive(true);
     }
 
     void Update()
@@ -39,14 +39,12 @@ public class PlayerStamina : MonoBehaviour
         {
             currentStamina -= drainRate * Time.deltaTime;
             hideTimer = hideDelay;
-            staminaUIGroup.SetActive(true);
         }
         else
         {
             currentStamina += regenRate * Time.deltaTime;
             hideTimer -= Time.deltaTime;
-            if (hideTimer <= 0f)
-                staminaUIGroup.SetActive(false);
+            
         }
 
         currentStamina = Mathf.Clamp(currentStamina, 0f, maxStamina);

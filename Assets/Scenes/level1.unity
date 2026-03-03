@@ -269,11 +269,17 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 384
   eyePoint: {fileID: 868297989}
-  walkPoint: {fileID: 531035658}
+  walkPoint:
+  - {fileID: 531035658}
+  - {fileID: 863003581}
+  - {fileID: 479110196}
+  patrolWaitTime: 1
   walkSpeed: 1.8
   runSpeed: 5.2
   attackRange: 1.5
   animator: {fileID: 1183297}
+  viewAngle: 180
+  spriteRenderer: {fileID: 1183295}
   attackDamage: 1
   attackCooldown: 1.2
   lostPlayerDelay: 1
@@ -667,7 +673,7 @@ Transform:
   m_GameObject: {fileID: 246464022}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.8, y: 0.04, z: 0}
+  m_LocalPosition: {x: 5.49, y: 6.34, z: 0}
   m_LocalScale: {x: 8, y: 8, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -841,6 +847,7 @@ MonoBehaviour:
   drainRate: 25
   staminaFill: {fileID: 535957116}
   staminaUIGroup: {fileID: 783135315}
+  sprintRecoveryThreshold: 30
 --- !u!1 &287378812
 GameObject:
   m_ObjectHideFlags: 0
@@ -916,6 +923,37 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0.901, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &479110195
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 479110196}
+  m_Layer: 6
+  m_Name: StartPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &479110196
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 479110195}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1.08, y: -2.63, z: 0}
+  m_LocalScale: {x: 8, y: 8, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -4159,6 +4197,37 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!1 &863003580
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 863003581}
+  m_Layer: 6
+  m_Name: WalkPoint2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &863003581
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 863003580}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -7.212, y: -2.67, z: 0}
+  m_LocalScale: {x: 8, y: 8, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &868297988
 GameObject:
   m_ObjectHideFlags: 0
@@ -7254,6 +7323,8 @@ SceneRoots:
   - {fileID: 1923294290}
   - {fileID: 287378815}
   - {fileID: 531035658}
+  - {fileID: 863003581}
+  - {fileID: 479110196}
   - {fileID: 1183296}
   - {fileID: 1555023608}
   - {fileID: 1076000751}

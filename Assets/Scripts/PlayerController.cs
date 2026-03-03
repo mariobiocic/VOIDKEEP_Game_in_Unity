@@ -70,7 +70,7 @@ public class PlayerMovement2D : MonoBehaviour
             Bounds bounds = flipZoneCollider.bounds;
 
             // Dead zona oko centra
-            float deadZone = 0.2f; // prilagoditi po potrebi
+            float deadZone = 0.2f; 
 
             if (mouseWorldPos.x < bounds.center.x - deadZone)
             {
