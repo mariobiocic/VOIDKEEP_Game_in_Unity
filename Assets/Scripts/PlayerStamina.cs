@@ -13,16 +13,10 @@ public class PlayerStamina : MonoBehaviour
     public GameObject staminaUIGroup; // Parent ikone + bara
 
     private float currentStamina;
-    private float hideDelay = 0.5f;
-    private float hideTimer = 0f;
     public float CurrentStamina => currentStamina;
-
 
     public float sprintRecoveryThreshold = 30f;
     public bool SprintUnlocked => currentStamina >= sprintRecoveryThreshold;
-
-
-
 
     void Start()
     {
@@ -38,13 +32,10 @@ public class PlayerStamina : MonoBehaviour
         if (isSprinting && currentStamina > 0)
         {
             currentStamina -= drainRate * Time.deltaTime;
-            hideTimer = hideDelay;
         }
         else
         {
             currentStamina += regenRate * Time.deltaTime;
-            hideTimer -= Time.deltaTime;
-            
         }
 
         currentStamina = Mathf.Clamp(currentStamina, 0f, maxStamina);

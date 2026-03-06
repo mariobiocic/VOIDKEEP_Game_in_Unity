@@ -59,6 +59,9 @@ TagManager:
   - name: shotgun
     uniqueID: 1502404241
     locked: 0
+  - name: sword
+    uniqueID: 1423184335
+    locked: 0
   - name: dot
     uniqueID: 2830050433
     locked: 0
