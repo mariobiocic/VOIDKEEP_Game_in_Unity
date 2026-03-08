@@ -9,6 +9,9 @@ public class Shotgun : MonoBehaviour
     [SerializeField] private LayerMask visionMask;
     [SerializeField]  private Transform firePoint;
     [SerializeField] private Transform crosshair;
+    [SerializeField] private Animator playerAnimator; //za katana napad
+    private bool wasShotgunEquipped = false;
+
     public AudioClip shotgun_shoot_sound;
     public AudioClip shotgun_reload_sound;
     private AudioSource audioSource;
@@ -16,6 +19,7 @@ public class Shotgun : MonoBehaviour
  
     private void Start()
     {
+
         shotgun.SetActive(false);
 
         audioSource = GetComponent<AudioSource>();
@@ -24,7 +28,8 @@ public class Shotgun : MonoBehaviour
     }
     void Update()
     {
-       
+        Katana();
+
         Prikaz();
         Idle();
         Pucanje();
@@ -33,6 +38,11 @@ public class Shotgun : MonoBehaviour
 
     void Prikaz()
     {
+        if (playerAnimator.GetBool("KatanaActive"))
+        {
+            return;
+        }
+
         if (Input.GetKeyDown(KeyCode.Alpha1))
         {
             if(ammo>3)
@@ -42,10 +52,10 @@ public class Shotgun : MonoBehaviour
             }
             else
             {
-                {
+                
                     shotgun.SetActive(true);
                     shotgunAnimator.SetTrigger("EquipRed");
-                }
+                
             }
 
         }
@@ -144,6 +154,35 @@ public class Shotgun : MonoBehaviour
         }
     }
 
+    private void Katana() 
+    {
+        bool katanaActive = playerAnimator.GetBool("KatanaActive");
 
+        if (katanaActive)
+        {
+            if (shotgun.activeSelf)
+            {
+                wasShotgunEquipped = true;
+                shotgun.SetActive(false);
+            }
+
+            return;
+        }
+        else
+        {
+            if (wasShotgunEquipped && !shotgun.activeSelf)
+            {
+                shotgun.SetActive(true);
+
+                if (ammo > 3)
+                    shotgunAnimator.SetTrigger("EquipBlue");
+                else
+                    shotgunAnimator.SetTrigger("EquipRed");
+
+                wasShotgunEquipped = false;
+            }
+        }
+
+    }
     
 }
