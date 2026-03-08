@@ -24,10 +24,13 @@ public class EnemyHealth : MonoBehaviour
         currentHealth = maxHealth;
     }
 
+
     public void TakeDamage(int damage)
     {
         if (isDead) return;
 
+
+      
         currentHealth -= damage;
         isTakingDamage = true;
         animator.SetTrigger("TakeDamage");
@@ -47,8 +50,18 @@ public class EnemyHealth : MonoBehaviour
 
     void Die()
     {
+        if (isDead) return;
+
         isDead = true;
-        animator.SetTrigger("Death"); 
+
+        // pokreni death animaciju
+        animator.SetTrigger("Death");
+
+        // zaustavi AI
+        XenoidFollow follow = GetComponent<XenoidFollow>();
+        if (follow != null)
+            follow.enabled = false;
+
     }
 
     public void DestroySelf()

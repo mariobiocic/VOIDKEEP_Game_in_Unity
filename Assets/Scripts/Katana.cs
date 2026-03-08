@@ -5,6 +5,8 @@ public class Katana : MonoBehaviour
     public GameObject Sword;
     public Animator SwordAnimator;
 
+    public Animator playerAnimator;
+
     public GameObject player;
     public GameObject hitbox;
 
@@ -30,5 +32,6 @@ public class Katana : MonoBehaviour
     public void DisableSword()
     {
         Sword.SetActive(false);
+        playerAnimator.SetBool("KatanaActive", false);
     }
 }

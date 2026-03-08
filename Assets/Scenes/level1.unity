@@ -864,6 +864,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::KatanaController
   katana: {fileID: 1529167666}
+  playerAnimator: {fileID: 246464025}
 --- !u!1 &287378812
 GameObject:
   m_ObjectHideFlags: 0
@@ -4913,6 +4914,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Katana
   Sword: {fileID: 1529167662}
   SwordAnimator: {fileID: 1529167665}
+  playerAnimator: {fileID: 246464025}
   player: {fileID: 246464022}
   hitbox: {fileID: 1887005320}
 --- !u!114 &1529167667
@@ -7350,6 +7352,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1887005321}
   - component: {fileID: 1887005322}
+  - component: {fileID: 1887005323}
   m_Layer: 7
   m_Name: HitBox
   m_TagString: Untagged
@@ -7418,6 +7421,18 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.16590261, y: 0.15501168}
   m_EdgeRadius: 0
+--- !u!114 &1887005323
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1887005320}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 336cf5ce4a1a24b469c5d727395326a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::KatanaHitbox
 --- !u!1 &1923294288
 GameObject:
   m_ObjectHideFlags: 0
