@@ -37,6 +37,8 @@ public class XenoidFollow : MonoBehaviour
     [SerializeField] private float viewAngle = 180f;
     [SerializeField] private SpriteRenderer spriteRenderer;
 
+    private bool isPlayingSpotted = false; // za spotted prije chase stanja
+
 
 
     [Header("Attack")]
@@ -134,6 +136,7 @@ public class XenoidFollow : MonoBehaviour
             animator.SetTrigger("Spotted");
             animator.SetBool("IsWalking", false);
             hasSpotted = true;
+            isPlayingSpotted = true;
         }
 
         if (lineOfSight)
@@ -146,6 +149,12 @@ public class XenoidFollow : MonoBehaviour
 
     void HandleMovement()
     {
+        if (isPlayingSpotted)
+        {
+            rb.linearVelocity = Vector2.zero;
+            return;
+        }
+
         if (HandleSpottedIdle())
             return;
 
@@ -289,4 +298,9 @@ public class XenoidFollow : MonoBehaviour
         spriteRenderer.transform.localScale = scale;
     }
 
+    public void EndSpottedAnimation()
+    {
+        isPlayingSpotted = false;
+        lineOfSight = true;
+    }
 }
