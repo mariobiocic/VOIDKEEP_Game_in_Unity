@@ -34,7 +34,7 @@ public class XenoidFollow : MonoBehaviour
     private bool isInSpottedIdle = false;
     private float spottedTimer = 0f;
 
-    [SerializeField] private float viewAngle = 180f;
+    [SerializeField] private float viewAngle = 73f;
     [SerializeField] private SpriteRenderer spriteRenderer;
 
     private bool isPlayingSpotted = false; // za spotted prije chase stanja
@@ -265,13 +265,13 @@ public class XenoidFollow : MonoBehaviour
     {
         animator.SetBool("IsRunning", false);
         animator.SetBool("IsWalking", false);
+
+        animator.ResetTrigger("Attack");
         animator.SetTrigger("Attack");
 
         player.GetComponent<PlayerHealth>()?.TakeDamage(attackDamage);
 
         lastAttackTime = Time.time;
-
-        EnterSpottedIdle();
     }
 
     void HandleChase()
