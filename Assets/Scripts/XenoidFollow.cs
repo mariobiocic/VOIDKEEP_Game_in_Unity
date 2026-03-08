@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.Audio;
 
 public class XenoidFollow : MonoBehaviour
 {
@@ -34,7 +35,7 @@ public class XenoidFollow : MonoBehaviour
     private bool isInSpottedIdle = false;
     private float spottedTimer = 0f;
 
-    [SerializeField] private float viewAngle = 73f;
+    [SerializeField] private float viewAngle = 90f;
     [SerializeField] private SpriteRenderer spriteRenderer;
 
     private bool isPlayingSpotted = false; // za spotted prije chase stanja
@@ -51,11 +52,28 @@ public class XenoidFollow : MonoBehaviour
 
     private bool damageTriggered = false;
 
+    [Header("Sounds")]
+    private AudioSource audioSource;
+    public AudioClip[] attackSounds;
+
+    public AudioClip[] idleSounds;
+    private AudioSource idleAudioSource;
+    
+
     void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player");
         enemyHealth = GetComponent<EnemyHealth>();
         rb = GetComponent<Rigidbody2D>();
+
+        audioSource = GetComponent<AudioSource>();
+        if (audioSource == null)
+            audioSource = gameObject.AddComponent<AudioSource>();
+
+        idleAudioSource = gameObject.AddComponent<AudioSource>();
+        idleAudioSource.loop = true;
+        idleAudioSource.volume = 1f;
+        idleAudioSource.pitch = 1f;
     }
 
     void Update()
@@ -79,6 +97,8 @@ public class XenoidFollow : MonoBehaviour
         }
 
         CheckVision();
+
+        HandleIdleSounds();
     }
 
     void FixedUpdate()
@@ -269,6 +289,13 @@ public class XenoidFollow : MonoBehaviour
         animator.ResetTrigger("Attack");
         animator.SetTrigger("Attack");
 
+        if (attackSounds.Length > 0)
+        {
+            int index = Random.Range(0, attackSounds.Length);
+            audioSource.pitch = Random.Range(0.9f, 1.1f);
+            audioSource.PlayOneShot(attackSounds[index]);
+        }
+
         player.GetComponent<PlayerHealth>()?.TakeDamage(attackDamage);
 
         lastAttackTime = Time.time;
@@ -302,5 +329,44 @@ public class XenoidFollow : MonoBehaviour
     {
         isPlayingSpotted = false;
         lineOfSight = true;
+    }
+
+    void HandleIdleSounds()
+    {
+        AnimatorStateInfo state = animator.GetCurrentAnimatorStateInfo(0);
+
+        if (state.IsName("Xenoid_idle") && idleSounds.Length > 0)
+        {
+            if (!idleAudioSource.isPlaying)
+            {
+                int index = Random.Range(0, idleSounds.Length);
+                idleAudioSource.clip = idleSounds[index];
+                idleAudioSource.pitch = Random.Range(0.6f, 0.8f);
+                idleAudioSource.volume = 0.8f;
+                idleAudioSource.Play();
+            }
+        }
+        else
+        {
+            // Lagano gašenje idle zvuka kad animacija prestane
+            if (idleAudioSource.isPlaying)
+                StartCoroutine(FadeOutIdleSound(0.5f)); // fade 0.5 sekundi
+        }
+    }
+
+    private System.Collections.IEnumerator FadeOutIdleSound(float duration)
+    {
+        float startVolume = idleAudioSource.volume;
+
+        float t = 0f;
+        while (t < duration)
+        {
+            t += Time.deltaTime;
+            idleAudioSource.volume = Mathf.Lerp(startVolume, 0f, t / duration);
+            yield return null;
+        }
+
+        idleAudioSource.Stop();
+        idleAudioSource.volume = 1f; // reset za sljedeæi put
     }
 }

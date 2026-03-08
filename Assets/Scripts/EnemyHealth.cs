@@ -9,6 +9,11 @@ public class EnemyHealth : MonoBehaviour
 
     private bool isDead = false;
 
+    [Header("Sounds")]
+    private AudioSource audioSource;
+    public AudioClip[] damageSounds;
+    public AudioClip[] deathSounds;
+
     public bool IsDead
     {
         get { return isDead; }
@@ -22,6 +27,10 @@ public class EnemyHealth : MonoBehaviour
     void Start()
     {
         currentHealth = maxHealth;
+
+        audioSource = GetComponent<AudioSource>();
+        if (audioSource == null)
+            audioSource = gameObject.AddComponent<AudioSource>();
     }
 
 
@@ -34,6 +43,13 @@ public class EnemyHealth : MonoBehaviour
         currentHealth -= damage;
         isTakingDamage = true;
         animator.SetTrigger("TakeDamage");
+
+        if (damageSounds.Length > 0)
+        {
+            int index = Random.Range(0, damageSounds.Length);
+            audioSource.pitch = Random.Range(0.9f, 1.1f);
+            audioSource.PlayOneShot(damageSounds[index]);
+        }
 
         GetComponent<XenoidFollow>()?.EnterSpottedIdle();
 
