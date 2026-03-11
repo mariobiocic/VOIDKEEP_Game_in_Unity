@@ -58,7 +58,8 @@ public class PlayerMovement2D : MonoBehaviour
 
 
         // Postavljanje brzine u animator
-        float speedValue = rb.linearVelocity.magnitude;
+        //float speedValue = rb.linearVelocity.magnitude;
+        float speedValue = movement.magnitude * currentMoveSpeed;
         animator.SetFloat("Speed", speedValue);
         animator.SetBool("HasGun", shotgun != null && shotgun.activeSelf);
 

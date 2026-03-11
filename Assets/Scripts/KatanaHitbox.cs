@@ -4,6 +4,8 @@ public class KatanaHitbox : MonoBehaviour
 {
     public float knockbackForce = 6f;
 
+    public KatanaSound katanaSound;
+
     private void OnCollisionEnter2D(Collision2D collision)
     {
         EnemyHealth enemy = collision.collider.GetComponent<EnemyHealth>();
@@ -20,6 +22,10 @@ public class KatanaHitbox : MonoBehaviour
                 Vector2 dir = (collision.transform.position - transform.position).normalized;
                 enemyRb.AddForce(dir * knockbackForce, ForceMode2D.Impulse);
             }
+
+            katanaSound?.PlayRandomHit();
         }
+
+        
     }
 }

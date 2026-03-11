@@ -53,12 +53,13 @@ public class XenoidFollow : MonoBehaviour
     private bool damageTriggered = false;
 
     [Header("Sounds")]
-    private AudioSource audioSource;
+    private AudioSource audioSourceAttack;
     public AudioClip[] attackSounds;
 
-    public AudioClip[] idleSounds;
-    private AudioSource idleAudioSource;
     
+
+    private int lastAttackIndex = -1;
+
 
     void Start()
     {
@@ -66,14 +67,13 @@ public class XenoidFollow : MonoBehaviour
         enemyHealth = GetComponent<EnemyHealth>();
         rb = GetComponent<Rigidbody2D>();
 
-        audioSource = GetComponent<AudioSource>();
-        if (audioSource == null)
-            audioSource = gameObject.AddComponent<AudioSource>();
+        audioSourceAttack = GetComponent<AudioSource>();
+        if (audioSourceAttack == null)
+            audioSourceAttack = gameObject.AddComponent<AudioSource>();
 
-        idleAudioSource = gameObject.AddComponent<AudioSource>();
-        idleAudioSource.loop = true;
-        idleAudioSource.volume = 1f;
-        idleAudioSource.pitch = 1f;
+        audioSourceAttack.playOnAwake = false;
+        audioSourceAttack.loop = false;
+
     }
 
     void Update()
@@ -98,7 +98,6 @@ public class XenoidFollow : MonoBehaviour
 
         CheckVision();
 
-        HandleIdleSounds();
     }
 
     void FixedUpdate()
@@ -133,6 +132,8 @@ public class XenoidFollow : MonoBehaviour
 
         bool rayHitPlayer = hit.collider != null && hit.collider.CompareTag("Player");
 
+
+       //lineOfSight = rayHitPlayer;
         if (hasSpotted)
         {
             lineOfSight = true;
@@ -141,6 +142,8 @@ public class XenoidFollow : MonoBehaviour
         {
             lineOfSight = rayHitPlayer;
         }
+      
+
 
         Debug.DrawRay(eyePoint.position, dir * viewDistance, lineOfSight ? Color.green : Color.red);
 
@@ -178,7 +181,7 @@ public class XenoidFollow : MonoBehaviour
         if (HandleSpottedIdle())
             return;
 
-        if (!hasSpotted && walkPoint != null)
+        if (!hasSpotted && walkPoint != null && walkPoint.Length > 0)
         {
             HandlePatrol();
             return;
@@ -291,12 +294,24 @@ public class XenoidFollow : MonoBehaviour
 
         if (attackSounds.Length > 0)
         {
-            int index = Random.Range(0, attackSounds.Length);
-            audioSource.pitch = Random.Range(0.9f, 1.1f);
-            audioSource.PlayOneShot(attackSounds[index]);
+            int index;
+            do
+            {
+                index = Random.Range(0, attackSounds.Length);
+            } while (attackSounds.Length > 1 && index == lastAttackIndex);
+
+            audioSourceAttack.pitch = Random.Range(0.8f, 1.2f);
+            audioSourceAttack.volume = Random.Range(0.8f, 1f);
+            audioSourceAttack.PlayOneShot(attackSounds[index]);
+
+            lastAttackIndex = index;
         }
 
-        player.GetComponent<PlayerHealth>()?.TakeDamage(attackDamage);
+
+        if (player != null) {
+            player.GetComponent<PlayerHealth>()?.TakeDamage(attackDamage); 
+        }
+            
 
         lastAttackTime = Time.time;
     }
@@ -305,6 +320,10 @@ public class XenoidFollow : MonoBehaviour
     {
         animator.SetBool("IsWalking", false);
         animator.SetBool("IsRunning", true);
+
+        float direction = player.transform.position.x - transform.position.x;
+        if (Mathf.Abs(direction) > 0.05f)
+            SetFlip(direction < 0);
 
         Vector2 chasePos = Vector2.MoveTowards(rb.position, player.transform.position, runSpeed * Time.fixedDeltaTime);
         rb.MovePosition(chasePos);
@@ -331,42 +350,5 @@ public class XenoidFollow : MonoBehaviour
         lineOfSight = true;
     }
 
-    void HandleIdleSounds()
-    {
-        AnimatorStateInfo state = animator.GetCurrentAnimatorStateInfo(0);
 
-        if (state.IsName("Xenoid_idle") && idleSounds.Length > 0)
-        {
-            if (!idleAudioSource.isPlaying)
-            {
-                int index = Random.Range(0, idleSounds.Length);
-                idleAudioSource.clip = idleSounds[index];
-                idleAudioSource.pitch = Random.Range(0.6f, 0.8f);
-                idleAudioSource.volume = 0.8f;
-                idleAudioSource.Play();
-            }
-        }
-        else
-        {
-            // Lagano gašenje idle zvuka kad animacija prestane
-            if (idleAudioSource.isPlaying)
-                StartCoroutine(FadeOutIdleSound(0.5f)); // fade 0.5 sekundi
-        }
-    }
-
-    private System.Collections.IEnumerator FadeOutIdleSound(float duration)
-    {
-        float startVolume = idleAudioSource.volume;
-
-        float t = 0f;
-        while (t < duration)
-        {
-            t += Time.deltaTime;
-            idleAudioSource.volume = Mathf.Lerp(startVolume, 0f, t / duration);
-            yield return null;
-        }
-
-        idleAudioSource.Stop();
-        idleAudioSource.volume = 1f; // reset za sljedeæi put
-    }
 }

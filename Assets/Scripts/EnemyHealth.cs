@@ -1,3 +1,4 @@
+
 using UnityEngine;
 
 public class EnemyHealth : MonoBehaviour
@@ -12,7 +13,10 @@ public class EnemyHealth : MonoBehaviour
     [Header("Sounds")]
     private AudioSource audioSource;
     public AudioClip[] damageSounds;
-    public AudioClip[] deathSounds;
+    
+
+    public AudioSource audioSorceDeath;
+    public AudioClip deathSound;
 
     public bool IsDead
     {
@@ -31,6 +35,8 @@ public class EnemyHealth : MonoBehaviour
         audioSource = GetComponent<AudioSource>();
         if (audioSource == null)
             audioSource = gameObject.AddComponent<AudioSource>();
+
+        audioSorceDeath = gameObject.AddComponent<AudioSource>();
     }
 
 
@@ -47,7 +53,7 @@ public class EnemyHealth : MonoBehaviour
         if (damageSounds.Length > 0)
         {
             int index = Random.Range(0, damageSounds.Length);
-            audioSource.pitch = Random.Range(0.9f, 1.1f);
+            audioSource.pitch = Random.Range(0.7f, 1.0f);
             audioSource.PlayOneShot(damageSounds[index]);
         }
 
@@ -69,6 +75,10 @@ public class EnemyHealth : MonoBehaviour
         if (isDead) return;
 
         isDead = true;
+
+        audioSorceDeath.pitch = Random.Range(0.8f, 1.0f);
+        audioSorceDeath.volume = Random.Range(0.8f, 1.0f);
+        audioSorceDeath.PlayOneShot(deathSound);
 
         // pokreni death animaciju
         animator.SetTrigger("Death");
