@@ -38,6 +38,7 @@ public class PlayerMovement2D : MonoBehaviour
     void Update()
     {
         Kretanje();
+        
     }
 
     void FixedUpdate()
@@ -60,6 +61,9 @@ public class PlayerMovement2D : MonoBehaviour
         // Postavljanje brzine u animator
         //float speedValue = rb.linearVelocity.magnitude;
         float speedValue = movement.magnitude * currentMoveSpeed;
+        bool isRunning = currentMoveSpeed == runSpeed && movement.magnitude > 0f;
+        animator.SetBool("IsRunning", isRunning);
+       
         animator.SetFloat("Speed", speedValue);
         animator.SetBool("HasGun", shotgun != null && shotgun.activeSelf);
 

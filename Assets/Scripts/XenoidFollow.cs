@@ -56,9 +56,13 @@ public class XenoidFollow : MonoBehaviour
     private AudioSource audioSourceAttack;
     public AudioClip[] attackSounds;
 
-    
+    public AudioSource audioSorcewalkrun;
+    public AudioClip[] walkrunSounds;
+
+
 
     private int lastAttackIndex = -1;
+    private int lastwalkrunIndex = -1;
 
 
     void Start()
@@ -73,6 +77,8 @@ public class XenoidFollow : MonoBehaviour
 
         audioSourceAttack.playOnAwake = false;
         audioSourceAttack.loop = false;
+
+        audioSorcewalkrun = gameObject.AddComponent<AudioSource>();
 
     }
 
