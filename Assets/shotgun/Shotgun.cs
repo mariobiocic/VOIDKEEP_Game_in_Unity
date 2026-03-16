@@ -15,6 +15,8 @@ public class Shotgun : MonoBehaviour
     public AudioClip shotgun_shoot_sound;
     public AudioClip shotgun_reload_sound;
     private AudioSource audioSource;
+
+    
     public int ammo = 7;
  
     private void Start()
@@ -25,6 +27,7 @@ public class Shotgun : MonoBehaviour
         audioSource = GetComponent<AudioSource>();
         if (audioSource == null)
             audioSource = gameObject.AddComponent<AudioSource>();
+
     }
     void Update()
     {
@@ -45,7 +48,8 @@ public class Shotgun : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Alpha1))
         {
-            if(ammo>3)
+           
+            if (ammo>3)
             {
                 shotgun.SetActive(true);
                 shotgunAnimator.SetTrigger("EquipBlue");
@@ -184,5 +188,5 @@ public class Shotgun : MonoBehaviour
         }
 
     }
-    
+
 }
