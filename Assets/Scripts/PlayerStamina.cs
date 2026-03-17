@@ -18,10 +18,16 @@ public class PlayerStamina : MonoBehaviour
     public float sprintRecoveryThreshold = 30f;
     public bool SprintUnlocked => currentStamina >= sprintRecoveryThreshold;
 
+   
+   
+
     void Start()
     {
         currentStamina = maxStamina;
+        
         staminaUIGroup.SetActive(true);
+
+        
     }
 
     void Update()
@@ -40,5 +46,12 @@ public class PlayerStamina : MonoBehaviour
 
         currentStamina = Mathf.Clamp(currentStamina, 0f, maxStamina);
         staminaFill.fillAmount = currentStamina / maxStamina;
+
+       
+     
     }
+
+
+
+    
 }

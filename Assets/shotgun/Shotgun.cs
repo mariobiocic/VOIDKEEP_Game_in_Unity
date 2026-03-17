@@ -10,6 +10,7 @@ public class Shotgun : MonoBehaviour
     [SerializeField]  private Transform firePoint;
     [SerializeField] private Transform crosshair;
     [SerializeField] private Animator playerAnimator; //za katana napad
+    [SerializeField] private GameObject bulletSpritePrefab;
     private bool wasShotgunEquipped = false;
 
     public AudioClip shotgun_shoot_sound;
@@ -73,22 +74,18 @@ public class Shotgun : MonoBehaviour
 
     void Pucanje()
     {
-      
-        if(!shotgun.activeSelf)
-        {
+        if (!shotgun.activeSelf)
             return;
-        }
 
         if (ammo == 0)
-        {
             return;
-        }
 
         if (Input.GetMouseButtonDown(0))
         {
             audioSource.PlayOneShot(shotgun_shoot_sound);
 
             Vector2 dir = (crosshair.position - firePoint.position).normalized;
+
             RaycastHit2D hit = Physics2D.Raycast(
                 firePoint.position,
                 dir,
@@ -96,34 +93,48 @@ public class Shotgun : MonoBehaviour
                 visionMask
             );
 
-
-
+            
             if (ammo > 3)
-            {
                 shotgunAnimator.SetTrigger("ShootBlue");
-            }
             else
-            {
                 shotgunAnimator.SetTrigger("ShootRed");
-            }
 
             ammo--;
 
+            
+            Vector2 targetPoint;
+
             if (hit.collider != null)
             {
-                
                 Debug.Log("Pogodak: " + hit.collider.name);
+
+                targetPoint = hit.point;
+
                 EnemyHealth enemy = hit.collider.GetComponent<EnemyHealth>();
                 if (enemy != null)
                 {
-                    enemy.TakeDamage(25); 
+                    enemy.TakeDamage(25);
                 }
-
+            }
+            else
+            {
                 
+                targetPoint = (Vector2)firePoint.position + dir * 20f;
             }
 
-        }
+            
+            GameObject bullet = Instantiate(
+                bulletSpritePrefab,
+                firePoint.position,
+                Quaternion.identity
+            );
 
+            
+            float angle = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg;
+            bullet.transform.rotation = Quaternion.Euler(0, 0, angle);
+
+            bullet.GetComponent<BulletVisual>().Init(targetPoint);
+        }
     }
 
     void Reload()
