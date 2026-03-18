@@ -3,7 +3,7 @@ using UnityEngine;
 public class BulletVisual : MonoBehaviour
 {
     private Vector2 target;
-    public float speed = 35f;
+    public float speed = 39f;
 
     public void Init(Vector2 targetPos)
     {

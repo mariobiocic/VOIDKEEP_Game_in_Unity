@@ -104,4 +104,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1dec34c13924d9145b48bb8c5a76a366, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BulletVisual
-  speed: 35
+  speed: 39
