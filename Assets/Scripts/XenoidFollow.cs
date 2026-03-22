@@ -56,7 +56,8 @@ public class XenoidFollow : MonoBehaviour
     private AudioSource audioSourceAttack;
     public AudioClip[] attackSounds;
 
-  
+    public AudioSource audiosorceChase;
+    public AudioClip chaseSound;
 
 
 
@@ -353,6 +354,11 @@ public class XenoidFollow : MonoBehaviour
     {
         isPlayingSpotted = false;
         lineOfSight = true;
+    }
+
+    public void PlayChaseSound()
+    {
+        audiosorceChase.PlayOneShot(chaseSound);
     }
 
 
