@@ -78,7 +78,7 @@ public class EnemyHealth : MonoBehaviour
 
         audioSorceDeath.pitch = Random.Range(0.8f, 1.0f);
         audioSorceDeath.volume = Random.Range(0.8f, 1.0f);
-        audioSorceDeath.PlayOneShot(deathSound);
+        AudioSource.PlayClipAtPoint(deathSound, transform.position, 1f);
 
         // pokreni death animaciju
         animator.SetTrigger("Death");
