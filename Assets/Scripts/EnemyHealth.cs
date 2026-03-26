@@ -53,7 +53,7 @@ public class EnemyHealth : MonoBehaviour
         if (damageSounds.Length > 0)
         {
             int index = Random.Range(0, damageSounds.Length);
-            audioSource.pitch = Random.Range(0.7f, 1.0f);
+            audioSource.pitch = Random.Range(0.5f, 0.7f);
             audioSource.PlayOneShot(damageSounds[index]);
         }
 
