@@ -65,4 +65,12 @@ public class PlayerHealth : MonoBehaviour
         yield return new WaitForSeconds(0.1f);
         sr.color = originalColor;
     }
+
+    public void Heal(int amount)
+    {
+        currentHealth += amount;
+        currentHealth = Mathf.Clamp(currentHealth, 0, maxHealth);
+
+        Debug.Log("Healed! Current HP: " + currentHealth);
+    }
 }
