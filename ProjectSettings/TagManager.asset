@@ -9,7 +9,7 @@ TagManager:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Interactable
   - Water
   - UI
   - Enemy
@@ -47,6 +47,9 @@ TagManager:
     locked: 0
   - name: torch
     uniqueID: 2187360045
+    locked: 0
+  - name: Medic
+    uniqueID: 1355124959
     locked: 0
   - name: Player
     uniqueID: 864363959
