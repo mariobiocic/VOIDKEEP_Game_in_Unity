@@ -4,26 +4,32 @@ using UnityEngine.SceneManagement;
 public class Door : MonoBehaviour, IInteractable
 {
     [SerializeField] private string sceneToLoad;
-    [SerializeField] private GameObject outline;
 
-    public void Interact()
+    [SerializeField] private float interactRange = 1.5f; // udaljenost na kojoj se aktivira
+    private GameObject player;
+
+    private void Awake()
     {
-        SceneManager.LoadScene(sceneToLoad);
+        player = GameObject.FindGameObjectWithTag("Player");
     }
 
-    private void OnTriggerEnter2D(Collider2D other)
+    private void Update()
     {
-        if (other.CompareTag("Player"))
+        if (player == null) return;
+
+        float distance = Vector2.Distance(player.transform.position, transform.position);
+
+        if (distance <= interactRange && Input.GetKeyDown(KeyCode.E))
         {
-            outline.SetActive(true);
+            Interact();
         }
     }
 
-    private void OnTriggerExit2D(Collider2D other)
+    public void Interact()
     {
-        if (other.CompareTag("Player"))
+        if (!string.IsNullOrEmpty(sceneToLoad))
         {
-            outline.SetActive(false);
+            SceneManager.LoadScene(sceneToLoad);
         }
     }
 }

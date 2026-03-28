@@ -51,6 +51,9 @@ TagManager:
   - name: Medic
     uniqueID: 1355124959
     locked: 0
+  - name: terminal
+    uniqueID: 1632442331
+    locked: 0
   - name: Player
     uniqueID: 864363959
     locked: 0
