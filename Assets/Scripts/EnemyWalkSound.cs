@@ -2,15 +2,8 @@ using UnityEngine;
 
 public class EnemyWalkSound : MonoBehaviour
 {
-    public AudioSource audioSourceWalk;
     public AudioClip[] walkRunSounds;
     private int lastIndex = -1;
-
-    void Start()
-    {
-        audioSourceWalk = gameObject.AddComponent<AudioSource>();
-    }
-
 
     public void PlayRandomSound()
     {
@@ -26,9 +19,6 @@ public class EnemyWalkSound : MonoBehaviour
 
         lastIndex = index;
 
-        audioSourceWalk.clip = walkRunSounds[index];
-        audioSourceWalk.pitch = Random.Range(0.95f, 1.05f);
-        audioSourceWalk.Play();
-
+        AudioSource.PlayClipAtPoint(walkRunSounds[index], transform.position, 0.5f);
     }
 }
