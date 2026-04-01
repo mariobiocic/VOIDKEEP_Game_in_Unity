@@ -8,6 +8,8 @@ public class HealthUI : MonoBehaviour
 
     void Update()
     {
+        if (playerHealth == null)
+            return;
         UpdateHearts();
     }
 

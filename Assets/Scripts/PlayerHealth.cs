@@ -1,5 +1,8 @@
 using UnityEngine;
 using System.Collections;
+using Unity.VectorGraphics;
+using UnityEngine.SceneManagement;
+
 
 public class PlayerHealth : MonoBehaviour
 {
@@ -56,7 +59,17 @@ public class PlayerHealth : MonoBehaviour
     void Die()
     {
         Debug.Log("Player dead");
-        // disable movement, show game over, respawn...
+
+        
+        GetComponent<PlayerMovement2D>().enabled = false;
+        GetComponent<PlayerStamina>().enabled = false;
+
+
+        
+        Destroy(gameObject);
+
+        
+        SceneManager.LoadScene("GameOverScene");
     }
 
     IEnumerator Flash()

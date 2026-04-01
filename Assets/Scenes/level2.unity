@@ -131,7 +131,7 @@ GameObject:
   - component: {fileID: 37129562}
   - component: {fileID: 37129561}
   - component: {fileID: 37129563}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Zidovi
   m_TagString: Untagged
   m_Icon: {fileID: 0}
