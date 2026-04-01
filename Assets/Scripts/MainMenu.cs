@@ -5,13 +5,19 @@ public class MainMenu : MonoBehaviour
 {
 
     public GameObject continueButton;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    public GameObject startButton;
+    
     private void Start()
     {
-        if (!PlayerPrefs.HasKey("Save"))
+        if (PlayerPrefs.HasKey("Save"))
+        {
+            continueButton.SetActive(true);
+            startButton.SetActive(false);
+        }
+        else
         {
             continueButton.SetActive(false);
-      
+            startButton.SetActive(true);
         }
     }
     public void PlayGame()
