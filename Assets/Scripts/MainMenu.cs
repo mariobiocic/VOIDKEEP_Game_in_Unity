@@ -9,16 +9,9 @@ public class MainMenu : MonoBehaviour
     
     private void Start()
     {
-        if (PlayerPrefs.HasKey("Save"))
-        {
-            continueButton.SetActive(true);
-            startButton.SetActive(false);
-        }
-        else
-        {
-            continueButton.SetActive(false);
-            startButton.SetActive(true);
-        }
+        //zakomentirati PlayerPrefs.DeleteAll(); nakon prvog pokretanja igre da se ne brišu save podaci svaki put
+        PlayerPrefs.DeleteAll();
+        UpdateUI();
     }
     public void PlayGame()
     {
@@ -27,7 +20,18 @@ public class MainMenu : MonoBehaviour
 
     public void ContinueGame()
     {
-        SceneManager.LoadScene(PlayerPrefs.GetInt("Save"));
+        int save = PlayerPrefs.GetInt("Save", -1);
+
+        if (save >= 0 && save < SceneManager.sceneCountInBuildSettings)
+        {
+            SceneManager.LoadScene(save);
+        }
+        else
+        {
+            Debug.LogWarning("Invalid save data!");
+            PlayerPrefs.DeleteKey("Save");
+            UpdateUI();
+        }
     }
 
     public void GoToSettingsMenu()
@@ -42,5 +46,16 @@ public class MainMenu : MonoBehaviour
     public void QuitGame()
     {
         Application.Quit();
+    }
+
+
+    void UpdateUI()
+    {
+        int save = PlayerPrefs.GetInt("Save", -1);
+
+        bool hasSave = save != -1;
+
+        continueButton.SetActive(hasSave);
+        startButton.SetActive(!hasSave);
     }
 }
