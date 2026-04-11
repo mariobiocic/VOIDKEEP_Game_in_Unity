@@ -1,0 +1,29 @@
+using UnityEngine;
+
+public class GameOverPrikaz : MonoBehaviour
+{
+    public float scaleAmount = 0.01f;
+    public float speed = 1f;
+
+    public RectTransform target; 
+
+    private Vector3 startScale;
+
+    void Awake()
+    {
+        startScale = target.localScale;
+        gameObject.SetActive(false);
+    }
+
+    void Update()
+    {
+        float s = 1 + Mathf.Sin(Time.unscaledTime * speed) * scaleAmount;
+        target.localScale = startScale * s;
+    }
+
+    public void ShowGameOver()
+    {
+        gameObject.SetActive(true);
+        Time.timeScale = 0f;
+    }
+}

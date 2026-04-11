@@ -3,7 +3,6 @@ using System.Collections;
 using Unity.VectorGraphics;
 using UnityEngine.SceneManagement;
 
-
 public class PlayerHealth : MonoBehaviour
 {
     public int maxHealth = 3;
@@ -19,6 +18,12 @@ public class PlayerHealth : MonoBehaviour
 
     int lastDamageIndex = -1;
 
+    public GameObject[] weapons;
+    public GameObject staminaUI;
+    public GameObject gameplayCanvas;
+
+    public GameOverPrikaz gameOverPanel;
+    public static bool GameIsOver = false;
 
     void Start()
     {
@@ -48,7 +53,7 @@ public class PlayerHealth : MonoBehaviour
             lastDamageIndex = index;
         }
 
-        cam.Shake(0.002f); // shake camera on damage
+        cam.Shake(0.002f);
 
         if (currentHealth <= 0)
         {
@@ -58,18 +63,23 @@ public class PlayerHealth : MonoBehaviour
 
     void Die()
     {
+        if (GameIsOver) return;
+        GameIsOver = true;
+
         Debug.Log("Player dead");
 
-        
         GetComponent<PlayerMovement2D>().enabled = false;
         GetComponent<PlayerStamina>().enabled = false;
+        sr.enabled = false;
 
+        staminaUI.SetActive(false);
+        gameplayCanvas.SetActive(false);
 
-        
-        Destroy(gameObject);
+        foreach (GameObject w in weapons)
+            w.SetActive(false);
 
-        
-        SceneManager.LoadScene("GameOverScene");
+        gameOverPanel.ShowGameOver();
+        Time.timeScale = 0f;
     }
 
     IEnumerator Flash()
@@ -83,7 +93,22 @@ public class PlayerHealth : MonoBehaviour
     {
         currentHealth += amount;
         currentHealth = Mathf.Clamp(currentHealth, 0, maxHealth);
-
         Debug.Log("Healed! Current HP: " + currentHealth);
+    }
+
+    public void ResetPlayer()
+    {
+        currentHealth = maxHealth;
+
+        GetComponent<PlayerMovement2D>().enabled = true;
+        GetComponent<PlayerStamina>().enabled = true;
+
+        sr.enabled = true;
+
+        foreach (GameObject w in weapons)
+            w.SetActive(true);
+
+        staminaUI.SetActive(true);
+        gameplayCanvas.SetActive(true);
     }
 }

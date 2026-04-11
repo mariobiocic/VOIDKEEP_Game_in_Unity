@@ -84,6 +84,14 @@ public class XenoidFollow : MonoBehaviour
 
     void Update()
     {
+        if (PlayerHealth.GameIsOver)
+        {
+            animator.SetBool("IsRunning", false);
+            animator.SetBool("IsWalking", false);
+            rb.linearVelocity = Vector2.zero;
+            return;
+        }
+
         if (enemyHealth != null && enemyHealth.IsDead)
         {
             animator.SetBool("IsRunning", false);
@@ -245,7 +253,7 @@ public class XenoidFollow : MonoBehaviour
             {
                 isWaitingAtPoint = false;
 
-                // uvijek kruûno
+                // uvijek kru≈æno
                 currentPoint = (currentPoint + 1) % walkPoint.Length;
             }
 
@@ -263,12 +271,16 @@ public class XenoidFollow : MonoBehaviour
         }
 
         Vector2 newPos = Vector2.MoveTowards(
-            rb.position,
-            target.position,
-            walkSpeed * Time.fixedDeltaTime
-        );
+             rb.position,
+             target.position,
+             walkSpeed * Time.fixedDeltaTime
+         ); 
 
-        rb.MovePosition(newPos);
+
+        rb.MovePosition(newPos); 
+
+        //Vector2 dir = (target.position - transform.position).normalized;
+        //rb.linearVelocity = new Vector2(dir.x * walkSpeed, rb.linearVelocity.y); - ne valja
 
         if (Vector2.Distance(rb.position, target.position) < 0.05f)
         {

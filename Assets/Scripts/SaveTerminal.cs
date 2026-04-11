@@ -3,8 +3,6 @@ using UnityEngine.SceneManagement;
 
 public class SaveTerminal : MonoBehaviour, IInteractable
 {
-    [Header("Save")]
-
     [Header("Visual")]
     [SerializeField] private Sprite normalSprite;
     [SerializeField] private Sprite highlightSprite;
@@ -21,10 +19,22 @@ public class SaveTerminal : MonoBehaviour, IInteractable
     {
         int currentScene = SceneManager.GetActiveScene().buildIndex;
 
-        PlayerPrefs.SetInt("Save", currentScene);
-        PlayerPrefs.Save();
+        // Pronaði igraèa
+        GameObject player = GameObject.FindGameObjectWithTag("Player");
+        if (player != null)
+        {
+            // Sprema poziciju igraèa, tako da respawn bude na istom mjestu gdje je bio kod terminala
+            PlayerPrefs.SetInt("Save", currentScene);
+            PlayerPrefs.SetFloat("PlayerX", player.transform.position.x);
+            PlayerPrefs.SetFloat("PlayerY", player.transform.position.y);
 
-        Debug.Log("Game saved!");
+            PlayerPrefs.Save();
+            Debug.Log("Game saved at player's position near terminal!");
+        }
+        else
+        {
+            Debug.LogWarning("Player not found! Cannot save position.");
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D other)
