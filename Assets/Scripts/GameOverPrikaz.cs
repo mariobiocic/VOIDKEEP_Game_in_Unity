@@ -9,6 +9,8 @@ public class GameOverPrikaz : MonoBehaviour
 
     private Vector3 startScale;
 
+    public GameOverMainMenu mainMenuButton;
+
     void Awake()
     {
         startScale = target.localScale;
@@ -24,6 +26,10 @@ public class GameOverPrikaz : MonoBehaviour
     public void ShowGameOver()
     {
         gameObject.SetActive(true);
+
+        if (mainMenuButton != null)
+            mainMenuButton.Show();
+
         Time.timeScale = 0f;
     }
 }
