@@ -1,18 +1,27 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour
 {
     private void Awake()
     {
-        // Zamjena za FindObjectsOfType<Player>()
+        string scene = SceneManager.GetActiveScene().name;
+
+       
+        if (scene == "MainMenu")
+        {
+            Destroy(gameObject);
+            return;
+        }
+
         Player[] players = Object.FindObjectsByType<Player>(FindObjectsSortMode.None);
 
         if (players.Length > 1)
         {
-            Destroy(gameObject); // izbriši duplikate
+            Destroy(gameObject);
             return;
         }
 
-        DontDestroyOnLoad(gameObject); // Player + child kamera ostaju kroz scene
+        DontDestroyOnLoad(gameObject);
     }
 }

@@ -10,7 +10,7 @@ public class MainMenu : MonoBehaviour
     private void Start()
     {
         //zakomentirati PlayerPrefs.DeleteAll(); nakon prvog pokretanja igre da se ne brišu save podaci svaki put
-        //PlayerPrefs.DeleteAll();
+        PlayerPrefs.DeleteAll();
         UpdateUI();
     }
     public void PlayGame()

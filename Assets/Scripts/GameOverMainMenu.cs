@@ -1,9 +1,11 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using System.Collections;
 
 public class GameOverMainMenu : MonoBehaviour
 {
     public string mainMenuSceneName = "MainMenu";
+    public ScreenFade fade;
 
     void Awake()
     {
@@ -17,7 +19,34 @@ public class GameOverMainMenu : MonoBehaviour
 
     public void GoToMainMenu()
     {
-        Time.timeScale = 1f; // VRATI vrijeme
+        StartCoroutine(Transition());
+    }
+
+    private IEnumerator Transition()
+    {
+        Time.timeScale = 1f;
+
+        
+        if (fade != null)
+            yield return StartCoroutine(fade.FadeOut());
+
+      
+        GameObject player = GameObject.FindGameObjectWithTag("Player");
+
+        if (player != null)
+        {
+            Camera cam = player.GetComponentInChildren<Camera>();
+
+            if (cam != null)
+            {
+                cam.transform.SetParent(null);
+                Destroy(cam.gameObject);
+            }
+
+            Destroy(player);
+        }
+
+        
         SceneManager.LoadScene(mainMenuSceneName);
     }
 }

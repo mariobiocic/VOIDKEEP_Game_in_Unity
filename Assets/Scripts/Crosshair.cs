@@ -1,15 +1,26 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Crosshair : MonoBehaviour
 {
     private void Awake()
     {
-        if (FindObjectsByType<Crosshair>(FindObjectsSortMode.None).Length > 1)
+        string scene = SceneManager.GetActiveScene().name;
+
+        
+        if (scene == "MainMenu")
         {
-            Destroy(gameObject); // sprijeèi duplikate
+            Destroy(gameObject);
             return;
         }
 
-        DontDestroyOnLoad(gameObject); // ostaje kroz scene
+        
+        if (FindObjectsByType<Crosshair>(FindObjectsSortMode.None).Length > 1)
+        {
+            Destroy(gameObject);
+            return;
+        }
+
+        DontDestroyOnLoad(gameObject);
     }
 }

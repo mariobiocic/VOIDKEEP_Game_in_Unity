@@ -482,6 +482,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GameOverMainMenu
   mainMenuSceneName: MainMenu
+  fade: {fileID: 7865577814644442842, guid: 184a7d357685d9740a82297ac162e9fe, type: 3}
 --- !u!1 &783135315 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7820960185577472777, guid: d2027d5b867faa74f84a4a21730fc858, type: 3}
@@ -6848,6 +6849,10 @@ PrefabInstance:
       propertyPath: gameplayCanvas
       value: 
       objectReference: {fileID: 2041458721}
+    - target: {fileID: 8397519758648846257, guid: c4b3041d312d30744ac8f2e6e69981ba, type: 3}
+      propertyPath: m_TagString
+      value: MainCamera
+      objectReference: {fileID: 0}
     - target: {fileID: 9055083707045418758, guid: c4b3041d312d30744ac8f2e6e69981ba, type: 3}
       propertyPath: m_LocalPosition.x
       value: -6.43
