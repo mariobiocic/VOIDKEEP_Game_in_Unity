@@ -27,6 +27,7 @@ public class PlayerHealth : MonoBehaviour
 
     void Start()
     {
+        GameIsOver = false;
         currentHealth = maxHealth;
         originalColor = sr.color;
         audioSourcedamage = gameObject.AddComponent<AudioSource>();
@@ -98,6 +99,7 @@ public class PlayerHealth : MonoBehaviour
 
     public void ResetPlayer()
     {
+        GameIsOver = false;
         currentHealth = maxHealth;
 
         GetComponent<PlayerMovement2D>().enabled = true;

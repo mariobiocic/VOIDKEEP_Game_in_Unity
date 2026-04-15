@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+
 public class Crosshair : MonoBehaviour
 {
     private void Awake()
@@ -14,13 +15,6 @@ public class Crosshair : MonoBehaviour
             return;
         }
 
-        
-        if (FindObjectsByType<Crosshair>(FindObjectsSortMode.None).Length > 1)
-        {
-            Destroy(gameObject);
-            return;
-        }
-
-        DontDestroyOnLoad(gameObject);
+       
     }
 }
