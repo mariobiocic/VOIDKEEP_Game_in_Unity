@@ -26,11 +26,12 @@ public class GameOverMainMenu : MonoBehaviour
     {
         Time.timeScale = 1f;
 
-        
         if (fade != null)
-            yield return StartCoroutine(fade.FadeOut());
+        {
+            float fadeTime = fade.BeginFade(1); 
+            yield return new WaitForSeconds(fadeTime);
+        }
 
-      
         GameObject player = GameObject.FindGameObjectWithTag("Player");
 
         if (player != null)
@@ -46,7 +47,6 @@ public class GameOverMainMenu : MonoBehaviour
             Destroy(player);
         }
 
-        
         SceneManager.LoadScene(mainMenuSceneName);
     }
 }

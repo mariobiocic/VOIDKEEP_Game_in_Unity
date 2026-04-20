@@ -1,51 +1,43 @@
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 using System.Collections;
 
 public class ScreenFade : MonoBehaviour
 {
-    public float fadeSpeed = 2f;
-    private Image img;
+    
+    public Texture2D fadeTexture;
+    public float fadeSpeed = 0.8f;
 
-    void Awake()
+    private int drawDepth = -1000; //texture order
+    private float alpha = 1.0f;
+    private int fadeDir = -1;
+
+
+    private void OnGUI()
     {
-        img = GetComponent<Image>();
+        alpha += fadeDir * fadeSpeed * Time.deltaTime;
+        alpha = Mathf.Clamp01(alpha);
+        GUI.color = new Color(GUI.color.r, GUI.color.g, GUI.color.b, alpha);
+        GUI.depth = drawDepth;
+        GUI.DrawTexture(new Rect(0, 0, Screen.width, Screen.height), fadeTexture);
     }
 
-    void Start()
+    public float BeginFade(int direction)
     {
-        StartCoroutine(FadeIn());
+        fadeDir = direction;
+        return fadeSpeed;
+    }
+    void OnLevelWasLoaded()
+    {
+        alpha = 1;
+        BeginFade(-1);
     }
 
-    public IEnumerator FadeIn()
-    {
-        Color c = img.color;
-        c.a = 1f;
-        img.color = c;
-
-        while (img.color.a > 0f)
-        {
-            c.a -= Time.unscaledDeltaTime * fadeSpeed;
-            img.color = c;
-            yield return null;
-        }
-
-        c.a = 0f;
-        img.color = c;
-    }
-
-    public IEnumerator FadeOut()
-    {
-        Color c = img.color;
-
-        while (img.color.a < 1f)
-        {
-            c.a += Time.unscaledDeltaTime * fadeSpeed;
-            img.color = c;
-            yield return null;
-        }
-
-        c.a = 1f;
-        img.color = c;
-    }
 }
+
+
+
+
+
+
