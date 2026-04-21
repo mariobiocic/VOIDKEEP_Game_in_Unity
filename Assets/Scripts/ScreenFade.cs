@@ -2,42 +2,84 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using System.Collections;
+using System.Collections.Generic;
+
+[System.Serializable]
+public class SceneFadeDuration
+{
+    public string sceneName;
+    public float duration = 0.5f;
+}
 
 public class ScreenFade : MonoBehaviour
 {
-    
-    public Texture2D fadeTexture;
-    public float fadeSpeed = 0.8f;
+    public static ScreenFade Instance;
 
-    private int drawDepth = -1000; //texture order
-    private float alpha = 1.0f;
-    private int fadeDir = -1;
+    [SerializeField] private Image fadeImage;
+    [SerializeField] private float defaultDuration = 0.5f;
 
+    [Header("Per-Scene Duration")]
+    [SerializeField] private List<SceneFadeDuration> sceneDurations = new List<SceneFadeDuration>();
 
-    private void OnGUI()
+    private void Awake()
     {
-        alpha += fadeDir * fadeSpeed * Time.deltaTime;
-        alpha = Mathf.Clamp01(alpha);
-        GUI.color = new Color(GUI.color.r, GUI.color.g, GUI.color.b, alpha);
-        GUI.depth = drawDepth;
-        GUI.DrawTexture(new Rect(0, 0, Screen.width, Screen.height), fadeTexture);
+        if (Instance != null)
+        {
+            Destroy(gameObject);
+            return;
+        }
+        Instance = this;
+        DontDestroyOnLoad(gameObject);
+        SceneManager.sceneLoaded += OnSceneLoaded;
     }
 
-    public float BeginFade(int direction)
+    private void OnDestroy()
     {
-        fadeDir = direction;
-        return fadeSpeed;
-    }
-    void OnLevelWasLoaded()
-    {
-        alpha = 1;
-        BeginFade(-1);
+        SceneManager.sceneLoaded -= OnSceneLoaded;
     }
 
+    private float GetDurationForScene(string sceneName)
+    {
+        foreach (var entry in sceneDurations)
+        {
+            if (entry.sceneName == sceneName)
+                return entry.duration;
+        }
+        return defaultDuration;
+    }
+
+    private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+    {
+        float duration = GetDurationForScene(scene.name);
+        StartCoroutine(Fade(1f, 0f, duration));
+    }
+
+    public void FadeAndLoad(string sceneName, float duration = -1)
+    {
+        float d = duration < 0 ? GetDurationForScene(sceneName) : duration;
+        StartCoroutine(FadeOutAndLoad(sceneName, d));
+    }
+
+    private IEnumerator FadeOutAndLoad(string sceneName, float duration)
+    {
+        yield return StartCoroutine(Fade(0f, 1f, duration));
+        SceneManager.LoadScene(sceneName);
+    }
+
+    private IEnumerator Fade(float from, float to, float duration)
+    {
+        float t = 0f;
+        Color c = fadeImage.color;
+
+        while (t < duration)
+        {
+            t += Time.deltaTime;
+            c.a = Mathf.Lerp(from, to, t / duration);
+            fadeImage.color = c;
+            yield return null;
+        }
+
+        c.a = to;
+        fadeImage.color = c;
+    }
 }
-
-
-
-
-
-

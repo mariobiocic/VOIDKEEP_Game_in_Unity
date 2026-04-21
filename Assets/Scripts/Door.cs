@@ -4,8 +4,8 @@ using UnityEngine.SceneManagement;
 public class Door : MonoBehaviour, IInteractable
 {
     [SerializeField] private string sceneToLoad;
+    [SerializeField] private float interactRange = 1.5f;
 
-    [SerializeField] private float interactRange = 1.5f; // udaljenost na kojoj se aktivira
     private GameObject player;
 
     private void Awake()
@@ -18,7 +18,6 @@ public class Door : MonoBehaviour, IInteractable
         if (player == null) return;
 
         float distance = Vector2.Distance(player.transform.position, transform.position);
-
         if (distance <= interactRange && Input.GetKeyDown(KeyCode.E))
         {
             Interact();
@@ -27,9 +26,11 @@ public class Door : MonoBehaviour, IInteractable
 
     public void Interact()
     {
-        if (!string.IsNullOrEmpty(sceneToLoad))
-        {
+        if (string.IsNullOrEmpty(sceneToLoad)) return;
+
+        if (ScreenFade.Instance != null)
+            ScreenFade.Instance.FadeAndLoad(sceneToLoad);
+        else
             SceneManager.LoadScene(sceneToLoad);
-        }
     }
 }

@@ -545,7 +545,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GameOverMainMenu
   mainMenuSceneName: MainMenu
-  fade: {fileID: 2565747760054028364, guid: 5cc6519da388ac543931c4b3737f5a5c, type: 3}
+  fade: {fileID: 8065639790377009949, guid: 8bff906af69b9a940a0574d822c76a6e, type: 3}
 --- !u!1 &783135315 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7820960185577472777, guid: d2027d5b867faa74f84a4a21730fc858, type: 3}

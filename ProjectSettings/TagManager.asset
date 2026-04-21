@@ -64,6 +64,9 @@ TagManager:
   - name: Xenoid
     uniqueID: 313131767
     locked: 0
+  - name: ZombieBat
+    uniqueID: 702169713
+    locked: 0
   - name: Tracer
     uniqueID: 2460949193
     locked: 0
