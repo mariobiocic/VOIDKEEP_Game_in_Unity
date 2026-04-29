@@ -3,16 +3,15 @@ using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
-
     public GameObject continueButton;
     public GameObject startButton;
-    
+
     private void Start()
     {
-        //zakomentirati PlayerPrefs.DeleteAll(); nakon prvog pokretanja igre da se ne brišu save podaci svaki put
-        PlayerPrefs.DeleteAll();
+        // PlayerPrefs.DeleteAll(); 
         UpdateUI();
     }
+
     public void PlayGame()
     {
         SceneManager.LoadScene("intro");
@@ -21,25 +20,32 @@ public class MainMenu : MonoBehaviour
     public void ContinueGame()
     {
         int save = PlayerPrefs.GetInt("Save", -1);
-
-        if (save >= 0 && save < SceneManager.sceneCountInBuildSettings)
+        if (save == -1)
         {
-            SceneManager.LoadScene(save);
-
-           
+            Debug.LogWarning("Nema sejva!");
+            UpdateUI();
+            return;
         }
-        else
+
+        if (save < 0 || save >= SceneManager.sceneCountInBuildSettings)
         {
             Debug.LogWarning("Invalid save data!");
             PlayerPrefs.DeleteKey("Save");
             UpdateUI();
+            return;
         }
+
+        // DODANO – isto kao GameOverContinue
+        PlayerPrefs.SetInt("LoadPlayerPosition", 1);
+        PlayerPrefs.Save();
+        SceneManager.LoadScene(save);
     }
 
     public void GoToSettingsMenu()
     {
         SceneManager.LoadScene("SettingsMenu");
     }
+
     public void GoToCredits()
     {
         SceneManager.LoadScene("Credits");
@@ -50,13 +56,10 @@ public class MainMenu : MonoBehaviour
         Application.Quit();
     }
 
-
     void UpdateUI()
     {
         int save = PlayerPrefs.GetInt("Save", -1);
-
         bool hasSave = save != -1;
-
         continueButton.SetActive(hasSave);
         startButton.SetActive(!hasSave);
     }

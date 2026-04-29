@@ -16,12 +16,12 @@ public class PlayerMovement2D : MonoBehaviour
     private PlayerStamina stamina;
     private bool sprintAllowed = true;
 
-    private BoxCollider2D flipZoneCollider;
+    private CapsuleCollider2D flipZoneCollider;
 
     void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
-        flipZoneCollider = GetComponent<BoxCollider2D>();
+        flipZoneCollider = GetComponent<CapsuleCollider2D>();
         stamina = GetComponent<PlayerStamina>();
 
         if (flipZoneCollider == null)

@@ -1,12 +1,12 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class UIRoot : MonoBehaviour
+public class UIRootGameOver : MonoBehaviour
 {
     private void Awake()
     {
         
-        var all = FindObjectsByType<UIRoot>(FindObjectsSortMode.None);
+        var all = FindObjectsByType<UIRootGameOver>(FindObjectsSortMode.None);
         foreach (var other in all)
         {
             if (other != this && other.gameObject.name == gameObject.name)
@@ -28,8 +28,14 @@ public class UIRoot : MonoBehaviour
     private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
         if (scene.name == "MainMenu")
+        {
+            
             gameObject.SetActive(false);
+        }
         else
+        {
+            
             gameObject.SetActive(true);
+        }
     }
 }

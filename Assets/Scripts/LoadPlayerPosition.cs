@@ -4,23 +4,32 @@ public class LoadPlayerPosition : MonoBehaviour
 {
     void Start()
     {
-        int shouldLoad = PlayerPrefs.GetInt("LoadPlayerPosition", 0);
+       
+        var gameOverPanel = FindFirstObjectByType<GameOverPrikaz>();
+        if (gameOverPanel != null)
+            gameOverPanel.HideGameOver();
 
-        if (shouldLoad == 1)
+        
+        Time.timeScale = 1f;
+
+       
+        GameObject player = GameObject.FindGameObjectWithTag("Player");
+        if (player != null)
         {
-            GameObject player = GameObject.FindGameObjectWithTag("Player");
+            var playerHealth = player.GetComponent<PlayerHealth>();
+            if (playerHealth != null)
+                playerHealth.ResetPlayer();
 
-            if (player != null)
+            
+            if (PlayerPrefs.GetInt("LoadPlayerPosition", 0) == 1)
             {
                 float x = PlayerPrefs.GetFloat("PlayerX", player.transform.position.x);
                 float y = PlayerPrefs.GetFloat("PlayerY", player.transform.position.y);
-
                 player.transform.position = new Vector2(x, y);
-            }
 
-            // Resetiraj flag da se ne ponavlja
-            PlayerPrefs.SetInt("LoadPlayerPosition", 0);
-            PlayerPrefs.Save();
+                PlayerPrefs.SetInt("LoadPlayerPosition", 0);
+                PlayerPrefs.Save();
+            }
         }
     }
 }
