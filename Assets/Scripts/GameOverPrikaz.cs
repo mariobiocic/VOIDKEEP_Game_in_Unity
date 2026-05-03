@@ -32,6 +32,6 @@ public class GameOverPrikaz : MonoBehaviour
     {
         gameObject.SetActive(false);
         target.localScale = startScale;
-        
+
     }
 }
