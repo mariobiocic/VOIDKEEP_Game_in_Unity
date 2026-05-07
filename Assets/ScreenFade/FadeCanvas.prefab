@@ -56,6 +56,8 @@ MonoBehaviour:
     duration: 1.2
   - sceneName: level3
     duration: 1.2
+  - sceneName: Credits
+    duration: 1.2
 --- !u!1 &4589204979367149725
 GameObject:
   m_ObjectHideFlags: 0

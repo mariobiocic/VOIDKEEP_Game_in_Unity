@@ -174,7 +174,6 @@ GameObject:
   - component: {fileID: 287378815}
   - component: {fileID: 287378814}
   - component: {fileID: 287378813}
-  - component: {fileID: 287378816}
   m_Layer: 0
   m_Name: EventSystem
   m_TagString: Untagged
@@ -243,18 +242,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &287378816
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 287378812}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: af7155cd5debe464584f10ce0c65f580, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::GlobalEventSystem
 --- !u!1 &470464893 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2623424856802693245, guid: 521756127d4a2ab4b992a67344c90faf, type: 3}
