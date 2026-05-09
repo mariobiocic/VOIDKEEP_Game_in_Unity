@@ -47,7 +47,9 @@ public class Shotgun : MonoBehaviour
             return;
         }
 
-        if (Input.GetKeyDown(KeyCode.Alpha1))
+        float scroll = Input.GetAxis("Mouse ScrollWheel");
+
+        if (Input.GetKeyDown(KeyCode.Alpha1) || scroll > 0f)
         {
            
             if (ammo>3)
@@ -65,7 +67,7 @@ public class Shotgun : MonoBehaviour
 
         }
 
-        if (Input.GetKeyDown(KeyCode.Alpha0))
+        if (Input.GetKeyDown(KeyCode.Alpha0) || scroll < 0f)
         {
             shotgun.SetActive(false);
         }
@@ -145,7 +147,7 @@ public class Shotgun : MonoBehaviour
             }
         if (Input.GetKeyDown(KeyCode.R) && ammo <= 3)
         {
-            audioSource.PlayOneShot(shotgun_reload_sound, 0.7f); //smanjivanje glasnoæe na 70%
+            audioSource.PlayOneShot(shotgun_reload_sound, 0.7f); 
             shotgunAnimator.SetTrigger("Reload");
             ammo = 7;
         }
