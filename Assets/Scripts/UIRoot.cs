@@ -27,7 +27,7 @@ public class UIRoot : MonoBehaviour
 
     private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
-        if (scene.name == "MainMenu")
+        if (scene.name == "MainMenu" || scene.name == "Credits" || scene.name == "Settings")
             gameObject.SetActive(false);
         else
             gameObject.SetActive(true);
