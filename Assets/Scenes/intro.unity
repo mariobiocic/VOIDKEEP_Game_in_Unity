@@ -201,7 +201,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LoadScene
   videoPlayer: {fileID: 86361633}
-  sceneName: level1
+  sceneName: introLevel1
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0

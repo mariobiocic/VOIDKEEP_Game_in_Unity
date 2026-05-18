@@ -3787,7 +3787,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ecfb20d46f2b0b439c5b12b907c5952, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BatAI
-  target: {fileID: 9055083707045418758, guid: c4b3041d312d30744ac8f2e6e69981ba, type: 3}
+  target: {fileID: 829318972103378853, guid: 6867b371417d1c240960490d5cd45ffd, type: 3}
   moveSpeed: 3
   waypointRadius: 0.3
   recalculatePath: 0.5
