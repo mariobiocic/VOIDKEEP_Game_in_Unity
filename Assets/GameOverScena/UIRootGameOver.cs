@@ -5,7 +5,6 @@ public class UIRootGameOver : MonoBehaviour
 {
     private void Awake()
     {
-        
         var all = FindObjectsByType<UIRootGameOver>(FindObjectsSortMode.None);
         foreach (var other in all)
         {
@@ -15,7 +14,6 @@ public class UIRootGameOver : MonoBehaviour
                 return;
             }
         }
-
         DontDestroyOnLoad(gameObject);
         SceneManager.sceneLoaded += OnSceneLoaded;
     }
@@ -27,15 +25,19 @@ public class UIRootGameOver : MonoBehaviour
 
     private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
-        if (scene.name == "MainMenu" || scene.name=="Credits" || scene.name=="Settings")
+        if (scene.name == "MainMenu" || scene.name == "Credits" ||
+            scene.name == "Settings" || scene.name == "intro" || scene.name == "MiniCut")
         {
-            
             gameObject.SetActive(false);
         }
         else
         {
-            
             gameObject.SetActive(true);
+            Time.timeScale = 1f; // reset ako je ostao 0 od game overa
+            // Uvijek sakrij panel pri uèitavanju nove scene
+            var panel = GetComponentInChildren<GameOverPrikaz>(true);
+            if (panel != null)
+                panel.HideGameOver();
         }
     }
 }

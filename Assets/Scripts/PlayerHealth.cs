@@ -32,7 +32,13 @@ public class PlayerHealth : MonoBehaviour
             audioSourcedamage = gameObject.AddComponent<AudioSource>();
     }
 
-    void Start() { }
+    void Start() {
+        currentHealth = maxHealth;
+        PlayerHealth.GameIsOver = false;
+
+        if (gameOverPanel == null)
+            gameOverPanel = GameOverPrikaz.Instance;
+    }
 
     public void TakeDamage(int damage)
     {

@@ -15,8 +15,11 @@ public class SpawnPoint : MonoBehaviour
 
     private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
-        GameObject player = GameObject.FindGameObjectWithTag("Player");
+        // Ako se uèitava sejv, SpawnPoint ne dira poziciju
+        if (PlayerPrefs.GetInt("LoadPlayerPosition", 0) == 1)
+            return;
 
+        GameObject player = GameObject.FindGameObjectWithTag("Player");
         if (player != null)
         {
             player.transform.position = transform.position;

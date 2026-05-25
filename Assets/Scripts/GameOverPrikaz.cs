@@ -2,6 +2,8 @@ using UnityEngine;
 
 public class GameOverPrikaz : MonoBehaviour
 {
+    public static GameOverPrikaz Instance { get; private set; }
+
     public float scaleAmount = 0.01f;
     public float speed = 1f;
     public RectTransform target;
@@ -10,6 +12,14 @@ public class GameOverPrikaz : MonoBehaviour
 
     void Awake()
     {
+        // Singleton – uništi duplikat
+        if (Instance != null && Instance != this)
+        {
+            Destroy(gameObject);
+            return;
+        }
+        Instance = this;
+
         startScale = target.localScale;
         gameObject.SetActive(false);
     }
@@ -31,7 +41,7 @@ public class GameOverPrikaz : MonoBehaviour
     public void HideGameOver()
     {
         gameObject.SetActive(false);
-        target.localScale = startScale;
-
+        if (target != null)
+            target.localScale = startScale;
     }
 }

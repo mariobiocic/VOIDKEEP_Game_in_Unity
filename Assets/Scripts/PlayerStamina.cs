@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class PlayerStamina : MonoBehaviour
@@ -9,49 +10,55 @@ public class PlayerStamina : MonoBehaviour
     public float drainRate = 25f;
 
     [Header("UI References")]
-    public Image staminaFill; // Fill image unutar Slidera
-    public GameObject staminaUIGroup; // Parent ikone + bara
+    public Image staminaFill;
+    public GameObject staminaUIGroup;
 
     private float currentStamina;
     public float CurrentStamina => currentStamina;
-
     public float sprintRecoveryThreshold = 30f;
     public bool SprintUnlocked => currentStamina >= sprintRecoveryThreshold;
 
-   
-   
+    private void OnEnable()
+    {
+        SceneManager.sceneLoaded += OnSceneLoaded;
+    }
+
+    private void OnDisable()
+    {
+        SceneManager.sceneLoaded -= OnSceneLoaded;
+    }
+
+    private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+    {
+        staminaFill = GameObject.Find("Fill")?.GetComponent<Image>();
+
+        staminaUIGroup = GameObject.Find("Stamina");
+
+        if (staminaUIGroup != null)
+            staminaUIGroup.SetActive(true);
+    }
 
     void Start()
     {
         currentStamina = maxStamina;
-        
-        staminaUIGroup.SetActive(true);
 
-        
+        if (staminaUIGroup != null)
+            staminaUIGroup.SetActive(true);
     }
 
     void Update()
     {
         bool isSprinting = Input.GetKey(KeyCode.LeftShift);
 
-        // Trošenje i regeneracija
         if (isSprinting && currentStamina > 0)
-        {
             currentStamina -= drainRate * Time.deltaTime;
-        }
         else
-        {
             currentStamina += regenRate * Time.deltaTime;
-        }
 
         currentStamina = Mathf.Clamp(currentStamina, 0f, maxStamina);
-        staminaFill.fillAmount = currentStamina / maxStamina;
 
-       
-     
+        // Null provjera — neæe pucati ako je UI uništen
+        if (staminaFill != null)
+            staminaFill.fillAmount = currentStamina / maxStamina;
     }
-
-
-
-    
 }

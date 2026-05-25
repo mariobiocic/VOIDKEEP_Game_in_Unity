@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class CameraFollow : MonoBehaviour
 {
@@ -10,6 +11,28 @@ public class CameraFollow : MonoBehaviour
 
     Vector3 originalPos;
 
+
+
+    void Awake()
+    {
+        SceneManager.sceneLoaded += OnSceneLoaded;
+    }
+
+    void OnDestroy()
+    {
+        SceneManager.sceneLoaded -= OnSceneLoaded;
+    }
+
+    private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+    {
+        var listener = GetComponent<AudioListener>();
+        if (listener != null)
+            listener.enabled = scene.name != "MiniCut";
+
+        var cam = GetComponent<Camera>();
+        if (cam != null)
+            cam.enabled = scene.name != "MiniCut";
+    }
 
     void Start()
     {
