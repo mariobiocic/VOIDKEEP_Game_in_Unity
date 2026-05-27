@@ -254,7 +254,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e0352335d7b583d498f3dc64560927fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  crosshair: {fileID: 0}
+  crosshair: {fileID: 3779038728650502886, guid: 521756127d4a2ab4b992a67344c90faf, type: 3}
   playerSprite: {fileID: 831581465995551445}
   weaponPivot: {fileID: 5234569032108228376}
   aimOffset: 0
@@ -472,7 +472,6 @@ GameObject:
   - component: {fileID: 4696884762284094359}
   - component: {fileID: 2473178865468832229}
   - component: {fileID: 3071865325421843508}
-  - component: {fileID: 6773559198165484743}
   - component: {fileID: 5625634310592201499}
   m_Layer: 7
   m_Name: Ian_Mortis(player) 1
@@ -597,7 +596,7 @@ MonoBehaviour:
   runSpeed: 5
   animator: {fileID: 2411787856824332229}
   spriteRenderer: {fileID: 831581465995551445}
-  crosshair: {fileID: 0}
+  crosshair: {fileID: 3779038728650502886, guid: 521756127d4a2ab4b992a67344c90faf, type: 3}
   shotgun: {fileID: 2729799126115828816}
 --- !u!50 &8912149629704469289
 Rigidbody2D:
@@ -644,7 +643,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 320
   firePoint: {fileID: 774733866329695530}
-  crosshair: {fileID: 0}
+  crosshair: {fileID: 3779038728650502886, guid: 521756127d4a2ab4b992a67344c90faf, type: 3}
   playerAnimator: {fileID: 2411787856824332229}
   bulletSpritePrefab: {fileID: 2476420156357466026, guid: bbe331694d4f998439a1e0745f3c3dac, type: 3}
   shotgun_shoot_sound: {fileID: 8300000, guid: b63981715fe9dc64a87d630493e4066b, type: 3}
@@ -676,7 +675,7 @@ MonoBehaviour:
   - {fileID: 2729799126115828816}
   - {fileID: 8090789827414344831}
   staminaUI: {fileID: 0}
-  gameplayCanvas: {fileID: 0}
+  gameplayCanvas: {fileID: 8233429783012416135, guid: d2027d5b867faa74f84a4a21730fc858, type: 3}
   gameOverPanel: {fileID: 0}
 --- !u!114 &8326416681609771837
 MonoBehaviour:
@@ -1252,18 +1251,6 @@ MonoBehaviour:
   interactMask:
     serializedVersion: 2
     m_Bits: 8
---- !u!114 &6773559198165484743
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7477317334039275707}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3e3182a50b12d7249be60ac6210793e3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Player
 --- !u!70 &5625634310592201499
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -1599,7 +1586,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e0352335d7b583d498f3dc64560927fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::WeaponRotation
-  crosshair: {fileID: 0}
+  crosshair: {fileID: 3779038728650502886, guid: 521756127d4a2ab4b992a67344c90faf, type: 3}
   playerSprite: {fileID: 831581465995551445}
   weaponPivot: {fileID: 2768424469899044913}
   aimOffset: 0

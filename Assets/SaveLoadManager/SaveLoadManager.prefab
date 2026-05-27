@@ -44,3 +44,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c00b5359aa826ad4fb643031ad72210e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LoadPlayerPosition
+  playerPrefab: {fileID: 7477317334039275707, guid: 97997d7c643c26d4bb5c2e8218906d1b, type: 3}
+  gameplayCanvasPrefab: {fileID: 8233429783012416135, guid: d2027d5b867faa74f84a4a21730fc858, type: 3}
+  gameOverCanvasPrefab: {fileID: 471830149982254500, guid: 70a73af5e716ab942ba92b40a53e7b05, type: 3}
+  crosshairPrefab: {fileID: 2623424856802693245, guid: 521756127d4a2ab4b992a67344c90faf, type: 3}

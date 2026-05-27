@@ -1,43 +1,14 @@
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 public class UIRootGameOver : MonoBehaviour
 {
-    private void Awake()
+    private void Start()
     {
-        var all = FindObjectsByType<UIRootGameOver>(FindObjectsSortMode.None);
-        foreach (var other in all)
-        {
-            if (other != this && other.gameObject.name == gameObject.name)
-            {
-                Destroy(gameObject);
-                return;
-            }
-        }
-        DontDestroyOnLoad(gameObject);
-        SceneManager.sceneLoaded += OnSceneLoaded;
-    }
+        
+        var panel = GetComponentInChildren<GameOverPrikaz>(true);
+        if (panel != null)
+            panel.HideGameOver();
 
-    private void OnDestroy()
-    {
-        SceneManager.sceneLoaded -= OnSceneLoaded;
-    }
-
-    private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
-    {
-        if (scene.name == "MainMenu" || scene.name == "Credits" ||
-            scene.name == "Settings" || scene.name == "intro" || scene.name == "MiniCut")
-        {
-            gameObject.SetActive(false);
-        }
-        else
-        {
-            gameObject.SetActive(true);
-            Time.timeScale = 1f; // reset ako je ostao 0 od game overa
-            // Uvijek sakrij panel pri uèitavanju nove scene
-            var panel = GetComponentInChildren<GameOverPrikaz>(true);
-            if (panel != null)
-                panel.HideGameOver();
-        }
+        Time.timeScale = 1f; 
     }
 }

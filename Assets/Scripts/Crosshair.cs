@@ -2,8 +2,20 @@ using UnityEngine;
 
 public class Crosshair : MonoBehaviour
 {
-    private void Awake()
+    private Camera cam;
+
+    void Start()
     {
-        DontDestroyOnLoad(gameObject);
+        cam = Camera.main;
+        Cursor.visible = false;
+        Cursor.lockState = CursorLockMode.None;
+    }
+
+    void Update()
+    {
+        if (cam == null) return;
+        Vector3 mousePos = cam.ScreenToWorldPoint(Input.mousePosition);
+        mousePos.z = 0f;
+        transform.position = mousePos;
     }
 }

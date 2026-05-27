@@ -10,12 +10,10 @@ GameObject:
   m_Component:
   - component: {fileID: 3779038728650502886}
   - component: {fileID: 8295136960469167483}
-  - component: {fileID: 652169791672931389}
   - component: {fileID: 6882606664654180725}
-  - component: {fileID: 3592506913073760999}
   m_Layer: 0
   m_Name: Crosshair
-  m_TagString: Untagged
+  m_TagString: Crosshair
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -94,18 +92,6 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
---- !u!114 &652169791672931389
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2623424856802693245}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f803ebff6e51b004f8a74f9105e34bd3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &6882606664654180725
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -118,26 +104,3 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9f2547932ff9ef14399dcc46ef7fbf84, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Crosshair
---- !u!114 &3592506913073760999
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2623424856802693245}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0616a2e99b4a05b4ea026c961750de82, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Crosshairhide
-  sceneCrosshairMap:
-  - sceneName: Intro
-    hideCrosshair: 1
-  - sceneName: MiniCut
-    hideCrosshair: 1
-  - sceneName: level1
-    hideCrosshair: 0
-  - sceneName: level2
-    hideCrosshair: 0
-  - sceneName: level3
-    hideCrosshair: 0

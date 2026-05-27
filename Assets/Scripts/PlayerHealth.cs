@@ -22,6 +22,8 @@ public class PlayerHealth : MonoBehaviour
     public GameOverPrikaz gameOverPanel;
     public static bool GameIsOver = false;
 
+
+
     void Awake()
     {
         sr = GetComponent<SpriteRenderer>();
@@ -32,12 +34,19 @@ public class PlayerHealth : MonoBehaviour
             audioSourcedamage = gameObject.AddComponent<AudioSource>();
     }
 
-    void Start() {
+    void Start()
+    {
         currentHealth = maxHealth;
         PlayerHealth.GameIsOver = false;
 
         if (gameOverPanel == null)
             gameOverPanel = GameOverPrikaz.Instance;
+
+       
+        if (gameplayCanvas == null)
+            gameplayCanvas = GameObject.FindGameObjectWithTag("GameplayCanvas");
+        if (staminaUI == null)
+            staminaUI = GameObject.FindGameObjectWithTag("StaminaUI");
     }
 
     public void TakeDamage(int damage)

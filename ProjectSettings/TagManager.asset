@@ -6,6 +6,10 @@ TagManager:
   tags:
   - PlayerFeet
   - GameplayCamera
+  - GameplayCanvas
+  - GameOverCanvas
+  - Crosshair
+  - StaminaUI
   layers:
   - Default
   - TransparentFX

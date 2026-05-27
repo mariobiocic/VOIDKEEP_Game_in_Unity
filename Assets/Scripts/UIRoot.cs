@@ -3,33 +3,5 @@ using UnityEngine.SceneManagement;
 
 public class UIRoot : MonoBehaviour
 {
-    private void Awake()
-    {
-        
-        var all = FindObjectsByType<UIRoot>(FindObjectsSortMode.None);
-        foreach (var other in all)
-        {
-            if (other != this && other.gameObject.name == gameObject.name)
-            {
-                Destroy(gameObject);
-                return;
-            }
-        }
-
-        DontDestroyOnLoad(gameObject);
-        SceneManager.sceneLoaded += OnSceneLoaded;
-    }
-
-    private void OnDestroy()
-    {
-        SceneManager.sceneLoaded -= OnSceneLoaded;
-    }
-
-    private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
-    {
-        if (scene.name == "MainMenu" || scene.name == "Credits" || scene.name == "Settings" || scene.name=="MiniCut" || scene.name =="intro")
-            gameObject.SetActive(false);
-        else
-            gameObject.SetActive(true);
-    }
+    //ne treba ni ovo, ali neka ostane
 }
