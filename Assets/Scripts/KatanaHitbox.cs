@@ -9,23 +9,29 @@ public class KatanaHitbox : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D collision)
     {
         EnemyHealth enemy = collision.collider.GetComponent<EnemyHealth>();
-
         if (enemy != null)
         {
-            Debug.Log("Macheta pogodila: " + collision.collider.name);
             enemy.TakeDamage(40);
-
-            Rigidbody2D enemyRb = collision.collider.GetComponent<Rigidbody2D>();
-
-            if (enemyRb != null)
-            {
-                Vector2 dir = (collision.transform.position - transform.position).normalized;
-                enemyRb.AddForce(dir * knockbackForce, ForceMode2D.Impulse);
-            }
-
+            ApplyKnockback(collision);
             katanaSound?.PlayRandomHit();
         }
 
-        
+        BatHealth bat = collision.collider.GetComponent<BatHealth>();
+        if (bat != null)
+        {
+            bat.TakeDamage(40);
+            ApplyKnockback(collision);
+            katanaSound?.PlayRandomHit();
+        }
+    }
+
+    private void ApplyKnockback(Collision2D collision)
+    {
+        Rigidbody2D enemyRb = collision.collider.GetComponent<Rigidbody2D>();
+        if (enemyRb != null)
+        {
+            Vector2 dir = (collision.transform.position - transform.position).normalized;
+            enemyRb.AddForce(dir * knockbackForce, ForceMode2D.Impulse);
+        }
     }
 }

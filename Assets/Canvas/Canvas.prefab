@@ -158,7 +158,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5e9fbf7d94972d4409bbf92a16a75831, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerHealth: {fileID: 0}
+  playerHealth: {fileID: 2491470226352483632, guid: 97997d7c643c26d4bb5c2e8218906d1b, type: 3}
   hearts:
   - {fileID: 3308576407869281791}
   - {fileID: 8017484278150923616}
@@ -454,7 +454,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &3712814662236965766
 RectTransform:
   m_ObjectHideFlags: 0

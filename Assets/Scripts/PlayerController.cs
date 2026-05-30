@@ -114,39 +114,5 @@ public class PlayerMovement2D : MonoBehaviour
             currentMoveSpeed = walkSpeed;
     }
 
-    void LoadPlayerPosition()
-    {
-        if (rb == null)
-            rb = GetComponent<Rigidbody2D>();
-
-        if (PlayerPrefs.HasKey("PlayerX") && PlayerPrefs.HasKey("PlayerY"))
-        {
-            float x = PlayerPrefs.GetFloat("PlayerX");
-            float y = PlayerPrefs.GetFloat("PlayerY");
-
-            transform.position = new Vector3(x, y, transform.position.z);
-            rb.linearVelocity = Vector2.zero;
-
-            Debug.Log($"Player loaded at position: {x}, {y}");
-        }
-    }
-
-    void OnEnable()
-    {
-        SceneManager.sceneLoaded += OnSceneLoaded;
-    }
-
-    void OnDisable()
-    {
-        SceneManager.sceneLoaded -= OnSceneLoaded;
-    }
-
-    void OnSceneLoaded(Scene scene, LoadSceneMode mode)
-    {
-        // Ne uèitavaj poziciju u GameOver sceni
-        if (scene.name != "GameOverScene")
-        {
-            LoadPlayerPosition();
-        }
-    }
+   
 }

@@ -228,7 +228,6 @@ public class BatAI : MonoBehaviour
         SetState(State.Dead);
         StopAllCoroutines();
         rb.linearVelocity = Vector2.zero;
-        Destroy(gameObject, 2f);
     }
 
     void OnDrawGizmos()
