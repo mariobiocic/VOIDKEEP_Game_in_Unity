@@ -19,21 +19,21 @@ public class BatSounds : MonoBehaviour
     public void PlayFly()
     {
         if (flySound == null) return;
-        audioSource.pitch = Random.Range(0.9f, 1.1f);
+        audioSource.pitch = Random.Range(1.1f, 1.3f);
         audioSource.PlayOneShot(flySound);
     }
 
     public void PlayAttack()
     {
         if (attackSound == null) return;
-        audioSource.pitch = Random.Range(0.9f, 1.1f);
+        audioSource.pitch = Random.Range(1.1f, 1.3f);
         audioSource.PlayOneShot(attackSound);
     }
 
     public void PlayDie()
     {
         if (dieSound == null) return;
-        audioSource.pitch = Random.Range(0.9f, 1.1f);
+        audioSource.pitch = Random.Range(1.1f, 1.3f);
         audioSource.PlayOneShot(dieSound);
     }
 }

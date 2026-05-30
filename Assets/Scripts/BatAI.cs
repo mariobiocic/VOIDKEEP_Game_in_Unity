@@ -6,7 +6,7 @@ public class BatAI : MonoBehaviour
 {
     [Header("Pathfinding")]
     public Transform target;
-    public float moveSpeed = 3f;
+    public float moveSpeed = 4f;
     public float waypointRadius = 0.3f;
     public float recalculatePath = 0.5f;
 
@@ -51,7 +51,10 @@ public class BatAI : MonoBehaviour
     {
         if (currentState == State.Dead) return;
 
-        float distToPlayer = Vector2.Distance(rb.position, target.position);
+        Collider2D playerCol = target.GetComponent<Collider2D>();
+        float distToPlayer = playerCol != null
+            ? Vector2.Distance(rb.position, playerCol.ClosestPoint(rb.position))
+            : Vector2.Distance(rb.position, target.position);
 
         // --- ATTACK ---
         if (distToPlayer <= attackRange)
