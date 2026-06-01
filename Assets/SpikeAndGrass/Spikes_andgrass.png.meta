@@ -1,13 +1,13 @@
 fileFormatVersion: 2
-guid: 6bc7cf129126621479b7a08a75d6cecc
+guid: 6cab8cf71ee35c145bf7320ee2a3ca78
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 24122984844244919
-    second: tilemap-enhanced_0
+      213: -4099354713557591718
+    second: Spikes_andgrass_0
   - first:
-      213: -4855940332396698059
-    second: tilemap-enhanced_1
+      213: 4672617054892803224
+    second: Spikes_andgrass_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -40,7 +40,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -103,7 +103,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: tilemap-enhanced_0
+      name: Spikes_andgrass_0
       rect:
         serializedVersion: 2
         x: 0
@@ -111,21 +111,21 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7b730961ab3b55000800000000000000
-      internalID: 24122984844244919
+      spriteID: a59931a7b9a2c17c0800000000000000
+      internalID: -4099354713557591718
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tilemap-enhanced_1
+      name: Spikes_andgrass_1
       rect:
         serializedVersion: 2
         x: 128
@@ -133,43 +133,21 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 536a00ddefb3c9cb0800000000000000
-      internalID: -4855940332396698059
+      spriteID: 8944150747878d040800000000000000
+      internalID: 4672617054892803224
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tilemap-enhanced_2
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 256
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f115b0a33194f33469c85e86cdfc8bc4
-      internalID: -1164112062
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tilemap-enhanced_3
+      name: Spikes_andgrass_2
       rect:
         serializedVersion: 2
         x: 384
@@ -177,43 +155,21 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a50e85fb7bacc774ba2ba76121e85d33
-      internalID: -728730800
+      spriteID: 010554306c220b2449c07b24517e29a1
+      internalID: -1541752553
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tilemap-enhanced_4
-      rect:
-        serializedVersion: 2
-        x: 512
-        y: 256
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1d2ea749b015b8c43be72c1a6037976f
-      internalID: -2046265265
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tilemap-enhanced_5
+      name: Spikes_andgrass_3
       rect:
         serializedVersion: 2
         x: 0
@@ -221,21 +177,21 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 23aabb317128cdf4f8756aaf0dfe8d8a
-      internalID: -1680129106
+      spriteID: 33a90b18f90a5ea49bb24329e9636804
+      internalID: 959895299
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tilemap-enhanced_6
+      name: Spikes_andgrass_4
       rect:
         serializedVersion: 2
         x: 128
@@ -243,21 +199,21 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 77bf12638b1e5514ca159f239941cb09
-      internalID: -1861338778
+      spriteID: f55775ef785d3d04b8374e593f9725a9
+      internalID: 415490416
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tilemap-enhanced_7
+      name: Spikes_andgrass_5
       rect:
         serializedVersion: 2
         x: 256
@@ -265,65 +221,21 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f208f860cae0091418ceb2279d604e33
-      internalID: -1841950269
+      spriteID: ae2040e32ac9d2443b6f8b85ef8a9142
+      internalID: -1569117911
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tilemap-enhanced_8
-      rect:
-        serializedVersion: 2
-        x: 384
-        y: 128
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d08de9b258becf84f975a1d3bcb1492f
-      internalID: 366885772
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tilemap-enhanced_9
-      rect:
-        serializedVersion: 2
-        x: 512
-        y: 128
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5bbf90db0cec78a4584fe395858758c0
-      internalID: -975608576
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tilemap-enhanced_10
+      name: Spikes_andgrass_6
       rect:
         serializedVersion: 2
         x: 0
@@ -331,21 +243,21 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 762385cdf354079478e3ba7447f69211
-      internalID: 218702435
+      spriteID: 4169c450e5c90a84d8b764f0c3faa9e3
+      internalID: 824260655
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tilemap-enhanced_11
+      name: Spikes_andgrass_7
       rect:
         serializedVersion: 2
         x: 128
@@ -353,21 +265,21 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0e525f612cb9adb41b02649f90b44406
-      internalID: 1935048326
+      spriteID: 735047d63289da44fb15d3bebbdaf6b4
+      internalID: 1329258672
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tilemap-enhanced_12
+      name: Spikes_andgrass_8
       rect:
         serializedVersion: 2
         x: 256
@@ -375,43 +287,21 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 45464b9752f4d474f92330a68437485a
-      internalID: 25001730
+      spriteID: 5e91602550c71c144b474b6a2e3ee167
+      internalID: -1272826878
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tilemap-enhanced_13
-      rect:
-        serializedVersion: 2
-        x: 384
-        y: 0
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 619d64b861de1824a8e2ca686ff7db2f
-      internalID: 629981580
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tilemap-enhanced_14
+      name: Spikes_andgrass_9
       rect:
         serializedVersion: 2
         x: 512
@@ -419,15 +309,15 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a0bb535321c1cc74696f1637e0d47e66
-      internalID: -213931264
+      spriteID: d1b1c65fdbd48ce43a1feebb41432bb0
+      internalID: -206262401
       vertices: []
       indices: 
       edges: []
@@ -436,7 +326,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 401cf3228bd928345822c98cc398882e
+    spriteID: 4d13ab3ea0d153449bbe5524516d9fc0
     internalID: 0
     vertices: []
     indices: 
@@ -444,23 +334,20 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":5.0,"y":3.0},"gridSpriteSize":{"x":128.0,"y":128.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      tilemap-enhanced_0: 24122984844244919
-      tilemap-enhanced_1: -4855940332396698059
-      tilemap-enhanced_10: 218702435
-      tilemap-enhanced_11: 1935048326
-      tilemap-enhanced_12: 25001730
-      tilemap-enhanced_13: 629981580
-      tilemap-enhanced_14: -213931264
-      tilemap-enhanced_2: -1164112062
-      tilemap-enhanced_3: -728730800
-      tilemap-enhanced_4: -2046265265
-      tilemap-enhanced_5: -1680129106
-      tilemap-enhanced_6: -1861338778
-      tilemap-enhanced_7: -1841950269
-      tilemap-enhanced_8: 366885772
-      tilemap-enhanced_9: -975608576
+      Spikes_andgrass_0: -4099354713557591718
+      Spikes_andgrass_1: 4672617054892803224
+      Spikes_andgrass_2: -1541752553
+      Spikes_andgrass_3: 959895299
+      Spikes_andgrass_4: 415490416
+      Spikes_andgrass_5: -1569117911
+      Spikes_andgrass_6: 824260655
+      Spikes_andgrass_7: 1329258672
+      Spikes_andgrass_8: -1272826878
+      Spikes_andgrass_9: -206262401
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -13,6 +13,9 @@ public class SceneMusicController : MonoBehaviour
     [SerializeField]
     private SceneMusicEntry[] sceneMusicMap;
 
+    [SerializeField]
+    private string[] silentScenes;
+
     private void OnEnable()
     {
         SceneManager.sceneLoaded += OnSceneLoaded;
@@ -35,6 +38,17 @@ public class SceneMusicController : MonoBehaviour
 
     private void PlayMusicForScene(string sceneName)
     {
+
+
+        foreach (var silent in silentScenes)
+        {
+            if (silent == sceneName)
+            {
+                MusicManager.Instance.StopMusic();
+                return;
+            }
+        }
+
         foreach (var entry in sceneMusicMap)
         {
             if (entry.sceneName == sceneName)

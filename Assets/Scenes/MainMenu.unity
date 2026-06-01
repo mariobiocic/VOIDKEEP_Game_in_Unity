@@ -1308,6 +1308,34 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1382595582183587476, guid: edccc8225261e184787e787e0b1ab6ab, type: 3}
+      propertyPath: sceneMusicMap.Array.size
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1382595582183587476, guid: edccc8225261e184787e787e0b1ab6ab, type: 3}
+      propertyPath: sceneMusicMap.Array.data[3].sceneName
+      value: introLevel1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1382595582183587476, guid: edccc8225261e184787e787e0b1ab6ab, type: 3}
+      propertyPath: sceneMusicMap.Array.data[3].trackName
+      value: Luc4rD35 - Down in Dungeons
+      objectReference: {fileID: 0}
+    - target: {fileID: 1382595582183587476, guid: edccc8225261e184787e787e0b1ab6ab, type: 3}
+      propertyPath: sceneMusicMap.Array.data[4].sceneName
+      value: level2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1382595582183587476, guid: edccc8225261e184787e787e0b1ab6ab, type: 3}
+      propertyPath: sceneMusicMap.Array.data[4].trackName
+      value: Luc4rD35 - Down in Dungeons
+      objectReference: {fileID: 0}
+    - target: {fileID: 1382595582183587476, guid: edccc8225261e184787e787e0b1ab6ab, type: 3}
+      propertyPath: sceneMusicMap.Array.data[5].sceneName
+      value: level3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1382595582183587476, guid: edccc8225261e184787e787e0b1ab6ab, type: 3}
+      propertyPath: sceneMusicMap.Array.data[5].trackName
+      value: Luc4rD35 - Down in Dungeons
+      objectReference: {fileID: 0}
     - target: {fileID: 3217978487791862423, guid: edccc8225261e184787e787e0b1ab6ab, type: 3}
       propertyPath: m_Name
       value: MusicManager

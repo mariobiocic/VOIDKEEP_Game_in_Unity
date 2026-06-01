@@ -184,3 +184,12 @@ MonoBehaviour:
     trackName: Luc4rD35 - Down in Dungeons
   - sceneName: Credits
     trackName: SciFiAmbience
+  - sceneName: level2
+    trackName: Luc4rD35 - Down in Dungeons
+  - sceneName: level3
+    trackName: Luc4rD35 - Down in Dungeons
+  - sceneName: introLevel1
+    trackName: Luc4rD35 - Down in Dungeons
+  silentScenes:
+  - intro
+  - MiniCut
