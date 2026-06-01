@@ -4745,7 +4745,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BatAI
   target: {fileID: 1636541068}
-  moveSpeed: 7
+  moveSpeed: 4
   waypointRadius: 0.3
   recalculatePath: 0.5
   obstacleLayer:

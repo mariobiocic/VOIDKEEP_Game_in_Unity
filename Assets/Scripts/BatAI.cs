@@ -86,13 +86,17 @@ public class BatAI : MonoBehaviour
         Vector2 wp = path[currentWaypoint];
         Vector2 dir = (wp - rb.position).normalized;
 
-        rb.MovePosition(Vector2.MoveTowards(rb.position, wp, moveSpeed * Time.deltaTime));
+        rb.linearVelocity = dir * moveSpeed;
 
         if (Mathf.Abs(dir.x) > 0.01f)
             SetFlip(dir.x < 0);
 
         if (Vector2.Distance(rb.position, wp) < waypointRadius)
+        {
             currentWaypoint++;
+            if (currentWaypoint >= path.Count)
+                rb.linearVelocity = Vector2.zero;
+        }
     }
 
     IEnumerator UpdatePathLoop()
@@ -111,8 +115,6 @@ public class BatAI : MonoBehaviour
             yield return new WaitForSeconds(recalculatePath);
         }
     }
-
-   
 
     List<Vector2> FindPath(Vector2 start, Vector2 end)
     {
@@ -203,8 +205,6 @@ public class BatAI : MonoBehaviour
             Vector2.up, Vector2.down, Vector2.left, Vector2.right
         };
     }
-
-   
 
     void SetState(State newState)
     {
