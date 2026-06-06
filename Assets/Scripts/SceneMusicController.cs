@@ -28,7 +28,7 @@ public class SceneMusicController : MonoBehaviour
 
     private void Start()
     {
-        PlayMusicForScene(SceneManager.GetActiveScene().name);
+        
     }
 
     private void OnSceneLoaded(Scene scene, LoadSceneMode mode)

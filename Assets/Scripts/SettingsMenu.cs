@@ -7,7 +7,6 @@ public class SettingsMenu : MonoBehaviour
 {
     [Header("Audio")]
     public Slider musicSlider;
-    private AudioSource musicSource;
 
     [Header("Resolution")]
     public TMP_Dropdown resolutionDropdown;
@@ -15,18 +14,10 @@ public class SettingsMenu : MonoBehaviour
 
     void Start()
     {
-        
-        if (MusicManager.Instance != null)
-            musicSource = MusicManager.Instance.GetComponent<AudioSource>();
-
         float savedVolume = PlayerPrefs.GetFloat("MusicVolume", 1f);
         musicSlider.value = savedVolume;
-        if (musicSource != null)
-            musicSource.volume = savedVolume;
-
         musicSlider.onValueChanged.AddListener(SetMusicVolume);
 
-        // Rezolucija
         resolutions = Screen.resolutions;
         resolutionDropdown.ClearOptions();
         int currentIndex = 0;
@@ -46,9 +37,8 @@ public class SettingsMenu : MonoBehaviour
 
     public void SetMusicVolume(float volume)
     {
-        if (musicSource != null)
-            musicSource.volume = volume;
-        PlayerPrefs.SetFloat("MusicVolume", volume);
+        if (MusicManager.Instance != null)
+            MusicManager.Instance.SetVolume(volume);
     }
 
     public void SetResolution(int index)
