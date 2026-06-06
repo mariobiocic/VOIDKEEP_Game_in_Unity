@@ -151,6 +151,8 @@ MonoBehaviour:
     clip: {fileID: 8300000, guid: 3b51a23164a531b48ba01d2195f445f1, type: 3}
   - trackName: SciFiAmbience
     clip: {fileID: 8300000, guid: 66886c98dde1f5c438a1fd15cb317448, type: 3}
+  - trackName: Mariyo - Settings
+    clip: {fileID: 8300000, guid: 17ecd209e42f97f48af83df6a01e9242, type: 3}
 --- !u!114 &857732738235763056
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -190,6 +192,8 @@ MonoBehaviour:
     trackName: Luc4rD35 - Down in Dungeons
   - sceneName: introLevel1
     trackName: Luc4rD35 - Down in Dungeons
+  - sceneName: SettingsMenu
+    trackName: Mariyo - Settings
   silentScenes:
   - intro
   - MiniCut

@@ -38,7 +38,7 @@ public class MainMenu : MonoBehaviour
             return;
         }
 
-        // DODANO – isto kao GameOverContinue
+        
         PlayerPrefs.SetInt("LoadPlayerPosition", 1);
         PlayerPrefs.Save();
         SceneManager.LoadScene(save);

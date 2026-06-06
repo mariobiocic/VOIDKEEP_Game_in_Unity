@@ -1310,7 +1310,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1382595582183587476, guid: edccc8225261e184787e787e0b1ab6ab, type: 3}
       propertyPath: sceneMusicMap.Array.size
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 1382595582183587476, guid: edccc8225261e184787e787e0b1ab6ab, type: 3}
       propertyPath: sceneMusicMap.Array.data[3].sceneName
@@ -1335,6 +1335,14 @@ PrefabInstance:
     - target: {fileID: 1382595582183587476, guid: edccc8225261e184787e787e0b1ab6ab, type: 3}
       propertyPath: sceneMusicMap.Array.data[5].trackName
       value: Luc4rD35 - Down in Dungeons
+      objectReference: {fileID: 0}
+    - target: {fileID: 1382595582183587476, guid: edccc8225261e184787e787e0b1ab6ab, type: 3}
+      propertyPath: sceneMusicMap.Array.data[6].sceneName
+      value: SettingsMenu
+      objectReference: {fileID: 0}
+    - target: {fileID: 1382595582183587476, guid: edccc8225261e184787e787e0b1ab6ab, type: 3}
+      propertyPath: sceneMusicMap.Array.data[6].trackName
+      value: Mariyo - Settings
       objectReference: {fileID: 0}
     - target: {fileID: 3217978487791862423, guid: edccc8225261e184787e787e0b1ab6ab, type: 3}
       propertyPath: m_Name
