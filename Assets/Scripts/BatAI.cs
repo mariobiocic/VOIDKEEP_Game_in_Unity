@@ -56,7 +56,6 @@ public class BatAI : MonoBehaviour
             ? Vector2.Distance(rb.position, playerCol.ClosestPoint(rb.position))
             : Vector2.Distance(rb.position, target.position);
 
-        // --- ATTACK ---
         if (distToPlayer <= attackRange)
         {
             rb.linearVelocity = Vector2.zero;
@@ -65,9 +64,7 @@ public class BatAI : MonoBehaviour
             {
                 SetState(State.Attack);
                 attackTimer = attackCooldown;
-
-                if (target != null)
-                    target.GetComponent<PlayerHealth>()?.TakeDamage(attackDamage);
+                StartCoroutine(ResetAttackState()); 
             }
             return;
         }
@@ -79,6 +76,14 @@ public class BatAI : MonoBehaviour
             MoveAlongPath();
         else
             rb.linearVelocity = Vector2.zero;
+    }
+
+    
+    IEnumerator ResetAttackState()
+    {
+        yield return new WaitForSeconds(0.4f); // treba postaviti na duljinu attack animacije 
+        if (currentState == State.Attack)
+            SetState(State.Fly);
     }
 
     void MoveAlongPath()
@@ -253,6 +258,19 @@ public class BatAI : MonoBehaviour
         scale.z = originalScale.z;
 
         spriteRenderer.transform.localScale = scale;
+    }
+
+    public void DealDamageEvent()
+    {
+        if (currentState == State.Dead) return;
+
+        Collider2D playerCol = target?.GetComponent<Collider2D>();
+        float distToPlayer = playerCol != null
+            ? Vector2.Distance(rb.position, playerCol.ClosestPoint(rb.position))
+            : Vector2.Distance(rb.position, target.position);
+
+        if (distToPlayer <= attackRange && target != null)
+            target.GetComponent<PlayerHealth>()?.TakeDamage(attackDamage);
     }
 }
 

@@ -1780,7 +1780,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SettingsMenu
   musicSlider: {fileID: 1720211715}
-  musicSource: {fileID: 6699467757964398876, guid: edccc8225261e184787e787e0b1ab6ab, type: 3}
   resolutionDropdown: {fileID: 768240894}
 --- !u!1 &1720211713
 GameObject:
@@ -1958,7 +1957,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.24705884, g: 0.08235294, b: 0.19607845, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -2085,7 +2084,7 @@ RectTransform:
   m_GameObject: {fileID: 1937121048}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 5.85, y: 2.9196, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 981834440}
@@ -2115,7 +2114,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+  m_Sprite: {fileID: 21300000, guid: e6c93cae6b8b89742a823fc18f035066, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

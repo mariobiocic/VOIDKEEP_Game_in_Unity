@@ -76,6 +76,7 @@ public class PlayerHealth : MonoBehaviour
         if (GameIsOver) return;
         GameIsOver = true;
 
+        cam.Freeze();
         var rb = GetComponent<Rigidbody2D>();
         if (rb != null)
         {
@@ -113,6 +114,7 @@ public class PlayerHealth : MonoBehaviour
     public void ResetPlayer()
     {
         GameIsOver = false;
+        cam.Unfreeze();
         currentHealth = maxHealth;
 
         var rb = GetComponent<Rigidbody2D>();

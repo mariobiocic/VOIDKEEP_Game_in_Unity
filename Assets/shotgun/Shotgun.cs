@@ -118,7 +118,7 @@ public class Shotgun : MonoBehaviour
                     enemy.TakeDamage(25);
                 }
 
-                BatHealth bat = hit.collider.GetComponent<BatHealth>();
+                BatHealth bat = hit.collider.GetComponentInParent<BatHealth>();
                 if (bat != null)
                     bat.TakeDamage(25);
             }

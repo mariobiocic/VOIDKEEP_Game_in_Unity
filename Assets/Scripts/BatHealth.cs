@@ -32,7 +32,7 @@ public class BatHealth : MonoBehaviour
     {
         if (isDead) return;
         isDead = true;
-
+        animator.SetTrigger("die");
         GetComponent<BatAI>()?.Die();
     }
 
