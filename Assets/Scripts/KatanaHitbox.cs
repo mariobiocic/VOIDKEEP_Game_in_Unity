@@ -16,7 +16,7 @@ public class KatanaHitbox : MonoBehaviour
             katanaSound?.PlayRandomHit();
         }
 
-        BatHealth bat = collision.collider.GetComponent<BatHealth>();
+        BatHealth bat = collision.collider.GetComponentInParent<BatHealth>();
         if (bat != null)
         {
             bat.TakeDamage(40);
