@@ -62,12 +62,13 @@ public class XenoidFollow : MonoBehaviour
 
 
     private int lastAttackIndex = -1;
-    
 
+    private Collider2D playerCollider;
 
     void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player");
+        playerCollider = player?.GetComponent<Collider2D>();
         enemyHealth = GetComponent<EnemyHealth>();
         rb = GetComponent<Rigidbody2D>();
 
@@ -123,48 +124,44 @@ public class XenoidFollow : MonoBehaviour
     {
         if (player == null || eyePoint == null) return;
 
-        Vector2 toPlayer = (player.transform.position - eyePoint.position).normalized;
-        Vector2 forward = spriteRenderer.transform.localScale.x > 0 ? Vector2.left : Vector2.right;
+        
+        Vector2 playerPos = playerCollider != null
+            ? playerCollider.ClosestPoint(eyePoint.position)
+            : (Vector2)player.transform.position;
 
+        Vector2 toPlayer = (playerPos - (Vector2)eyePoint.position).normalized;
+        float distToPlayer = Vector2.Distance(eyePoint.position, playerPos);
+
+        Vector2 forward = spriteRenderer.transform.localScale.x > 0 ? Vector2.left : Vector2.right;
         float angle = Vector2.Angle(forward, toPlayer);
 
-        // Ne vidi iza sebe
         if (angle > viewAngle * 0.5f)
         {
-            lineOfSight = false;
-            return;
+            if (!hasSpotted)
+            {
+                lineOfSight = false;
+                return;
+            }
         }
-
-        Vector2 dir = toPlayer;
 
         RaycastHit2D hit = Physics2D.Raycast(
             eyePoint.position,
-            dir,
+            toPlayer,
             viewDistance,
             visionMask
         );
 
         bool rayHitPlayer = hit.collider != null && hit.collider.CompareTag("Player");
 
-
-       //lineOfSight = rayHitPlayer;
         if (hasSpotted)
-        {
             lineOfSight = true;
-        }
         else
-        {
             lineOfSight = rayHitPlayer;
-        }
-      
 
+        Debug.DrawRay(eyePoint.position, toPlayer * viewDistance, lineOfSight ? Color.green : Color.red);
 
-        Debug.DrawRay(eyePoint.position, dir * viewDistance, lineOfSight ? Color.green : Color.red);
-
-        // Debug prikaz kuta vida
         Vector2 leftBoundary = Quaternion.Euler(0, 0, viewAngle * 0.5f) * forward;
         Vector2 rightBoundary = Quaternion.Euler(0, 0, -viewAngle * 0.5f) * forward;
-
         Debug.DrawRay(eyePoint.position, leftBoundary * viewDistance, Color.yellow);
         Debug.DrawRay(eyePoint.position, rightBoundary * viewDistance, Color.yellow);
 
@@ -177,11 +174,8 @@ public class XenoidFollow : MonoBehaviour
         }
 
         if (lineOfSight)
-        {
             lostPlayerTimer = 0f;
-        }
     }
-
 
 
     void HandleMovement()
