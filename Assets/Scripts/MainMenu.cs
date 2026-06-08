@@ -11,7 +11,7 @@ public class MainMenu : MonoBehaviour
         Cursor.visible = true;
         Cursor.lockState = CursorLockMode.None;
         
-        //PlayerPrefs.DeleteAll(); 
+       // PlayerPrefs.DeleteAll(); 
         UpdateUI();
     }
 

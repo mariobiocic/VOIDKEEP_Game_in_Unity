@@ -194,6 +194,8 @@ MonoBehaviour:
     trackName: Luc4rD35 - Down in Dungeons
   - sceneName: SettingsMenu
     trackName: Mariyo - Settings
+  - sceneName: level4
+    trackName: Luc4rD35 - Down in Dungeons
   silentScenes:
   - intro
   - MiniCut
