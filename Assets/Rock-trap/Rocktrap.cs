@@ -1,24 +1,34 @@
+using System.Collections;
 using UnityEngine;
 
 public class Rocktrap : MonoBehaviour
 {
     public GameObject rockPrefab;
     public float delayBeforeFirstRock = 3f;
-    public float interval = 5f;
+    public float minInterval = 3f;
+    public float maxInterval = 7f;
     public float fallSpeed = 3f;
 
     private float timer = 0f;
+    private float currentInterval;
     private bool firstSpawned = false;
+
+    void Start()
+    {
+        currentInterval = Random.Range(minInterval, maxInterval);
+    }
 
     void Update()
     {
         timer += Time.deltaTime;
-        float waitTime = firstSpawned ? interval : delayBeforeFirstRock;
+        float waitTime = firstSpawned ? currentInterval : delayBeforeFirstRock;
+
         if (timer >= waitTime)
         {
             SpawnRock();
             timer = 0f;
             firstSpawned = true;
+            currentInterval = Random.Range(minInterval, maxInterval);
         }
     }
 
@@ -35,7 +45,7 @@ public class Rocktrap : MonoBehaviour
         StartCoroutine(RevealRock(rock));
     }
 
-    System.Collections.IEnumerator RevealRock(GameObject rock)
+    IEnumerator RevealRock(GameObject rock)
     {
         yield return new WaitForSeconds(1f);
         if (rock == null) yield break;

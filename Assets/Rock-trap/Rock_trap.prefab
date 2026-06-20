@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 9213939556259505990}
   - component: {fileID: 6826152068658188502}
   - component: {fileID: 6072751248473276010}
+  - component: {fileID: 1840553400138800001}
   m_Layer: 0
   m_Name: Rock_trap
   m_TagString: Untagged
@@ -305,3 +306,16 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1840553400138800001
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2729006004257446826}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74301f78d35809342992838d464f1cd1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
+  rockRoll: {fileID: 8300000, guid: 1cef611eea5885b4ab9a4517117a18e1, type: 3}
