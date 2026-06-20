@@ -1,0 +1,2121 @@
+fileFormatVersion: 2
+guid: adb8ee8ff6541764d89c76082217ce1f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8130098962069304746
+    second: Rocky(Boss-fight1)_0
+  - first:
+      213: -9030630244744641192
+    second: Rocky(Boss-fight1)_1
+  - first:
+      213: -4007872181914503660
+    second: Rocky(Boss-fight1)_2
+  - first:
+      213: 6822985126894831433
+    second: Rocky(Boss-fight1)_3
+  - first:
+      213: -8934890360719948190
+    second: Rocky(Boss-fight1)_4
+  - first:
+      213: -4524700384182368245
+    second: Rocky(Boss-fight1)_5
+  - first:
+      213: 7591209294278179564
+    second: Rocky(Boss-fight1)_6
+  - first:
+      213: -6078097296123744051
+    second: Rocky(Boss-fight1)_7
+  - first:
+      213: 2765002965363216906
+    second: Rocky(Boss-fight1)_8
+  - first:
+      213: 7194640652185365805
+    second: Rocky(Boss-fight1)_9
+  - first:
+      213: 2204914770351413419
+    second: Rocky(Boss-fight1)_10
+  - first:
+      213: -3067403752535225245
+    second: Rocky(Boss-fight1)_11
+  - first:
+      213: -2131475613115212675
+    second: Rocky(Boss-fight1)_12
+  - first:
+      213: -9213100063266661271
+    second: Rocky(Boss-fight1)_13
+  - first:
+      213: 2229967330860838275
+    second: Rocky(Boss-fight1)_14
+  - first:
+      213: -5732054457449386174
+    second: Rocky(Boss-fight1)_15
+  - first:
+      213: 6885152427340547346
+    second: Rocky(Boss-fight1)_16
+  - first:
+      213: -3715360768874978255
+    second: Rocky(Boss-fight1)_17
+  - first:
+      213: 6561729776104535378
+    second: Rocky(Boss-fight1)_18
+  - first:
+      213: -7330439229241307990
+    second: Rocky(Boss-fight1)_19
+  - first:
+      213: 8366202771105489185
+    second: Rocky(Boss-fight1)_20
+  - first:
+      213: -6761089254119724537
+    second: Rocky(Boss-fight1)_21
+  - first:
+      213: 7599005317195741292
+    second: Rocky(Boss-fight1)_22
+  - first:
+      213: 45442553610874668
+    second: Rocky(Boss-fight1)_23
+  - first:
+      213: -5578240188860912740
+    second: Rocky(Boss-fight1)_24
+  - first:
+      213: -6861382562869298463
+    second: Rocky(Boss-fight1)_25
+  - first:
+      213: -8736108010159936600
+    second: Rocky(Boss-fight1)_26
+  - first:
+      213: -1728012814101979829
+    second: Rocky(Boss-fight1)_27
+  - first:
+      213: -6303854372674251842
+    second: Rocky(Boss-fight1)_28
+  - first:
+      213: 1841404001316067313
+    second: Rocky(Boss-fight1)_29
+  - first:
+      213: -1437558269705674245
+    second: Rocky(Boss-fight1)_30
+  - first:
+      213: 7930865496857916600
+    second: Rocky(Boss-fight1)_31
+  - first:
+      213: 1851050413443593799
+    second: Rocky(Boss-fight1)_32
+  - first:
+      213: 7286145682870304220
+    second: Rocky(Boss-fight1)_33
+  - first:
+      213: 6381039840072274579
+    second: Rocky(Boss-fight1)_34
+  - first:
+      213: -1620650717779219447
+    second: Rocky(Boss-fight1)_35
+  - first:
+      213: -3104318671825085952
+    second: Rocky(Boss-fight1)_36
+  - first:
+      213: 2422847316778492416
+    second: Rocky(Boss-fight1)_37
+  - first:
+      213: -5506150091132527702
+    second: Rocky(Boss-fight1)_38
+  - first:
+      213: -651099149846903889
+    second: Rocky(Boss-fight1)_39
+  - first:
+      213: -4448308347456023049
+    second: Rocky(Boss-fight1)_40
+  - first:
+      213: -3410390925319794528
+    second: Rocky(Boss-fight1)_41
+  - first:
+      213: -7239976710132150291
+    second: Rocky(Boss-fight1)_42
+  - first:
+      213: -8561453103034643485
+    second: Rocky(Boss-fight1)_43
+  - first:
+      213: 3411521702030643692
+    second: Rocky(Boss-fight1)_44
+  - first:
+      213: 146685300027225507
+    second: Rocky(Boss-fight1)_45
+  - first:
+      213: -4065893894942253537
+    second: Rocky(Boss-fight1)_46
+  - first:
+      213: 6116361718345055427
+    second: Rocky(Boss-fight1)_47
+  - first:
+      213: 1790804062182740003
+    second: Rocky(Boss-fight1)_48
+  - first:
+      213: -5515217548265146955
+    second: Rocky(Boss-fight1)_49
+  - first:
+      213: -7852182796349685389
+    second: Rocky(Boss-fight1)_50
+  - first:
+      213: 7900031622357692811
+    second: Rocky(Boss-fight1)_51
+  - first:
+      213: -4563458482763410358
+    second: Rocky(Boss-fight1)_52
+  - first:
+      213: -3252381207295238694
+    second: Rocky(Boss-fight1)_53
+  - first:
+      213: 884769413395135454
+    second: Rocky(Boss-fight1)_54
+  - first:
+      213: -7506782214243539582
+    second: Rocky(Boss-fight1)_55
+  - first:
+      213: 494943254977885727
+    second: Rocky(Boss-fight1)_56
+  - first:
+      213: 911968997513512143
+    second: Rocky(Boss-fight1)_57
+  - first:
+      213: -1593391804746218180
+    second: Rocky(Boss-fight1)_58
+  - first:
+      213: -2225229350635589367
+    second: Rocky(Boss-fight1)_59
+  - first:
+      213: -961768993552370657
+    second: Rocky(Boss-fight1)_60
+  - first:
+      213: 2911733547631450792
+    second: Rocky(Boss-fight1)_61
+  - first:
+      213: -4985967990677196129
+    second: Rocky(Boss-fight1)_62
+  - first:
+      213: 1580230164329536838
+    second: Rocky(Boss-fight1)_63
+  - first:
+      213: 6450432132443798714
+    second: Rocky(Boss-fight1)_64
+  - first:
+      213: -7368515413133868468
+    second: Rocky(Boss-fight1)_65
+  - first:
+      213: 4042305873365748017
+    second: Rocky(Boss-fight1)_66
+  - first:
+      213: 1023784289518264053
+    second: Rocky(Boss-fight1)_67
+  - first:
+      213: -3153915088334734619
+    second: Rocky(Boss-fight1)_68
+  - first:
+      213: -6589078922306932831
+    second: Rocky(Boss-fight1)_69
+  - first:
+      213: 1371388788674899444
+    second: Rocky(Boss-fight1)_70
+  - first:
+      213: -2375119909941888694
+    second: Rocky(Boss-fight1)_71
+  - first:
+      213: -424443866255662235
+    second: Rocky(Boss-fight1)_72
+  - first:
+      213: -1159633785362841281
+    second: Rocky(Boss-fight1)_73
+  - first:
+      213: 4933970518024790796
+    second: Rocky(Boss-fight1)_74
+  - first:
+      213: 5192879975970670827
+    second: Rocky(Boss-fight1)_75
+  - first:
+      213: 5630583881459325948
+    second: Rocky(Boss-fight1)_76
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Rocky(Boss-fight1)_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 693
+        width: 150
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa5b9ee4ee9e3d070800000000000000
+      internalID: 8130098962069304746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocky(Boss-fight1)_1
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 693
+        width: 150
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 855c81483a1cca280800000000000000
+      internalID: -9030630244744641192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocky(Boss-fight1)_2
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 693
+        width: 150
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 416f0d33c7d2168c0800000000000000
+      internalID: -4007872181914503660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocky(Boss-fight1)_3
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 693
+        width: 150
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 947075cb2dc10be50800000000000000
+      internalID: 6822985126894831433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocky(Boss-fight1)_4
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 693
+        width: 150
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 266c9365e84e00480800000000000000
+      internalID: -8934890360719948190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocky(Boss-fight1)_5
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 693
+        width: 150
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b088cb539f80531c0800000000000000
+      internalID: -4524700384182368245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocky(Boss-fight1)_6
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 693
+        width: 150
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cea381912a4695960800000000000000
+      internalID: 7591209294278179564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocky(Boss-fight1)_7
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 693
+        width: 150
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc0384a56b246aba0800000000000000
+      internalID: -6078097296123744051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocky(Boss-fight1)_8
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 693
+        width: 150
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0250612c834f5620800000000000000
+      internalID: 2765002965363216906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocky(Boss-fight1)_9
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 693
+        width: 150
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2de718ed8f78d360800000000000000
+      internalID: 7194640652185365805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocky(Boss-fight1)_10
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 693
+        width: 150
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba8dece2d4e699e10800000000000000
+      internalID: 2204914770351413419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocky(Boss-fight1)_11
+      rect:
+        serializedVersion: 2
+        x: 1650
+        y: 693
+        width: 150
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36c0073f9846e65d0800000000000000
+      internalID: -3067403752535225245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocky(Boss-fight1)_12
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 693
+        width: 150
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7c1cd0193a7b62e0800000000000000
+      internalID: -2131475613115212675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocky(Boss-fight1)_13
+      rect:
+        serializedVersion: 2
+        x: 1950
+        y: 693
+        width: 150
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96c9cd83e4e742080800000000000000
+      internalID: -9213100063266661271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocky(Boss-fight1)_14
+      rect:
+        serializedVersion: 2
+        x: 2100
+        y: 693
+        width: 150
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38dafa8f87f62fe10800000000000000
+      internalID: 2229967330860838275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocky(Boss-fight1)_15
+      rect:
+        serializedVersion: 2
+        x: 2250
+        y: 693
+        width: 150
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24fe88637d6a370b0800000000000000
+      internalID: -5732054457449386174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocky(Boss-fight1)_16
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 693
+        width: 150
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2154d0057a9fc8f50800000000000000
+      internalID: 6885152427340547346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocky(Boss-fight1)_17
+      rect:
+        serializedVersion: 2
+        x: 2550
+        y: 693
+        width: 150
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 134e8c6c013607cc0800000000000000
+      internalID: -3715360768874978255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocky(Boss-fight1)_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 594
+        width: 150
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25570d04772ff0b50800000000000000
+      internalID: 6561729776104535378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocky(Boss-fight1)_19
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 594
+        width: 150
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aaccb7dfb5c054a90800000000000000
+      internalID: -7330439229241307990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocky(Boss-fight1)_20
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 594
+        width: 150
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 121a1a22819ba1470800000000000000
+      internalID: 8366202771105489185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocky(Boss-fight1)_21
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 594
+        width: 150
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70aab792529cb22a0800000000000000
+      internalID: -6761089254119724537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocky(Boss-fight1)_22
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 594
+        width: 150
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c68b1c12317157960800000000000000
+      internalID: 7599005317195741292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocky(Boss-fight1)_23
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 594
+        width: 150
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2fa9a103c171a000800000000000000
+      internalID: 45442553610874668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocky(Boss-fight1)_24
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 594
+        width: 150
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9b232f5a1c1692b0800000000000000
+      internalID: -5578240188860912740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocky(Boss-fight1)_25
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 594
+        width: 150
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1eabd1889e877c0a0800000000000000
+      internalID: -6861382562869298463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocky(Boss-fight1)_26
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 594
+        width: 150
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8abe8f6fc0c13c680800000000000000
+      internalID: -8736108010159936600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocky(Boss-fight1)_27
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 594
+        width: 150
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4dd020408dd408e0800000000000000
+      internalID: -1728012814101979829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocky(Boss-fight1)_28
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 594
+        width: 150
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb355f8e8d53488a0800000000000000
+      internalID: -6303854372674251842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocky(Boss-fight1)_29
+      rect:
+        serializedVersion: 2
+        x: 1650
+        y: 594
+        width: 150
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f75d6ade2bfd8910800000000000000
+      internalID: 1841404001316067313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocky(Boss-fight1)_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 495
+        width: 150
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf1a446ce54cc0ce0800000000000000
+      internalID: -1437558269705674245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocky(Boss-fight1)_31
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 495
+        width: 150
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b43e9d5628101e60800000000000000
+      internalID: 7930865496857916600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocky(Boss-fight1)_32
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 495
+        width: 150
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74635a23b8040b910800000000000000
+      internalID: 1851050413443593799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocky(Boss-fight1)_33
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 495
+        width: 150
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cddfa3915e69d1560800000000000000
+      internalID: 7286145682870304220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocky(Boss-fight1)_34
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 495
+        width: 150
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3929f152de10e8850800000000000000
+      internalID: 6381039840072274579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocky(Boss-fight1)_35
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 495
+        width: 150
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90ca9cd32ca4289e0800000000000000
+      internalID: -1620650717779219447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocky(Boss-fight1)_36
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 495
+        width: 150
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00ad0488d9e3be4d0800000000000000
+      internalID: -3104318671825085952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocky(Boss-fight1)_37
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 495
+        width: 150
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 002279d3cceaf9120800000000000000
+      internalID: 2422847316778492416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocky(Boss-fight1)_38
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 495
+        width: 150
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aab9f0a3aa93693b0800000000000000
+      internalID: -5506150091132527702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocky(Boss-fight1)_39
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 495
+        width: 150
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa301dbd5c4d6f6f0800000000000000
+      internalID: -651099149846903889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocky(Boss-fight1)_40
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 495
+        width: 150
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f59a7a402f6442c0800000000000000
+      internalID: -4448308347456023049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocky(Boss-fight1)_41
+      rect:
+        serializedVersion: 2
+        x: 1650
+        y: 495
+        width: 150
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a0191fb58bdba0d0800000000000000
+      internalID: -3410390925319794528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocky(Boss-fight1)_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 396
+        width: 150
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: defc87a8a8f668b90800000000000000
+      internalID: -7239976710132150291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocky(Boss-fight1)_43
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 396
+        width: 150
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3eb447863cb9f2980800000000000000
+      internalID: -8561453103034643485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocky(Boss-fight1)_44
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 396
+        width: 150
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce19219b9e8285f20800000000000000
+      internalID: 3411521702030643692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocky(Boss-fight1)_45
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 396
+        width: 150
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a5f4e1d081290200800000000000000
+      internalID: 146685300027225507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocky(Boss-fight1)_46
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 396
+        width: 150
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1e99896b0b0397c0800000000000000
+      internalID: -4065893894942253537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocky(Boss-fight1)_47
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 396
+        width: 150
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cc31c3b39ea1e450800000000000000
+      internalID: 6116361718345055427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocky(Boss-fight1)_48
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 396
+        width: 150
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3209ab47ec63ad810800000000000000
+      internalID: 1790804062182740003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocky(Boss-fight1)_49
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 297
+        width: 150
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b5b7a85cd20673b0800000000000000
+      internalID: -5515217548265146955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocky(Boss-fight1)_50
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 297
+        width: 150
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 371c4207951770390800000000000000
+      internalID: -7852182796349685389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocky(Boss-fight1)_51
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 297
+        width: 150
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b81bbf487ec82ad60800000000000000
+      internalID: 7900031622357692811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocky(Boss-fight1)_52
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 297
+        width: 150
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a44d4ab20b65ba0c0800000000000000
+      internalID: -4563458482763410358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocky(Boss-fight1)_53
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 297
+        width: 150
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: addd20916883dd2d0800000000000000
+      internalID: -3252381207295238694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocky(Boss-fight1)_54
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 297
+        width: 150
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edb3c810815574c00800000000000000
+      internalID: 884769413395135454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocky(Boss-fight1)_55
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 297
+        width: 150
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2852bc9495d82d790800000000000000
+      internalID: -7506782214243539582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocky(Boss-fight1)_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 198
+        width: 150
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f16bee0a4446ed600800000000000000
+      internalID: 494943254977885727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocky(Boss-fight1)_57
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 198
+        width: 150
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc446fea8f6f7ac00800000000000000
+      internalID: 911968997513512143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocky(Boss-fight1)_58
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 198
+        width: 150
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c354512889223e9e0800000000000000
+      internalID: -1593391804746218180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocky(Boss-fight1)_59
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 198
+        width: 150
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 901b79302b56e11e0800000000000000
+      internalID: -2225229350635589367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocky(Boss-fight1)_60
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 198
+        width: 150
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f14735f223c17a2f0800000000000000
+      internalID: -961768993552370657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocky(Boss-fight1)_61
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 198
+        width: 150
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8aa192b0c3e886820800000000000000
+      internalID: 2911733547631450792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocky(Boss-fight1)_62
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 198
+        width: 150
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f92b73e77884ecab0800000000000000
+      internalID: -4985967990677196129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocky(Boss-fight1)_63
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 198
+        width: 150
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64d183846fa1ee510800000000000000
+      internalID: 1580230164329536838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocky(Boss-fight1)_64
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 198
+        width: 150
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abcf31e39d9848950800000000000000
+      internalID: 6450432132443798714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocky(Boss-fight1)_65
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 99
+        width: 150
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c424a269546cdb990800000000000000
+      internalID: -7368515413133868468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocky(Boss-fight1)_66
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 99
+        width: 150
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 139c07756c7291830800000000000000
+      internalID: 4042305873365748017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocky(Boss-fight1)_67
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 99
+        width: 150
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fe9c571366353e00800000000000000
+      internalID: 1023784289518264053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocky(Boss-fight1)_68
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 99
+        width: 150
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ea3014ffea0b34d0800000000000000
+      internalID: -3153915088334734619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocky(Boss-fight1)_69
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 99
+        width: 150
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1afa1ee61a3ee84a0800000000000000
+      internalID: -6589078922306932831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocky(Boss-fight1)_70
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 99
+        width: 150
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fdabed56d6280310800000000000000
+      internalID: 1371388788674899444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocky(Boss-fight1)_71
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 150
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a49b4fc9601e90fd0800000000000000
+      internalID: -2375119909941888694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocky(Boss-fight1)_72
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 0
+        width: 150
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 563ecbc6d821c1af0800000000000000
+      internalID: -424443866255662235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocky(Boss-fight1)_73
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 0
+        width: 150
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3108e9573728efe0800000000000000
+      internalID: -1159633785362841281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocky(Boss-fight1)_74
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 0
+        width: 150
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c032e1b7b0cf87440800000000000000
+      internalID: 4933970518024790796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocky(Boss-fight1)_75
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 0
+        width: 150
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be888f833d0d01840800000000000000
+      internalID: 5192879975970670827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocky(Boss-fight1)_76
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 0
+        width: 150
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfb5c64453ad32e40800000000000000
+      internalID: 5630583881459325948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 686ab9e026c525d4497dcc6517cbef0a
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":18.0,"y":8.0},"gridSpriteSize":{"x":150.0,"y":99.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Rocky(Boss-fight1)_0: 8130098962069304746
+      Rocky(Boss-fight1)_1: -9030630244744641192
+      Rocky(Boss-fight1)_10: 2204914770351413419
+      Rocky(Boss-fight1)_11: -3067403752535225245
+      Rocky(Boss-fight1)_12: -2131475613115212675
+      Rocky(Boss-fight1)_13: -9213100063266661271
+      Rocky(Boss-fight1)_14: 2229967330860838275
+      Rocky(Boss-fight1)_15: -5732054457449386174
+      Rocky(Boss-fight1)_16: 6885152427340547346
+      Rocky(Boss-fight1)_17: -3715360768874978255
+      Rocky(Boss-fight1)_18: 6561729776104535378
+      Rocky(Boss-fight1)_19: -7330439229241307990
+      Rocky(Boss-fight1)_2: -4007872181914503660
+      Rocky(Boss-fight1)_20: 8366202771105489185
+      Rocky(Boss-fight1)_21: -6761089254119724537
+      Rocky(Boss-fight1)_22: 7599005317195741292
+      Rocky(Boss-fight1)_23: 45442553610874668
+      Rocky(Boss-fight1)_24: -5578240188860912740
+      Rocky(Boss-fight1)_25: -6861382562869298463
+      Rocky(Boss-fight1)_26: -8736108010159936600
+      Rocky(Boss-fight1)_27: -1728012814101979829
+      Rocky(Boss-fight1)_28: -6303854372674251842
+      Rocky(Boss-fight1)_29: 1841404001316067313
+      Rocky(Boss-fight1)_3: 6822985126894831433
+      Rocky(Boss-fight1)_30: -1437558269705674245
+      Rocky(Boss-fight1)_31: 7930865496857916600
+      Rocky(Boss-fight1)_32: 1851050413443593799
+      Rocky(Boss-fight1)_33: 7286145682870304220
+      Rocky(Boss-fight1)_34: 6381039840072274579
+      Rocky(Boss-fight1)_35: -1620650717779219447
+      Rocky(Boss-fight1)_36: -3104318671825085952
+      Rocky(Boss-fight1)_37: 2422847316778492416
+      Rocky(Boss-fight1)_38: -5506150091132527702
+      Rocky(Boss-fight1)_39: -651099149846903889
+      Rocky(Boss-fight1)_4: -8934890360719948190
+      Rocky(Boss-fight1)_40: -4448308347456023049
+      Rocky(Boss-fight1)_41: -3410390925319794528
+      Rocky(Boss-fight1)_42: -7239976710132150291
+      Rocky(Boss-fight1)_43: -8561453103034643485
+      Rocky(Boss-fight1)_44: 3411521702030643692
+      Rocky(Boss-fight1)_45: 146685300027225507
+      Rocky(Boss-fight1)_46: -4065893894942253537
+      Rocky(Boss-fight1)_47: 6116361718345055427
+      Rocky(Boss-fight1)_48: 1790804062182740003
+      Rocky(Boss-fight1)_49: -5515217548265146955
+      Rocky(Boss-fight1)_5: -4524700384182368245
+      Rocky(Boss-fight1)_50: -7852182796349685389
+      Rocky(Boss-fight1)_51: 7900031622357692811
+      Rocky(Boss-fight1)_52: -4563458482763410358
+      Rocky(Boss-fight1)_53: -3252381207295238694
+      Rocky(Boss-fight1)_54: 884769413395135454
+      Rocky(Boss-fight1)_55: -7506782214243539582
+      Rocky(Boss-fight1)_56: 494943254977885727
+      Rocky(Boss-fight1)_57: 911968997513512143
+      Rocky(Boss-fight1)_58: -1593391804746218180
+      Rocky(Boss-fight1)_59: -2225229350635589367
+      Rocky(Boss-fight1)_6: 7591209294278179564
+      Rocky(Boss-fight1)_60: -961768993552370657
+      Rocky(Boss-fight1)_61: 2911733547631450792
+      Rocky(Boss-fight1)_62: -4985967990677196129
+      Rocky(Boss-fight1)_63: 1580230164329536838
+      Rocky(Boss-fight1)_64: 6450432132443798714
+      Rocky(Boss-fight1)_65: -7368515413133868468
+      Rocky(Boss-fight1)_66: 4042305873365748017
+      Rocky(Boss-fight1)_67: 1023784289518264053
+      Rocky(Boss-fight1)_68: -3153915088334734619
+      Rocky(Boss-fight1)_69: -6589078922306932831
+      Rocky(Boss-fight1)_7: -6078097296123744051
+      Rocky(Boss-fight1)_70: 1371388788674899444
+      Rocky(Boss-fight1)_71: -2375119909941888694
+      Rocky(Boss-fight1)_72: -424443866255662235
+      Rocky(Boss-fight1)_73: -1159633785362841281
+      Rocky(Boss-fight1)_74: 4933970518024790796
+      Rocky(Boss-fight1)_75: 5192879975970670827
+      Rocky(Boss-fight1)_76: 5630583881459325948
+      Rocky(Boss-fight1)_8: 2765002965363216906
+      Rocky(Boss-fight1)_9: 7194640652185365805
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

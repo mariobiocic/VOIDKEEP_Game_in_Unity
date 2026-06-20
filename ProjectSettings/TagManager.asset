@@ -10,6 +10,7 @@ TagManager:
   - GameOverCanvas
   - Crosshair
   - StaminaUI
+  - Obsticle
   layers:
   - Default
   - TransparentFX
@@ -61,6 +62,9 @@ TagManager:
     locked: 0
   - name: Saw
     uniqueID: 1030825335
+    locked: 0
+  - name: rock
+    uniqueID: 4060031051
     locked: 0
   - name: Player
     uniqueID: 864363959

@@ -44,13 +44,13 @@ GameObject:
   - component: {fileID: 2072230002145396702}
   - component: {fileID: 4497981776843783239}
   - component: {fileID: 3633008580806544874}
-  - component: {fileID: 1877287620573427239}
   - component: {fileID: 8058408558347772718}
   - component: {fileID: 435871412941483285}
   - component: {fileID: 7400466258713375537}
   - component: {fileID: 4036544379013073641}
   - component: {fileID: 2054397596543324512}
   - component: {fileID: 2631677312910566697}
+  - component: {fileID: 6160808123406255760}
   m_Layer: 6
   m_Name: Xenoid
   m_TagString: Untagged
@@ -212,52 +212,6 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 8048e4cf09cbfb441aa87def7017c5c9, type: 3}
   audioSorceDeath: {fileID: 7400466258713375537}
   deathSound: {fileID: 8300000, guid: 88c8d86f29ec4b54a89349c5385c9f73, type: 3}
---- !u!61 &1877287620573427239
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7246259269215117182}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_CompositeOperation: 0
-  m_CompositeOrder: 0
-  m_Offset: {x: 0.018767059, y: 0.16092664}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0}
-    oldSize: {x: 0.42, y: 0.36}
-    newSize: {x: 0.22, y: 0.28}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Size: {x: 0.20314047, y: 0.26245284}
-  m_EdgeRadius: 0
 --- !u!50 &8058408558347772718
 Rigidbody2D:
   serializedVersion: 5
@@ -491,7 +445,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 109b70ec799cacc4ca9dc1314606a921, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyWalkSound
-  audioSourceWalk: {fileID: 2054397596543324512}
   walkRunSounds:
   - {fileID: 8300000, guid: 6ec2f227ff4213a408b44e6f77b3717f, type: 3}
   - {fileID: 8300000, guid: 4fedd70f0f9da374285ffcf42f043c98, type: 3}
@@ -690,3 +643,40 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!70 &6160808123406255760
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7246259269215117182}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0.025966287, y: 0.16877131}
+  m_Size: {x: 0.23893762, y: 0.31052044}
+  m_Direction: 0
