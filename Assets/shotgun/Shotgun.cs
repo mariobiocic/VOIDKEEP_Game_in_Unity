@@ -121,6 +121,10 @@ public class Shotgun : MonoBehaviour
                 BatHealth bat = hit.collider.GetComponentInParent<BatHealth>();
                 if (bat != null)
                     bat.TakeDamage(25);
+
+                BossHealth boss = hit.collider.GetComponentInParent<BossHealth>();
+                if (boss != null)
+                    boss.TakeDamage(25);
             }
             else
             {

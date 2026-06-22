@@ -25,7 +25,7 @@ public class RockCollision2D : MonoBehaviour
             Destroy(gameObject);
         }
 
-        if (other.CompareTag("Obsticle"))
+        if (other.CompareTag("Obsticle") || other.CompareTag("BossFeet"))
         {
             //Debug.Log("Rock collided with " + other.gameObject.name);
             Destroy(gameObject);

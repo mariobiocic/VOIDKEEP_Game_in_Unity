@@ -23,6 +23,14 @@ public class KatanaHitbox : MonoBehaviour
             ApplyKnockback(collision);
             katanaSound?.PlayRandomHit();
         }
+
+        BossHealth boss = collision.collider.GetComponentInParent<BossHealth>();
+        if (boss != null)
+        {
+            boss.TakeDamage(40);
+            ApplyKnockback(collision);
+            katanaSound?.PlayRandomHit();
+        }
     }
 
     private void ApplyKnockback(Collision2D collision)
