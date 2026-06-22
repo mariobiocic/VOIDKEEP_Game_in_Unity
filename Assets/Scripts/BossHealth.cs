@@ -13,6 +13,9 @@ public class BossHealth : MonoBehaviour
     [Header("Health Bar")]
     public Slider healthBar;
 
+    [Header("Animator")]
+    public Animator animator;
+
     public bool IsDead => isDead;
 
     void Start()
