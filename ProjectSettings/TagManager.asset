@@ -76,6 +76,9 @@ TagManager:
   - name: ZombieBat
     uniqueID: 702169713
     locked: 0
+  - name: boss_bullet
+    uniqueID: 1470704019
+    locked: 0
   - name: boss1
     uniqueID: 2681255347
     locked: 0

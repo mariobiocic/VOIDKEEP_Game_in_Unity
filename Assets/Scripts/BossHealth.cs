@@ -10,6 +10,9 @@ public class BossHealth : MonoBehaviour
     private int currentHealth;
     private bool isDead = false;
 
+    public int CurrentHealth => currentHealth;
+    public int MaxHealth => maxHealth;
+
     [Header("Health Bar")]
     public Slider healthBar;
 

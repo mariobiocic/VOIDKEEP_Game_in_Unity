@@ -10,10 +10,10 @@ public class BossAI : MonoBehaviour
 
     [Header("Movement")]
     public float moveSpeed = 1.5f;
-    public float stopDistance = 4f;      // koliko blizu stane prije pucanja
+    public float stopDistance = 4f;
 
     [Header("Shooting")]
-    public float fireRate = 2f;          // sekunde izmeðu hitaca
+    public float fireRate = 2f;
     private float fireTimer = 0f;
 
     [Header("Animator")]
@@ -55,7 +55,6 @@ public class BossAI : MonoBehaviour
             }
         }
 
-        
         if (player.position.x < transform.position.x)
             transform.localScale = new Vector3(Mathf.Abs(transform.localScale.x), transform.localScale.y, 1f);
         else
@@ -72,16 +71,22 @@ public class BossAI : MonoBehaviour
     void Shoot()
     {
         if (bulletPrefab == null || firePoint == null) return;
+        StartCoroutine(ShootCoroutine());
+    }
 
+    IEnumerator ShootCoroutine()
+    {
         animator.SetTrigger("Fire");
 
+        // Èekaj da se Fire animacija uèita — podesi po dužini svoje animacije
+        yield return new WaitForSeconds(0.4f);
+
         Vector2 dir = (player.position - firePoint.position).normalized;
-        float angle = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg;
 
-        GameObject bullet = Instantiate(bulletPrefab, firePoint.position, Quaternion.Euler(0, 0, angle));
+        GameObject bullet = Instantiate(bulletPrefab, firePoint.position, Quaternion.identity, null);
 
-        Rigidbody2D bRb = bullet.GetComponent<Rigidbody2D>();
-        if (bRb != null)
-            bRb.linearVelocity = dir * 6f;
+        BossBullet bb = bullet.GetComponent<BossBullet>();
+        if (bb != null)
+            bb.Launch(dir);
     }
 }

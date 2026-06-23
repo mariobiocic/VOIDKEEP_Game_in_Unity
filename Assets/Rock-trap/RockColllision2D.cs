@@ -22,13 +22,13 @@ public class RockCollision2D : MonoBehaviour
             {
                 player.GetComponent<PlayerHealth>()?.TakeDamage(damage);
             }
-            Destroy(gameObject);
+            StartCoroutine(FadeAndDestroy());
         }
 
         if (other.CompareTag("Obsticle") || other.CompareTag("BossFeet"))
         {
             //Debug.Log("Rock collided with " + other.gameObject.name);
-            Destroy(gameObject);
+            StartCoroutine(FadeAndDestroy());
         }
     }
 
