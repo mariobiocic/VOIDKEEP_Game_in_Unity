@@ -2088,11 +2088,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BossAI
   player: {fileID: 1636541072}
-  bulletPrefab: {fileID: 2510142597296533194, guid: c1c1d354587104f469e034199ceffcd6, type: 3}
+  bulletPrefab: {fileID: 1682583430}
   firePoint: {fileID: 762650388}
   moveSpeed: 1
-  stopDistance: 5
+  stopDistance: 6
   fireRate: 2
+  bulletsPerShot: 4
   animator: {fileID: 1073353450}
 --- !u!1 &1195688758
 GameObject:
@@ -4037,6 +4038,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::BossBullet
   speed: 6
   angleSpread: 45
+  playerBias: 0.75
 --- !u!1 &1685958830
 GameObject:
   m_ObjectHideFlags: 0
@@ -4541,7 +4543,7 @@ SceneRoots:
   - {fileID: 1344782714}
   - {fileID: 934473861}
   - {fileID: 214670106}
+  - {fileID: 2396100568336363452}
   - {fileID: 190395440}
   - {fileID: 1073353452}
-  - {fileID: 2396100568336363452}
   - {fileID: 253811340}

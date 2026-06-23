@@ -9,11 +9,12 @@ public class BossAI : MonoBehaviour
     public Transform firePoint;
 
     [Header("Movement")]
-    public float moveSpeed = 1.5f;
-    public float stopDistance = 4f;
+    public float moveSpeed = 1f;
+    public float stopDistance = 6f;
 
     [Header("Shooting")]
     public float fireRate = 2f;
+    public int bulletsPerShot = 4;
     private float fireTimer = 0f;
 
     [Header("Animator")]
@@ -55,6 +56,7 @@ public class BossAI : MonoBehaviour
             }
         }
 
+        
         if (player.position.x < transform.position.x)
             transform.localScale = new Vector3(Mathf.Abs(transform.localScale.x), transform.localScale.y, 1f);
         else
@@ -77,16 +79,25 @@ public class BossAI : MonoBehaviour
     IEnumerator ShootCoroutine()
     {
         animator.SetTrigger("Fire");
-
-        // Èekaj da se Fire animacija uèita — podesi po dužini svoje animacije
         yield return new WaitForSeconds(0.4f);
 
-        Vector2 dir = (player.position - firePoint.position).normalized;
+        // Smjer prema playeru
+        Vector2 toPlayer = (player.position - firePoint.position).normalized;
 
-        GameObject bullet = Instantiate(bulletPrefab, firePoint.position, Quaternion.identity, null);
+        
+        Vector2 facing = transform.localScale.x > 0
+            ? Vector2.left   
+            : Vector2.right;
 
-        BossBullet bb = bullet.GetComponent<BossBullet>();
-        if (bb != null)
-            bb.Launch(dir);
+        for (int i = 0; i < bulletsPerShot; i++)
+        {
+            GameObject bullet = Instantiate(bulletPrefab, firePoint.position, Quaternion.identity, null);
+            bullet.transform.localScale = Vector3.one;
+
+            BossBullet bb = bullet.GetComponent<BossBullet>();
+            if (bb == null) bb = bullet.GetComponentInChildren<BossBullet>();
+            if (bb != null)
+                bb.Launch(toPlayer, facing);
+        }
     }
 }
