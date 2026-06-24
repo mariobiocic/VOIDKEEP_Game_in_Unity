@@ -59,6 +59,12 @@ public class MainMenu : MonoBehaviour
         Application.Quit();
     }
 
+    public void PlayAgain()
+    {
+        PlayerPrefs.DeleteAll();
+        SceneManager.LoadScene("intro");
+    }
+
     void UpdateUI()
     {
         int save = PlayerPrefs.GetInt("Save", -1);

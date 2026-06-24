@@ -68,6 +68,9 @@ TagManager:
   - name: rock
     uniqueID: 4060031051
     locked: 0
+  - name: elixir
+    uniqueID: 3899782493
+    locked: 0
   - name: Player
     uniqueID: 864363959
     locked: 0

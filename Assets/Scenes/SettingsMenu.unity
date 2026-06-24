@@ -648,6 +648,7 @@ GameObject:
   - component: {fileID: 502001935}
   - component: {fileID: 502001934}
   - component: {fileID: 502001933}
+  - component: {fileID: 502001936}
   m_Layer: 5
   m_Name: MainMenu_x
   m_TagString: Untagged
@@ -768,6 +769,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 502001931}
   m_CullTransparentMesh: 1
+--- !u!114 &502001936
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 502001931}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60c1d7e7552bb724fac9397491559063, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::HoverMove
+  moveAmount: 10
+  speed: 5
 --- !u!1 &686846503
 GameObject:
   m_ObjectHideFlags: 0

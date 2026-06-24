@@ -614,6 +614,7 @@ GameObject:
   - component: {fileID: 1820064512}
   - component: {fileID: 1820064511}
   - component: {fileID: 1820064510}
+  - component: {fileID: 1820064513}
   m_Layer: 5
   m_Name: MainMenu
   m_TagString: Untagged
@@ -734,6 +735,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1820064508}
   m_CullTransparentMesh: 1
+--- !u!114 &1820064513
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1820064508}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60c1d7e7552bb724fac9397491559063, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::HoverRotate
+  hoverAngle: -10
+  speed: 5
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
