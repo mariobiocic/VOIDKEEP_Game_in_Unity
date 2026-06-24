@@ -12,6 +12,7 @@ TagManager:
   - StaminaUI
   - Obsticle
   - BossFeet
+  - Katana
   layers:
   - Default
   - TransparentFX

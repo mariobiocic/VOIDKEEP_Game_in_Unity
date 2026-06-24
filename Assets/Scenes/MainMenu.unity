@@ -1310,7 +1310,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1382595582183587476, guid: edccc8225261e184787e787e0b1ab6ab, type: 3}
       propertyPath: sceneMusicMap.Array.size
-      value: 8
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 1382595582183587476, guid: edccc8225261e184787e787e0b1ab6ab, type: 3}
       propertyPath: sceneMusicMap.Array.data[3].sceneName
@@ -1351,6 +1351,26 @@ PrefabInstance:
     - target: {fileID: 1382595582183587476, guid: edccc8225261e184787e787e0b1ab6ab, type: 3}
       propertyPath: sceneMusicMap.Array.data[7].trackName
       value: Luc4rD35 - Down in Dungeons
+      objectReference: {fileID: 0}
+    - target: {fileID: 1382595582183587476, guid: edccc8225261e184787e787e0b1ab6ab, type: 3}
+      propertyPath: sceneMusicMap.Array.data[8].sceneName
+      value: level5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1382595582183587476, guid: edccc8225261e184787e787e0b1ab6ab, type: 3}
+      propertyPath: sceneMusicMap.Array.data[8].trackName
+      value: Luc4rD35 - Down in Dungeons
+      objectReference: {fileID: 0}
+    - target: {fileID: 1382595582183587476, guid: edccc8225261e184787e787e0b1ab6ab, type: 3}
+      propertyPath: sceneMusicMap.Array.data[9].sceneName
+      value: level7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1382595582183587476, guid: edccc8225261e184787e787e0b1ab6ab, type: 3}
+      propertyPath: sceneMusicMap.Array.data[10].sceneName
+      value: level6(boss-fight)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1382595582183587476, guid: edccc8225261e184787e787e0b1ab6ab, type: 3}
+      propertyPath: sceneMusicMap.Array.data[10].trackName
+      value: Luc4rD35 - Stider Stomps
       objectReference: {fileID: 0}
     - target: {fileID: 3217978487791862423, guid: edccc8225261e184787e787e0b1ab6ab, type: 3}
       propertyPath: m_Name

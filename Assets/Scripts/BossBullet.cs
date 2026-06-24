@@ -3,12 +3,12 @@ using UnityEngine;
 public class BossBullet : MonoBehaviour
 {
     [Header("Movement")]
-    public float speed = 14f;
-    public float angleSpread = 50f;  // max otklon od smjera prema playeru
+    public float speed = 18f;
+    public float angleSpread = 40f;  
 
     [Header("Direction Bias")]
     [Range(0f, 1f)]
-    public float playerBias = 0.75f; // 0 = potpuno random, 1 = uvijek prema playeru
+    public float playerBias = 0.45f; 
 
     private Rigidbody2D rb;
     private SpriteRenderer sr;
@@ -23,15 +23,15 @@ public class BossBullet : MonoBehaviour
         if (sr != null) sr.enabled = false;
     }
 
-    
+    // Poziva BossAI — prima smjer prema playeru i facing smjer bossa
     public void Launch(Vector2 toPlayer, Vector2 bossFacing)
     {
         if (sr != null) sr.enabled = true;
 
-        
+        // Miješaj smjer prema playeru s facing smjerom bossa
         Vector2 baseDir = Vector2.Lerp(bossFacing, toPlayer, playerBias).normalized;
 
-        
+        // Random otklon
         float randomAngle = Random.Range(-angleSpread, angleSpread);
         launchDir = (Quaternion.Euler(0, 0, randomAngle) * baseDir).normalized;
 
@@ -55,7 +55,7 @@ public class BossBullet : MonoBehaviour
             Destroy(gameObject);
         }
 
-        if (other.CompareTag("Obsticle"))
+        if (other.CompareTag("Obsticle") || other.CompareTag("Katana"))
             Destroy(gameObject);
     }
 }

@@ -24,11 +24,9 @@ public class RockController : MonoBehaviour
     [SerializeField] private BossHealth bossHealth;
 
     private bool phase1Triggered = false;
-    private bool phase2Triggered = false;
     private bool phase1Started = false;
-    private bool phase2Started = false;
+    private int currentPhase = 0;
 
-    
     private float minActiveTime;
     private float maxActiveTime;
     private float minInactiveTime;
@@ -47,6 +45,15 @@ public class RockController : MonoBehaviour
     {
         if (bossHealth == null) return;
 
+        // Zaustavi sve kad boss umre
+        if (bossHealth.IsDead)
+        {
+            StopAllCoroutines();
+            foreach (var s in spawners)
+                s.enabled = false;
+            return;
+        }
+
         float hp = bossHealth.CurrentHealth;
         float max = bossHealth.MaxHealth;
 
@@ -61,16 +68,16 @@ public class RockController : MonoBehaviour
             }
         }
 
-        if (!phase2Triggered && hp <= max * 0.25f)
+        if (currentPhase < 2 && hp <= max * 0.25f)
         {
-            phase2Triggered = true;
+            currentPhase = 2;
             SetParams(2);
-            
         }
     }
 
     void SetParams(int phase)
     {
+        currentPhase = phase;
         if (phase == 1)
         {
             minActiveTime = minActiveTime1;
@@ -95,8 +102,9 @@ public class RockController : MonoBehaviour
     {
         while (true)
         {
-            
-            int count = Random.Range(minSpawnersOn, Mathf.Min(maxSpawnersOn, spawners.Length) + 1);
+            int count = phase2Triggered()
+                ? spawners.Length
+                : Random.Range(minSpawnersOn, Mathf.Min(maxSpawnersOn, spawners.Length) + 1);
 
             foreach (var s in spawners)
                 s.enabled = false;
@@ -118,4 +126,6 @@ public class RockController : MonoBehaviour
             yield return new WaitForSeconds(Random.Range(minInactiveTime, maxInactiveTime));
         }
     }
+
+    bool phase2Triggered() => currentPhase >= 2;
 }
